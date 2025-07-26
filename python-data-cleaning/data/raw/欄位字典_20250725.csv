@@ -1,0 +1,2695 @@
+﻿Issue_Level_1_客訴故障現象+Issue_Level_2_分析看到現象,正規化,Issue_Level_7_損壞原因,Issue_Level_7_損壞原因_正規化
+0,0,3000,3000
+2,2,-,-
+11,11, DC53及SPS电容DC3鼓包，整流子DD23/DD22击穿，与其相连铜箔熔断,"DC53及SPS電容DC3鼓包,整流子DD23/DD22擊穿,與其相連銅箔熔斷"
+31,31,3.3V及1.2V短路,3.3V及1.2V SHORT
+85,85,3.3V短路,3.3V SHORT
+2300,2300,3.3V輸出異常,3.3V輸出異常
+" DR28过热,回生电阻烧,N段子处有打火痕迹","DR28過熱,回生電阻燒,N段子処有打火痕迹",485通讯不良,485通訊不良
+ 坏,壞,5VD只有3VDC,5VD只有3VDC
+ 报AL001,AL001,5VD无输出,5VD無輸出
+ 其他(无显示),其他(無顯示),62569预防性更换,62569預防性更換
+ 帮忙检测,幫忙檢測,AB機,AB機
+"""1.P对UVW open 2.金属屑污染,DR28烧坏,case融损""","1.P對UVW OPEN 2.金屬屑污染,DR28燒壞,CASE融損","AB機,R相螺絲損壞","AB機,R端子_螺絲損壞"
+"""3台电脑系统报警，驱动器通电无显示 2台写的保护管变形/少按钮""","3台電腦系統報警,驅動器通電無顯示,2台寫的保護管變形,少按鈕",AL,AL
+"""走位不准。需要故障分析 """,走位不准。需要故障分析,AL001,AL001
+"""通电不亮 """,通電不亮,AL001/AL006報警,"AL001,AL006報警"
+(乱码,亂碼,AL002,AL002
+(新机上电乱码,上電後異常,AL003,AL003
+“AL011”报警,AL011,AL006,AL006
+001报警,AL001,AL011,AL011
+001频繁报警,AL001,AL016,AL016
+003低压报警,AL003,AL022,AL022
+003报警,AL003,AL031,AL031
+006、009、031报警,"AL006,AL009,AL031",AL06,AL006
+006报警,AL006,AL083,AL083
+009报警,AL009,AL085,AL085
+011报警,AL011,AL3CF,AL3CF
+06A/009/091/报OC/烧坏/通电不显示/黑屏/螺丝拧不紧/干扰找其他站号,"AL009,AL06A,AL091",AL3E3,AL3E3
+083震动,AL083,BDSP1第1位A筆畫不亮,BDSP1第1位A筆畫不亮
+09F,AL09F,BDSP1第1位DEF筆畫不亮,BDSP1第1位DEF筆畫不亮
+09f报警,AL09F,BDSP1第2位A筆畫不亮,BDSP1第2位A筆畫不亮
+0X0085,0X0085,BDSP1第3位E筆畫不亮,BDSP1第3位E筆畫不亮
+0X0C31/Z轴上不去,"0X0C31,Z軸上不去",BDSP1第二位第三位D筆畫不亮,BDSP1第二位第三位D筆畫不亮
+0X11位置检出异常,0X11位置檢出异常,BDSP1漏焊,BDSP1漏焊
+"1.DO功能测试正常 2.P1-53=0,剎车功能关闭","1.DO功能測試正常 2.P1-53=0,剎車功能關閉",BI模式，导致AL011,"BI模式,AL011"
+"1.P对R open 2.DD22打火,二极管特性正常,R相铜箔熔断","1.P對R OPEN 2.DD22打火,二極管特性正常,R相銅箔熔斷",BJ1 Pin14與Pin16維修錫短,BJ1 PIN14與PIN16維修錫短
+"1.P对U open,对VW短路","1.P對U OPEN,對VW SHORT",BJ1焊錫不良,BJ1焊錫不良
+1.VBUS电压显示偏低234VDC 2.,1.VBUS電壓顯示偏低234VDC,BJ1锡短,BJ1端子16PIN漏焊
+"1.上电无显示,L1L2端子打火,J6端子外力损坏 2.U2 3.3V对GND短路。","1.上電無顯示,L1L2端子打火,J6端子外力損壞 2.U2 3.3V對GND SHORT",BJ1端子16PIN漏焊,BJ1錫短
+1.散热片有泡水受潮痕迹 2.IGBT PIN9对COM短路3.驱动光耦DPH7输出异常,1.散熱片有泡水受潮痕迹 2.IGBT PIN9對COM SHORT3.驅動光耦DPH7輸出异常,BSW1/BSW3按键断BSW4/BSW2按键损伤,BSW1/BSW3按鍵斷BSW4/BSW2按鍵損傷
+11号报警,AL011,BSW1外力損壞,BSW1外力損壞
+11号报警CN2坏,"AL011,CN2壞",BSW2外力損壞,BSW2外力損壞
+1号报警,AL001,BSW3无按键帽，BSW2按键帽歪斜,"BSW3無按鍵帽,BSW2按鍵帽歪斜"
+3.3VD迴路短路，1.2V迴路短路，5V上電U24，U33異常發熱，移除U24，U33短路狀態消失,"3.3VD迴路SHORT,1.2V迴路SHORT,5V上電U24,U33異常發熱,移除U24,U33 SHORT狀態消失",BSW4按鍵鉚點撞斷,BSW4按鍵鉚點撞斷
+3.3V擊穿迴路擊穿；5V單獨上電，FPGA異常發熱；U21燒壞,"3.3V擊穿迴路擊穿,5V單獨上電,FPGA異常發熱,U21燒壞",BUS電容下錫渣，高壓跳火,"BUS電容下錫渣,高壓跳火"
+3.3V輸出端只有0.9左右輸出,3.3V輸出端只有0.9左右輸出,C10撞件,C10撞件
+31号报警,AL031,C177阻抗偏低,C177阻抗偏低
+37\39\41\43点位无法使用,"PIN37,PIN39,PIN41,PIN43點位無法使用",C185低電壓,C185低電壓
+3台写的报警RL09C，1台写的通讯不上,AL09C,C20/C21阻抗偏低,"C20,C21阻抗偏低"
+3号报警,AL003,C20漏電,C20漏電
+"485连接不上,软件也通讯不上","485連接不上,軟件也通訊不上",C217錫短,C217錫短
+5VD GD短路,5VD_GD SHORT,C23碎件短路,C23碎件SHORT
+5VD_PWR上电无显示,5VD_PWR上電無顯示,C65低阻抗短路,C65低阻抗SHORT
+5VD_USB与DGND短路,5VD_USB與DGND SHORT,C707碎件打火,C707碎件打火
+5驱动不了电机，上使能无反应，软件上看报ALC31,ALC31,C94、U33虛焊,"C94,U33虛焊"
+62569预防性更换,62569預防性更換,C9焊錫不良,C9焊錫不良
+6号报警,AL006,canopen通讯正常,canOPEN通訊正常
+83号报警,AL083,case使用錯料,CASE使用錯料
+"83报警问题, 輸出壞",AL083,CASE混料,CASE混料
+85号报警,AL085,CASE處有兩處輕微劃痕，鎖線端子絕緣擋片為撞斷,"CASE處有兩處輕微劃痕,鎖綫端子絕緣擋片爲撞斷"
+a.IGBT擊穿（UW對P/N擊穿） b.DR58炸裂,"1.IGBT擊穿(UW對P,N擊穿)2.DR58炸裂",case熱熔,CASE熱熔
+A09F,AL09F,charge燈不亮,charge燈不亮
+A1B相不输出,A1B相不輸出,"CN1,CN6口PIN膠粘膠","CN1,CN6口PIN膠粘膠"
+AB机,AB機,CN1针脚坏,CN1針脚壞
+al0001,AL001,CN1端子内部PIN變形,CN1端子內部PIN變形
+AL0006,AL006,CN1端子插不进去,CN1端子插不進去
+AL001,AL001,CN2接口变形,CN2接口損壞
+AL001，,AL001,CN2接口開裂,CN2接口損壞
+AL001，另外怀疑5V芯片有问题,AL001,CN2接口損壞,CN2接口損壞
+"AL001,过电流",AL001,CN2端子PIN2不通,CN2端子PIN2不通
+AL001报警,AL001,CN2端子PIN腳斷,CN2端子PIN斷裂
+AL001报警，申请换周转机,AL001,CN2端子插不进，无法使用,"CN2端子插不進,無法使用"
+AL001报警频繁会跳闸,AL001,CN2端子插歪,CN2端子插歪
+AL001过电流,AL001,CN2端子斷落,CN2端子斷裂
+AL001報警,AL001,CN4损坏,CN4損壞
+AL003,AL003,CN6 OUT無輸出,CN6 OUT無輸出
+AL003低压报警,AL003,CND,CND
+AL003报警,AL003,CPLD 3.3V，1.2V对GND短路,"CPLD 3.3V,1.2V對GND SHORT"
+AL004,AL004,CPLD芯片輸出異常,CPLD芯片輸出異常
+AL006,AL006,C相端子螺絲損壞,C端子_螺絲損壞
+AL006报警,AL006,D11/R70連錫,"D11,R70連錫"
+AL009,AL009,D15焊錫不良,D15焊錫不良
+AL01,AL001,D50、D53、D54反向阻抗异常,"D50,D53,D54反向阻抗异常"
+al010，al085，刹车异常,"AL010,AL085",D50~D55未移除,D50~D55未移除
+AL011,AL011,D50反向阻抗异常,D50反向阻抗异常
+AL011,AL011,D50損壞,D50損壞
+AL011 过电流,AL011,D51、D52反向阻抗异常,"D51,D52反向阻抗异常"
+"AL011,CN2插口接触不良",AL011,D51軟擊穿,D51軟擊穿
+AL011报警,AL011,D52、D54損壞,"D52,D54損壞"
+AL011过电流,AL011,D54損壞,D54損壞
+AL013紧急停止,AL013,DC3，DC52，DC53電容鼓包,"DC3,DC52,DC53電容鼓包"
+AL016,AL016,"DC3,DC82/DC83損壞","DC3,DC82,DC83損壞"
+AL016,AL016,DC3、DC52、DC53鼓包,"DC3,DC52,DC53鼓包"
+AL016报警,AL016,DC3、DC52鼓包,"DC3,DC52鼓包"
+AL022,AL022,"DC3、DC52鼓包,铜箔炸","DC3,DC52鼓包,銅箔炸裂"
+AL022,AL022,DC3、DC53，DC52鼓包，DR28烧，铜箔炸,"DC3,DC53,DC52鼓包,DR28燒,銅箔炸裂"
+AL022电源异常,AL022,DC3、DC53鼓包,"DC3,DC53鼓包"
+AL022报警,AL022,DC3、DC82、DC83、DC84鼓包,"DC3,DC82,DC83,DC84鼓包"
+AL031,AL031,DC3、DC83、DC84鼓包,"DC3,DC83,DC84鼓包"
+AL031报警,AL031,DC3、DC83鼓包、DD22擊穿,"DC3,DC83鼓包,DD22擊穿"
+AL033,AL033,DC3、DC84鼓包,"DC3,DC84鼓包"
+AL033报警,AL033,DC3电容鼓包,DC3鼓包
+AL035报警,AL035,"DC3电容鼓包,DR1电阻开裂open,DD1的击穿","DC3鼓包,DR1電阻開裂OPEN,DD1的擊穿"
+AL045,AL045,DC3電容鼓包，壓敏電阻DVAR3炸開,"DC3鼓包,壓敏電阻DVAR3炸裂開"
+AL06,AL006,DC3鼓包,DC3鼓包
+AL06,AL006,DC3鼓包，DR1過熱損壞,"DC3鼓包,DR1過熱損壞"
+AL06报警,AL006,"DC3鼓包,DR1燒壞","DC3鼓包,DR1燒毀"
+AL074,AL074,DC3鼓包，DTB1有打火，J3表面受熱，DD1擊穿，DR1燒,"DC3鼓包,DTB1有打火,J3表面受熱,DD1擊穿,DR1燒"
+AL083,AL083,DC3鼓包，IGBT U上橋擊穿,"DC3鼓包,IGBT U上橋擊穿"
+AL083,AL083,"DC3鼓包,U1電解液腐蝕","DC3鼓包,U1電解液腐蝕"
+"AL083,AL001","AL001,AL083",DC3鼓包，回生電阻Open,"DC3鼓包,回生電阻OPEN"
+AL085,AL085,DC3鼓包DR1裂开，DC81、DC88、DC83鼓包,"DC3鼓包DR1裂開,DC81,DC88,DC83鼓包"
+AL085,AL085,DC3爆,DC3爆
+"AL085,AL001","AL001,AL085","DC52,DC53鼓包","DC52,DC53鼓包"
+AL085/AL09F,"AL085,AL09F",DC52、DC3鼓包，DD22擊穿,"DC52,DC3鼓包,DD22擊穿"
+AL085报警,AL085,DC52、DC53、DC3鼓包,"DC52,DC53,DC3鼓包"
+AL086,AL086,DC52、DC53和DC3鼓包，DR28燒,"DC52,DC53,DC3鼓包,DR28燒"
+AL086、AL180,"AL086,AL180",DC52、DC53鼓包,"DC52,DC53鼓包"
+AL086报警,AL086,DC52及SPS电容DC3鼓包，整流子DD22击穿，与其相连铜箔熔断,"DC52,SPS電容DC3鼓包,整流子DD22擊穿,與其相連銅箔熔斷"
+AL09,AL009,DC52和DC3鼓包,"DC52,DC3鼓包"
+AL099,AL099,DC52電容鼓包,DC52電容鼓包
+AL099,AL099,DC52鼓包，DD22、DD23擊穿，T相銅箔燒斷,"DC52鼓包,DD22,DD23擊穿,T相銅箔燒斷"
+AL099报警,AL099,DC52鼓包，DR28燒,"DC52鼓包,DR28燒"
+AL09C,AL09C,DC52鼓包，RS銅箔燒斷,"DC52鼓包,RS銅箔燒斷"
+AL09F,AL09F,DC53、DC3鼓包,"DC53,DC3鼓包"
+AL09F报警,AL09F,DC53/DC3鼓包R254/R255烧,"DC53,DC3鼓包R254,R255燒"
+AL0Cdb,AL0CDB,DC53鼓包,DC53鼓包
+AL1200,AL1200,DC53鼓包，DD23擊穿,"DC53鼓包,DD23擊穿"
+AL1400,AL1400,DC54底部N和W打火，P和U打火,"DC54底部N和W打火,P和U打火"
+AL1400 伺服参数异常,AL1400,DC54底部銅箔短路導致打火,DC54底部銅箔SHORT導致打火
+AL180报警,AL180,DC60錫短,DC60錫短
+AL185,AL185,"DC75,DC76连锡","DC75,DC76連錫"
+AL223,AL223,DC81、DC82、DC83、DC3鼓包,"DC81,DC82,DC83,DC3鼓包"
+AL3CF,AL3CF,DC81、DC82、DC83、DC3鼓包，DD22、DD23擊穿,"DC81,DC82,DC83,DC3鼓包,DD22,DD23擊穿"
+AL3E1通讯同步失效,AL3E1,DC81、DC82、DC83、DC84、DC3鼓包，DR28軟啟OPEN,"DC81,DC82,DC83,DC84,DC3鼓包,DR28軟啟OPEN"
+AL3E3,AL3E3,DC81、DC82、DC83、DC84和鼓包,"DC81,DC82,DC83,DC84鼓包"
+AL99韧体错误,AL099,DC81、DC82、DC83、DC84鼓包,"DC81,DC82,DC83,DC84鼓包"
+ALC31,ALC31,DC81、DC82、DC83鼓包,"DC81,DC82,DC83鼓包"
+ALC31报警,ALC31,DC81、DC82電容鼓包,"DC81,DC82電容鼓包"
+alcdb报警,ALCDB,DC81、DC83、DC3鼓包,"DC81,DC83,DC3鼓包"
+ALE33报警,ALE33,DC81、DC83鼓包，軟起電阻DR28 Open,"DC81,DC83鼓包,軟起電阻DR28 OPEN"
+ALO9F自用,AL09F,DC81、DC84電容鼓包,"DC81,DC84電容鼓包"
+ASDA_soft軟件示波器監測VBUS電壓為16V,ASDA_soft軟件示波器監測VBUS電壓為16V,DC81和DC3鼓包，整流子DD22、DD23擊穿,"DC81和DC3鼓包,整流子DD22,DD23擊穿"
+A口通訊异常，B口通訊正常,"A接口通訊異常,B口通訊正常",DC81鼓包,DC81鼓包
+"A相没有，只有B相,ABi相输出异常","A相沒有,只有B相,ABi相輸出异常",DC81鼓包，整流子DD22、DD23擊穿,"DC81鼓包,整流子DD22,DD23擊穿"
+a整流子DD22擊穿，S對P擊穿 b.DR58炸裂 c.IGBT炸裂，P腳熔斷，與HSK之間有跳火,"1.整流子DD22擊穿,S對P擊穿 2.DR58炸裂 3.IGBT炸裂,P腳熔斷,與HSK之間有跳火",DC82，DC83，DC84電容鼓包,"DC82,DC83,DC84電容鼓包"
+B3-400w驱动问题,B3-400w驅動問題,DC82、DC3鼓包,"DC82,DC3鼓包"
+BDSP1-數碼管DIG1-B不亮特性0.258VDC,"BDSP1-數碼管,DIG1-B不亮特性0.258VDC",DC82、DC3鼓包，整流子DD22、DD23擊穿,"DC82,DC3鼓包,整流子DD22,DD23擊穿"
+BJ1维修不良,BJ1維修不良,DC82、DC3鼓包，整流子DD22擊穿,"DC82,DC3鼓包,整流子DD22擊穿"
+BL01、BL06报警,"BL001,BL006",DC82、DC83、DC84、DC3鼓包,"DC82,DC83,DC84,DC3鼓包"
+BSW1/BSW2/BSW3/BSW4/BSW5鉚點外力損壞,"BSW1,BSW2,BSW3,BSW4,BSW5鉚點外力損壞",DC82、DC83、DC84、DC3鼓包，DR58炸，IGBT炸,"DC82,DC83,DC84,DC3鼓包,DR58炸裂,IGBT炸裂"
+BSW1、BSW2、BSW4、BSW5損壞,"BSW1,BSW2,BSW4,BSW5損壞",DC82、DC83、DC84鼓包,"DC82,DC83,DC84鼓包"
+BSW1、BSW2、BSW4损坏,"BSW1,BSW2,BSW4損壞",DC82、DC83鼓包,"DC82,DC83鼓包"
+BSW1、BSW2損壞,"BSW1,BSW2損壞",DC82、DC84、DC3鼓包，軟起電阻DR28 Open,"DC82,DC84,DC3鼓包,軟起電阻DR28 OPEN"
+BSW1、BSW4損壞,"BSW1,BSW4損壞",DC82/DC83/DC84/DC3鼓包,"DC82,DC83,DC84,DC3鼓包"
+BSW1壞,BSW1壞,DC82和DC3鼓包,"DC82,DC3鼓包"
+BSW1损坏,BSW1損壞,DC82和DC3鼓包，整流子DD22擊穿,"DC82,DC3鼓包,整流子DD22擊穿"
+BSW1斷裂；DR58損壞；DPM1的W相引脚熔斷，焊盤処有錫,"BSW1斷裂,DR58損壞,DPM1的W相引脚熔斷,焊盤処有錫",DC82和DC83鼓包,"DC82,DC83鼓包"
+BSW2、BSW3、BSW4、BSW5損壞,"BSW2,BSW3,BSW4,BSW5損壞",DC82和DR28燒,"DC82,DR28燒毀"
+BSW2、BSW4損壞,"BSW2,BSW4損壞","DC82電容鼓包，整流子DD22,DD23损坏","DC82鼓包,整流子DD22,DD23損壞"
+BSW2外力損壞,BSW2損壞,DC82鼓包,DC82鼓包
+BSW2損壞,BSW2損壞,DC82鼓包，RS铜箔炸，整流子DD22击穿,"DC82鼓包,RS銅箔炸裂,整流子DD22擊穿"
+BSW3、BSW5損壞,"BSW3,BSW5損壞",DC83電容鼓包，DC3電容鼓包，DD22擊穿，DR28短路,"DC83鼓包,DC3鼓包,DD22擊穿,DR28 SHORT"
+BSW3无按键帽，BSW2按键帽歪斜,"BSW3無按鍵帽,BSW2按鍵帽歪斜",DC83鼓包,DC83鼓包
+BSW4損壞,BSW4損壞,DC83鼓包，整流子DD22、DD23擊穿，銅箔斷，Relay單獨上電不切,"DC83鼓包,整流子DD22,DD23擊穿,銅箔斷,Relay單獨上電不切"
+BUS电容DC82鼓包,BUS電容DC82鼓包,DC83鼓包，整流子DD22和DD23擊穿，DU1pin腳熔斷,"DC83鼓包,整流子DD22和DD23擊穿,DU1PIN腳熔斷"
+BUS电容鼓包,BUS電容鼓包,DC84、DC3鼓包，整流子DD22擊穿,"DC84,DC3鼓包,整流子DD22擊穿"
+BUS电容鼓包，SPS电容鼓包,"BUS電容鼓包,SPS電容鼓包",DC84電容鼓包/DR58炸/外置回生電阻鼓包,"DC84鼓包,DR58炸裂,外置回生電阻鼓包"
+BUS电容鼓包，整流子击穿，回升电阻open,"BUS電容鼓包,整流子擊穿,回升電阻OPEN",DC84鼓包,DC84鼓包
+B轴报警09C,B軸AL09C,DC84鼓包、軟起電阻DR28 Open,"DC84鼓包,軟起電阻DR28 OPEN"
+B轴报警ALM085,B軸AL085,DC9、DC10插反,"DC9,DC10插反"
+B轴报警ALM085、CN4USB接口无法连接、CN4通讯不上、C轴伺服驱动器烧坏 、报警06、点位烧坏、过载报警 、通电显示不亮、通讯不上、找不到站点,B軸AL085,DC9反件,DC9反件
+C10撞件,C10撞件,DC9插反,DC9插反
+C110膠前碎件,C110膠前碎件,DCBUS電容鼓包，整流子擊穿,"DCBUS鼓包,整流子擊穿"
+C144短路,C144 SHORT,DD21和DD13之間有一塊錫渣，IGBT V相pin腳周圍燻黑，IGBT控制側損壞,"DD21,DD13之間有一塊錫渣,IGBT V相PIN脚周圍熏黑,IGBT控制側損壞"
+C153撞件,C153撞件,DD22 RSpin燒斷,DD22 RSPIN燒斷
+C20、C21阻抗偏低,"C20,C21阻抗偏低",DD22 擊穿，對應的RS銅箔燒斷,"DD22 擊穿,對應的RS銅箔燒斷"
+C20低阻抗，1.4kohm；C21 1Mohm，DSP材料異常,"C20低阻抗,1.4kohm,C21,1Mohm,DSP材料異常","DD22,DD23,DQ2擊穿","DD22,DD23,DQ2擊穿"
+C20低阻抗，1.7kohm；C21 1Mohm；J10 端子應力損壞,"C20低阻抗,1.7kohm,C21,1Mohm,J10,端子應力損壞","DD22,DD23擊穿","DD22,DD23擊穿"
+C20低阻抗，2kohm，DSP材料問題,"C20低阻抗,2kohm,DSP材料問題","DD22，DD23擊穿,","DD22,DD23擊穿"
+C20低阻抗，3.5kohm，DSP材料問題,"C20低阻抗,3.5kohm,DSP材料問題","DD22,DD23擊穿，IGBT炸","DD22,DD23擊穿,IGBT炸裂"
+C20阻抗，在顯示正常的狀態下阻抗是M歐，在無顯示的狀態下為6k歐左右,"C20阻抗,在顯示正常的狀態下阻抗是M歐,在無顯示的狀態下為6k歐左右",DD22、23击穿,"DD22,DD23擊穿"
+C20阻抗值异常,C20阻抗值异常,DD22、DD23擊穿，DC82鼓包,"DD22,DD23擊穿,DC82鼓包"
+C20阻抗偏低，量測C20:3Kohm，正常為Mohm,"C20阻抗偏低,量測C20:3Kohm,正常為Mohm",DD22、DD23擊穿，IGBT U對P擊穿,"DD22,DD23擊穿,IGBT U對P擊穿"
+C21阻抗异常,C21阻抗异常,DD22、DQ2、IGBT擊穿，剎車晶體和P點有打火，Relay 損壞,"DD22,DQ2,IGBT擊穿,剎車晶體和P點有打火,Relay 損壞"
+canopen通讯正常,canOPEN通訊正常,DD22/DD23/DC84損壞,"DD22,DD23,DC84損壞"
+CASE外力損壞,CASE外力損壞,DD22打火，S相銅箔燒斷線,"DD22打火,S相銅箔燒斷線"
+"case外力损坏,伺服功能正常","CASE外力損壞,伺服功能正常",DD22炸，DD23擊穿,"DD22炸裂,DD23擊穿"
+case使用错料,CASE混料,DD22短路，DD23脚位熔断,"DD22 SHORT,DD23脚位熔斷"
+CASE混料,CASE混料,DD22擊穿,DD22擊穿
+case错料,CASE混料,DD22擊穿，IGBT P腳熔斷，本體炸裂，DU5有發熱痕跡，5VD_GD短路，DPH16、DPH7、DPH8、DPH9均損壞,"DD22擊穿,IGBT P腳熔斷,本體炸裂裂,DU5有發熱痕跡,5VD_GD SHORT,DPH16,DPH7,DPH8,DPH9均損壞"
+CN1 PIN脚烧碳化,CN1 PIN腳燒碳化,DD22擊穿，IGBT U對P擊穿,"DD22擊穿,IGBT U對P擊穿"
+CN1，CN6端子粘膠,"CN1,CN6端子粘膠",DD22擊穿，IGBT炸,"DD22擊穿,IGBT炸裂"
+CN1口收不到模擬量信號,CN1口收不到模擬量信號,DD22擊穿，有污染腐蝕,"DD22擊穿,有污染腐蝕"
+CN1口控制不良,CN1口控制不良,DD22擊穿，銅箔燒斷，IGBT炸,"DD22擊穿,銅箔燒斷,IGBT炸裂"
+CN1不良,CN1不良,DD22擊穿，銅箔燒斷，IGBT炸，DR42燒毀,"DD22擊穿,銅箔燒斷,IGBT炸裂,DR42燒毀"
+CN1反馈无信号,CN1反饋無信號,DD23，DD22擊穿,"DD23,DD22擊穿"
+CN1有问题，给脉冲不走,"CN1有問題,給脉衝不走",DD23溢錫,DD23溢錫
+CN1问题，DO,"CN1問題,DO",DD23擊穿,DD23擊穿
+CN1针脚坏,CN1針脚壞,DI8輸入限流電阻R224燒壞，DGND-AGND之間的電阻R222燒壞，電源系統全部擊穿,"DI8輸入限流電阻R224燒毀,DGND-AGND之間的電阻R222燒毀,電源系統全部擊穿"
+CN1刹车引脚输出异常，电机刹车无法打开。,"CN1刹車引脚輸出异常,電機刹車無法打開",DJ1 30脚沒有插入端子,DJ1 30脚沒有插入端子
+CN1刹车引脚输出异常，电机刹车无法打开。/二次报修,"CN1刹車引脚輸出异常,電機刹車無法打開,二次報修",DJ1 pin22對pin24短路,DJ1 PIN22對PIN24SHORT
+CN1的DO1损坏,CN1的DO1損壞,DJ1 pin腳粘膠,DJ1 PIN腳粘膠
+CN1接头接触不良,CN1接頭接觸不良,DJ1和DTB1端子粘UV膠,DJ1和DTB1端子黏UV膠
+CN1控制不良,CN1控制不良,DJ1沾UV膠,DJ1沾UV膠導
+CN1端子螺丝丢失,CN1端子螺絲丟失,DJ1沾UV膠導,DJ1沾UV膠導
+CN2夾線頭皮,CN2夾線頭皮,DJ1接觸不良,DJ1接觸不良
+CN2接口不良,CN2接口異常,DJ1锡短,DJ1端子黏膠
+CN2接口開裂,CN2接口開裂,DJ1端子粘膠,DJ1錫短
+CN2接口坏,CN2接口開裂,DL1 pin4无线尾,DL1 PIN4無線尾
+CN2接口坏了,CN2接口開裂,DL2 pin2 焊錫不良,DL2 PIN2 焊錫不良
+CN2接口没扣,CN2接口異常,DMCNET通讯功能正常,DMCNET通訊功能正常
+CN2接口变形,CN2接口開裂,DO1异常,DO1異常
+CN2接口歪,CN2接口異常,DO1無法關斷,DO1無法關斷
+CN2接口損壞,CN2接口開裂,"DO2 fail,更新韌體后正常","DO2 fail,更新韌體後正常"
+CN2接口斜,CN2接口異常,DO3測試fail,DO3測試fail
+CN2接口插不紧,CN2接口異常,DO功能正常，帶馬達運轉正常,"DO功能正常,帶馬達運轉正常"
+CN2接口變形,CN2接口開裂,DO无输出,DO無輸出
+CN2插口不良，卡不住CN2线,CN2異常,DPH14焊錫不良,DPH14焊錫不良
+CN2编码器线接口接触不良，松,CN2異常,DPH16吃錫不良,DPH16焊錫不良
+CN2端子高翘歪斜,CN2端子高翹歪斜,DPH16焊接不良,DPH16焊錫不良
+CN2端子斷落,CN2端子斷落,DPH16損壞,DPH16損壞
+CN2端子插歪,CN2端子插歪,DPH16輸出異常,DPH16輸出異常
+CN3口不良,CN3異常,DPH1異常,DPH1異常
+CN4 PIN腳被壓彎,"CN4,PIN腳被壓彎",DPH4反向，R相欠相,"DPH4反向,R相欠相"
+CN4USB接口无法连接,CN4USB接口無法連接,DPH5偵測異常,DPH5偵測異常
+CN4口母pin位置偏移,CN4接口母PIN位置偏移,DPH6 Pin3-4不導通,DPH6 PIN3-4不導通
+CN4口损坏,CN4接口損壞,DPH7連錫,DPH7連錫
+CN4口退pin,CN4接口退PIN,DPH9光耦PIN被劃斷,DPH9光耦PIN被劃斷
+CN4不能下载参数,CN4不能下載參數,DPM1,DPM1
+CN4不能用，参数设置异常,"CN4不能用,參數設置异常",DQ2打火擊穿,DQ2打火擊穿
+CN4与电脑无法连接,CN4通訊異常,DQ2打火擊穿，回生電阻Open,"DQ2打火擊穿,回生電阻OPEN"
+CN4未开口,CN4未開口,DQ2錫短,DQ2錫短
+CN4坏,CN4異常,DQ2擊穿,DQ2擊穿
+CN4退pin,CN4退PIN,"DQ2擊穿,軟起電阻和剎車電阻燒壞","DQ2擊穿,軟起電阻和剎車電阻燒毀"
+CN4接口无法通讯,CN4通訊異常,"DQ2擊穿、DD22,DD23整流子擊穿","DQ2擊穿,DD22,DD23整流子擊穿"
+CN4通讯不上,CN4通訊異常,DR1 OPEN,DR1 OPEN
+CN4通讯不上、驱动器烧坏 、报警06,"CN4通訊異常,AL006",DR19烧坏,DR19燒毀
+CN4插口不良,CN4接口損壞,DR1開裂損壞,DR1開裂損壞
+CN4端口有异物，线能插上，但无法连接,CN4接口損壞,DR1開裂損壞，DC3短路，DD3有過熱痕跡,"DR1開裂損壞,DC3SHORT,DD3有過熱痕跡"
+CN6 OUT口通訊不通,CN6接口異常,DR1開裂損壞，DD1擊穿,"DR1開裂損壞,DD1擊穿"
+CN6口异常，无法连接,CN6接口異常,DR1開裂損壞，DD1擊穿，DT1和DR4打火，量測線圈正常，DU2過熱損壞，IGBT pin腳之間和導熱rubber上粘有異物,"DR1開裂損壞,DD1擊穿,DT1和DR4打火,量測線圈正常,DU2過熱損壞,IGBT PIN腳之間和導熱rubber上粘有異物"
+CN6处字母不一样,CN6處字母不一樣,DR1開裂損壞，污染,"DR1開裂損壞,污染"
+CN6网口通讯坏,CN6接口異常,"DR1电阻开裂open,DD1的击穿","DR1開裂損壞OPEN,DD1擊穿"
+CN6找不到站号，报警AL185,"CN6找不到站號,AL185",DR1燒，DD1擊穿，DC3微鼓包,"DR1燒毀,DD1擊穿,DC鼓包"
+CN6总线口无法通讯,CN6接口異常,DR1燒壞，DC3短路，上電端子RS相有打火痕跡,"DR1燒毀,DC3SHORT,上電端子RS相有打火痕迹"
+CN6通讯不上,CN6通訊不上,DR1燒壞，DC3微鼓包,"DR1燒毀,DC3鼓包"
+CN6通讯不定时断线报警AL185,CN6通訊不定時斷綫報警AL185,DR1燒壞，DD1擊穿,"DR1燒毀,DD1擊穿"
+CN6無法通訊,CN6通訊異常,DR27損壞,DR27損壞
+CN6端口损坏,CN6接口異常,DR28 Open,DR28 OPEN
+CND,CND,"DR28 open,外殼融化","DR28 OPEN,外殼融化"
+CND-AL001,CND-AL001,"DR28,DC3,按鍵，上蓋，HSK，J10端子外力損壞","DR28,DC3,按鍵,上蓋,HSK,J10端子外力損壞"
+CND-AL003,CND-AL003,DR28外力損壞,DR28外力損壞
+CND-AL006,CND-AL006,DR28炸,DR28炸裂
+CND-AL083,CND-AL083,DR28焊錫異常,DR28焊錫異常
+CND-AL1200,CND-AL1200,DR28軟啟焊錫不良,DR28軟啓焊錫不良
+CND-AL2300,CND-AL2300,DR28裂开,DR28開裂
+CND-AL555,CND-AL555,DR28過熱，伺服功能正常,"DR28過熱,伺服功能正常"
+CND-ALCDB,CND-ALCDB,DR28燒,DR28燒毀
+CND-CN4不能用，参数设置异常,"CND-CN4不能用,參數設置异常",DR28燒，IGBT炸,"DR28燒毀,IGBT炸裂"
+CND-DTB1端子打火，内部有两处有锡丝,"CND-DTB1端子打火,內部有兩處有錫絲",DR28燒，IGBT擊穿,"DR28燒毀,IGBT擊穿"
+CND-UVW异常,CND-UVW异常,"DR39,DD13喷胶前掉件","DR39,DD13噴膠前掉件"
+CND-上电无显示,CND-上電無顯示,DR42/DR45散热不良,"DR42,DR45散熱不良"
+CND-上电跳闸,CND-上電跳閘,DR42炸，DD22擊穿，IGBT炸，軟起電阻燒壞,"DR42炸裂,DD22擊穿,IGBT炸裂,軟起電阻燒毀"
+CND-不良,CND-不良,DR42炸，IGBT炸，V BUS電壓偵測異常，5VD_GD短路,"DR42炸裂,IGBT炸裂,V BUS電壓偵測異常,5VD_GDSHORT"
+CND-无法定位电机位置,CND-無法定位電機位置,DR45炸，DD22/DD23击穿，IGBT com对PIN5短路，P对W短路,"DR45炸裂,DD22,DD23擊穿,IGBT com對PIN5SHORT,P對WSHORT"
+CND-加料机捅料杆总往下掉,CND-加料機捅料杆總往下掉,DR45炸，IGBT炸,"DR45炸裂,IGBT炸裂"
+CND-驱动异常,CND-驅動異常,DR4和DT1打火，DT1 pin1和pin2 Open，DR1開裂損壞，DD1擊穿，DU2擊穿,"DR4和DT1打火,DT1 PIN1和PIN2 OPEN,DR1開裂損壞,DD1擊穿,DU2擊穿"
+CND-驱动器无方向,CND-驅動器無方向,DR53損壞,DR53損壞
+CND-其他(DSP黑屏问题),CND-其他(DSP黑屏問題),DR58/DR42炸，DD22擊穿，IGBT炸，软起电阻烧坏,"DR58,DR42炸裂,DD22擊穿,IGBT炸裂,軟起電阻燒毀"
+CND-其他(驱动器不能设置原点),CND-其他(驅動器不能設置原點),DR58-OPEN，DD22擊穿，IGBT擊穿,"DR58 OPEN,DD22擊穿,IGBT擊穿"
+CND-接口接触不良,CN6接口異常,DR58和DR45炸，軟起電阻DR28燒，IGBT炸,"DR58,DR45炸裂,軟起電阻DR28燒毀,IGBT炸裂"
+CND-通讯不上,CN6通訊異常,DR58炸,DR58炸裂
+CND-通讯异常,CN6通訊異常,DR58炸，DC45燒，IGBT炸，整流子DD22擊穿，DU2，DU5擊穿,"DR58炸裂,DC45燒毀,IGBT炸裂,整流子DD22擊穿,DU2,DU5擊穿"
+CND-通讯异常 AL1200,CND-AL1200,DR58炸，DD22擊穿，IGBT炸,"DR58炸裂,DD22擊穿,IGBT炸裂"
+CND-温度过高,CND-溫度過高,DR58炸，DD22擊穿，IGBT炸裂,"DR58炸裂,DD22擊穿,IGBT炸裂"
+CND-输出扭力不够,CND-輸出扭力不够,DR58炸，DR28燒，IGBT炸,"DR58炸裂,DR28燒,IGBT炸裂"
+"CND-镭射焊锡偏移碳化(与本次客退无关,对策前)","CND-鐳射焊錫偏移碳化(與本次客退無關,對策前)",DR58炸，DVAR1与DD22相连铜箔炸断,"DR58炸裂,DVAR1與DD22相連銅箔炸裂斷"
+CONNECTOR端子DJ1、J5粘胶,"CONNECTOR端子DJ1,J5粘膠",DR58炸，IGBT炸,"DR58炸裂,IGBT炸裂"
+c与短路换上盖,C相端子與SHORT換上蓋,DR58炸，IGBT炸，,"DR58炸裂,IGBT炸裂"
+C点滑牙,C相端子滑牙,DR58炸，IGBT炸，DC17電容鼓包,"DR58炸裂,IGBT炸裂,DC17電容鼓包"
+C相無輸出,C相端子無輸出,"DR58炸，IGBT炸,DD22,DD23击穿","DR58炸裂,IGBT炸裂,DD22,DD23擊穿"
+C相端子螺絲損壞,C相端子螺絲損壞,DR58炸，IGBT炸，DD22、DD23、DQ2擊穿,"DR58炸裂,IGBT炸裂,DD22,DD23,DQ2擊穿"
+D01一直有输出，报警AL001跳闸,AL001,DR58炸，IGBT炸，DD22擊穿,"DR58炸裂,IGBT炸裂,DD22擊穿"
+D01一直有输出/接地螺丝拧不紧/CN4无法连接/端子滑牙/找不到站号、CN6通讯不上、CN1没螺丝无法固定、报警、无显示,"CN1異常,CN6異常,CN4異常",DR58炸，IGBT炸，DR28燒,"DR58炸裂,IGBT炸裂,DR28燒毀"
+D02一直有输出,DO2異常,DR58炸，IGBT炸，DR28燒壞,"DR58炸裂,IGBT炸裂,DR28燒毀"
+D05坏,DO5異常,DR58炸，IGBT炸，DU2擊穿,"DR58炸裂,IGBT炸裂,DU2擊穿"
+D3损坏,D03損壞,DR58炸，IGBT炸，面板显示异常,"DR58炸裂,IGBT炸裂,面板顯示異常"
+D50、D51未移除,"D50,D51未移除",DR58炸，IGBT炸，整流子DD22、DD23擊穿，銅箔翹皮，5VD_GD短路，V bus電壓偵測異常,"DR58炸裂,IGBT炸裂,整流子DD22,DD23擊穿,銅箔翹皮,5VD_GDSHORT,V bus電壓偵測異常"
+D50反向阻抗异常,D50阻抗值異常,DR58炸，IGBT炸，整流子DD22擊穿,"DR58炸裂,IGBT炸裂,整流子DD22擊穿"
+D50阻抗10kohm（正常為open）,D50阻抗10kohm（正常為OPEN）,DR58炸，IGBT炸，整流子DD23、DD22擊穿，DU2擊穿,"DR58炸裂,IGBT炸裂,整流子DD23,DD22擊穿,DU2擊穿"
+D50阻抗值异常,D50阻抗值異常,DR58炸，IGBT炸，整流子DD23炸，DD22擊穿，DR1 Open，DD1擊穿,"DR58炸裂,IGBT炸裂,整流子DD23炸裂,DD22擊穿,DR1 OPEN,DD1擊穿"
+D51、D52反向阻抗異常,"D51,D52反向阻抗异常",DR58炸，IGBT炸，整流子炸,"DR58炸裂,IGBT炸裂,整流子炸裂"
+D51-D55未移除,D51~D55未移除,DR58炸，IGBT炸、DD22擊穿,"DR58炸裂,IGBT炸裂,DD22擊穿"
+D51軟擊穿,D51軟擊穿,DR58炸，IGBT炸裂，DR28燒壞,"DR58炸裂,IGBT炸裂裂,DR28燒毀"
+D54損壞,D54損壞,DR58炸，IGBT击穿,"DR58炸裂,IGBT擊穿"
+DC3，DC52、DC53電容鼓包,"DC3,DC52,DC53電容鼓包",DR58炸，IGBT擊穿，DZD6擊穿，整流子DD22擊穿，附近銅箔燒斷,"DR58炸裂,IGBT擊穿,DZD6擊穿,整流子DD22擊穿,附近銅箔燒斷"
+DC3、DC52，DC53鼓包，DR28烧，铜箔炸,"DC3,DC52,DC53鼓包,DR28燒毀,銅箔炸",DR58炸，IGBT擊穿，刹車晶體擊穿，relay坏，軟起電阻開路,"DR58炸裂,IGBT擊穿,刹車晶體擊穿,relay壞,軟起電阻開路"
+"DC3、DC52鼓包,铜箔炸","DC3,DC52鼓包,銅箔炸",DR58炸，IGBT击穿，软起电阻炸,"DR58炸裂,IGBT擊穿,軟起電阻炸裂"
+DC3、DC53鼓包,"DC3,DC53鼓包",DR58炸，IGBT擊穿，整流子打火,"DR58炸裂,IGBT擊穿,整流子打火"
+DC3、DC82、DC83、DC84鼓包,"DC3,DC82,DC83,DC84鼓包",DR58炸，IGBT擊穿，整流子擊穿,"DR58炸裂,IGBT擊穿,整流子擊穿"
+DC3电容鼓包,DC3電容鼓包,DR58炸，IGBT坏，DZD7短路，驅動光耦pin4~pin6短路,"DR58炸裂,IGBT壞,DZD7 SHORT,驅動光耦PIN4~PIN6 SHORT"
+"DC3电容鼓包,DR1电阻开裂open,DD1的击穿","DC3電容鼓包,DR1電阻開裂OPEN,DD1的擊穿",DR58炸，IGBT坏，DZD7短路，驅動光耦pin4~pin6短路，DC64和DR57燒黑，DZD4燒壞,"DR58炸裂,IGBT壞,DZD7 SHORT,驅動光耦PIN4~PIN6 SHORT,DC64和DR57燒毀,DZD4燒毀"
+"DC3電容鼓包，DVAR1,DVAR2炸開,DR1開裂，DQ2擊穿，IGBT擊穿","DC3電容鼓包,DVAR1,DVAR2炸開,DR1開裂,DQ2擊穿,IGBT擊穿",DR58炸，IGBT坏，DZD7短路，驅動光耦pin4-pin6短路,"DR58炸裂,IGBT壞,DZD7 SHORT,驅動光耦PIN4-PIN6 SHORT"
+"DC3電容鼓包，壓敏電阻DVAR1,DVAR2炸開","DC3電容鼓包,壓敏電阻DVAR1,DVAR2炸開",DR58炸，IGBT坏，軟起電阻和relay燒壞，DZD7短路，驅動光耦pin4~pin6短路。,"DR58炸裂,IGBT壞,軟起電阻和relay燒毀,DZD7 SHORT,驅動光耦PIN4~PIN6 SHORT。"
+DC3電容鼓包，壓敏電阻DVAR3炸開,"DC3電容鼓包,壓敏電阻DVAR3炸開",DR58炸，IGBT坏，驅動光耦pin4~pin6短路。,"DR58炸裂,IGBT壞,驅動光耦PIN4~PIN6 SHORT。"
+DC3和DC82电容鼓包,"DC3,DC82電容鼓包",DR58炸、IGBT炸,"DR58炸裂,IGBT炸裂"
+DC3炸,DC3炸,DR58炸、IGBT擊穿,"DR58炸裂,IGBT擊穿"
+"DC3炸,回生电阻open","DC3炸,回生電阻OPEN",DR58炸、IGBT擊穿、,"DR58炸裂,IGBT擊穿,"
+DC3鼓包,DC3鼓包,"DR58炸、IGBT擊穿、DR37,DR41燒、DD22,DD23整流子擊穿、","DR58炸裂,IGBT擊穿,DR37,DR41燒,DD22,DD23整流子擊穿,"
+"DC3鼓包,DR1開路","DC3鼓包,DR1開路",DR58炸、IGBT擊穿、整流子擊穿,"DR58炸裂,IGBT擊穿,整流子擊穿"
+DC3鼓包，DR1過熱損壞,"DC3鼓包,DR1過熱損壞",DR58炸、IGBT擊穿、整流子擊穿、剎車晶體擊穿,"DR58炸裂,IGBT擊穿,整流子擊穿,剎車晶體擊穿"
+DC3鼓包，DTB1有打火，J3表面受熱，DD1擊穿，DR1燒,"DC3鼓包,DTB1有打火,J3表面受熱,DD1擊穿,DR1燒毀",DR58炸、整流子擊穿、IGBT擊穿、銅箔炸，5VD_GD短路、L1L2上電無顯示,"DR58炸裂,整流子擊穿,IGBT擊穿,銅箔炸裂,5VD_GD SHORT,L1L2上電無顯示"
+DC3鼓包，IGBT U上橋擊穿,"DC3鼓包,IGBT,U上橋擊穿",DR58炸裂，IGBT、DD21、DD22擊穿,"DR58炸裂裂,IGBT,DD21,DD22擊穿"
+DC3鼓包，回生電阻Open,"DC3鼓包,回生電阻OPEN",DR58炸裂，IGBT炸裂,"DR58炸裂裂,IGBT炸裂裂"
+DC3鼓包、DR1開裂損壞,"DC3鼓包,DR1開裂損壞",DR58炸裂，IGBT炸裂，DD22/23 擊穿,"DR58炸裂裂,IGBT炸裂裂,DD22擊穿,DD23 擊穿"
+DC3鼓包DR1裂开，DC81、DC88、DC83鼓包,"DC3鼓包DR1裂開,DC81,DC88,DC83鼓包","DR58炸裂，IGBT炸裂，DU2,DU5擊穿","DR58炸裂裂,IGBT炸裂裂,DU2擊穿,DU5擊穿"
+DC3爆,DC3爆,DR58炸裂，IGBT擊穿,"DR58炸裂裂,IGBT擊穿"
+"DC52,DC53鼓包","DC52,DC53鼓包","DR58炸裂，整流子DD23,DD22擊穿，IGBT 炸裂","DR58炸裂裂,整流子DD23擊穿,DD22擊穿,IGBT炸裂裂"
+DC52、DC3鼓包，DD22擊穿,"DC52,DC3鼓包,DD22擊穿",DR58開路，IGBT坏，DZD4燒壞，DZD7短路，驅動光耦DPH10 PIN4~PIN6短路。,"DR58開路,IGBT壞,DZD4燒毀,DZD7 SHORT,驅動光耦DPH10 PIN4~PIN6 SHORT。"
+DC52、DC53、DC3鼓包,"DC52,DC53,DC3鼓包",DR58損壞，銅箔翹起，軟起電阻坏，IGBT坏，DC64和DR57燒黑，DZD4燒壞，DZD7短路，驅動光耦DPH8pin4~pin6短路。,"DR58損壞,銅箔翹起,軟起電阻壞,IGBT壞,DC64和DR57燒黑,DZD4燒毀,DZD7 SHORT,驅動光耦DPH8PIN4~PIN6 SHORT。"
+DC52、DC53、DC3鼓包，DR28燒,"DC52,DC53,DC3鼓包,DR28燒毀","DR58電阻炸、IGBT擊穿、DD22,DD23整流擊穿","DR58電阻炸裂,IGBT擊穿,DD22擊穿,DD23整流擊穿"
+DC52、DC53鼓包,"DC52,DC53鼓包",DR58電阻炸、IGBT擊穿、DD22整流擊穿,"DR58電阻炸裂,IGBT擊穿,DD22整流擊穿"
+DC52電容鼓包,DC52電容鼓包,"DR58電阻炸、IGBT擊穿、DD22整流擊穿、DR37,DD14,DZD3,DC41損壞","DR58電阻炸裂,IGBT擊穿,DD22整流擊穿,DR37,DD14,DZD3,DC41損壞"
+DC52和DC3鼓包,DC52和DC3鼓包,"DR58電阻炸、IGBT擊穿、DU2,DU5短路","DR58電阻炸裂,IGBT擊穿,DU2,DU5SHORT"
+DC52鼓包,DC52鼓包,DR58電阻炸、IGBT擊穿、軟起電阻過熱,"DR58電阻炸裂,IGBT擊穿,軟起電阻過熱"
+DC52鼓包，DD22、DD23擊穿，T相銅箔燒斷,"DC52鼓包,DD22,DD23擊穿,T相銅箔燒毀斷","DR58燒，DD22,DD23擊穿，IGBT炸","DR58燒毀,DD22擊穿,DD23擊穿,IGBT炸裂"
+DC52鼓包，DR28損壞，輸入銅箔熔，U1被銅渣短路,"DC52鼓包,DR28損壞,輸入銅箔熔,U1被銅渣SHORT",DR58燒，DD22擊穿，IGBT擊穿,"DR58燒毀,DD22擊穿,IGBT擊穿"
+DC52鼓包，RS銅箔燒斷,"DC52鼓包,RS銅箔燒毀斷",DR58燒毀,DR58燒毀
+DC52鼓包、輸入RS銅箔熔,"DC52鼓包,輸入RS銅箔熔",DR58燒毀，附近銅箔損壞，IGBT炸，DQ2击穿，DD22和DD23击穿,"DR58燒毀,附近銅箔損壞,IGBT炸裂,DQ2擊穿,DD22擊穿,DD23擊穿"
+DC53/DC3鼓包R254/R255烧,"DC53,DC3鼓包R254,R255燒毀",DR58燒毀，附近銅箔翹皮，IGBT炸，DQ2击穿,"DR58燒毀,附近銅箔翹皮,IGBT炸裂,DQ2擊穿"
+DC53、DC3鼓包,"DC53,DC3鼓包",DRLY2處錫渣短路,DRLY2處錫渣SHORT
+DC53鼓包,DC53鼓包,DSP GND PAD沒有錫,DSP GND PAD沒有錫
+DC53鼓包，回生電阻Open,"DC53鼓包,回生電阻OPEN",DSP、L1、软起电阻烧坏，刹车电阻开路,"DSP,L1,軟起電阻燒毀,刹車電阻開路"
+DC58電容短路,DC58電容SHORT,DSP_CLK腳位低阻抗,DSP_CLK腳位低阻抗
+DC62打件偏移,DC62打件偏移,DSP-dsp_USB0_DM对GND低阻抗65Ω,DSP-dsp_USB0_DM對GND低阻抗65Ω
+"DC75,DC76连锡","DC75,DC76連錫",DSP工作异常,DSP工作異常
+"DC81,DC82,DC83,DC84電容鼓包","DC81,DC82,DC83,DC84電容鼓包",DSP污染,DSP污染
+DC81、DC3鼓包,"DC81,DC3鼓包",DSP損壞,DSP損壞
+DC81、DC82、DC83、DC3鼓包,"DC81,DC82,DC83,DC3鼓包","DSP損壞/ZD20，R202,R203,R204燒，U25短路","DSP損壞,ZD20,R202,R203,R204燒毀,U25 SHORT"
+DC81、DC82、DC83、DC3鼓包，DD22、DD23擊穿,"DC81,DC82,DC83,DC3鼓包,DD22,DD23擊穿",DSP擊穿,DSP擊穿
+DC81、DC82、DC83、DC84鼓包,"DC81,DC82,DC83,DC84鼓包",DT1打火，DR1開裂損壞，DD1擊穿,"DT1打火,DR1開裂,DD1擊穿"
+DC81、DC82、DC83鼓包,"DC81,DC82,DC83鼓包",DTB1漏焊,DTB1漏焊
+DC81、DC82鼓包,"DC81,DC82鼓包",DU1炸裂,DU1炸裂裂
+DC81、DC83、DC3鼓包,"DC81,DC83,DC3鼓包",DU1焊錫不良,DU1焊錫不良
+DC81、DC83鼓包，DR28燒壞，Relay熔損,"DC81,DC83鼓包,DR28燒毀,Relay熔損",DU1燒壞，變壓器有打火痕跡，導熱rubber上有異物,"DU1燒毀,變壓器有打火痕跡,導熱rubber上有異物"
+DC81、DC83鼓包、DR28損壞,"DC81,DC83鼓包,DR28損壞",DU1擊穿,DU1擊穿
+DC81和DC3鼓包，整流子DD22、DD23擊穿,"DC81和DC3鼓包,整流子DD22,DD23擊穿",DU1擊穿，DD1擊穿，DR1開裂損壞，DT1打火,"DU1擊穿,DD1擊穿,DR1開裂損壞,DT1打火"
+DC81鼓包,DC81鼓包,"DU1擊穿，DD1擊穿，DR1開裂損壞，DT1打火,IGBT控制侧击穿，刹车晶体击穿，铜箔翘皮","DU1擊穿,DD1擊穿,DR1開裂損壞,DT1打火,IGBT控制側擊穿,刹車晶體擊穿,銅箔翹皮"
+DC82、DC3鼓包,"DC82,DC3鼓包",DU1擊穿，DR4打火，DT1 打火，DR1燒壞,"DU1擊穿,DR4打火,DT1 打火,DR1燒毀"
+DC82、DC3鼓包、DD22擊穿,"DC82,DC3鼓包,DD22擊穿",DU1擊穿，DR4打火，DT1 打火，DR1燒壞，DD1擊穿,"DU1擊穿,DR4打火,DT1 打火,DR1燒毀,DD1擊穿"
+DC82、DC83、DC3鼓包,"DC82,DC83,DC3鼓包",DU1擊穿炸裂，DR4打火，DT1 pin2熔斷,"DU1擊穿,DR4打火,DT1 PIN2熔斷"
+DC82、DC83、DC84、DC3鼓包,"DC82,DC83,DC84,DC3鼓包",DU2短路,DU2SHORT
+DC82、DC83、DC84、DC3鼓包，DR58炸，IGBT炸,"DC82,DC83,DC84,DC3鼓包,DR58炸,IGBT炸",DVAR1损坏，R相銅箔炸斷，DD22擊穿，DPM1损坏,"DVAR1損壞,R相銅箔炸裂斷,DD22擊穿,DPM1損壞"
+DC82、DC83鼓包，控制板為AB機，C128碎件,"DC82,DC83鼓包,控制板爲AB機,C128碎件",DZD13有反向漏电流,DZD13有反向漏電流
+DC82、DC84、DC3鼓包，軟起電阻DR28 Open,"DC82,DC84,DC3鼓包,軟起電阻DR28,OPEN",DZD3異常,DZD3異常
+DC82和DC3鼓包,DC82和DC3鼓包,DZD4燒壞擊穿,DZD4擊穿
+DC82和DC3鼓包，整流子DD22擊穿,"DC82和DC3鼓包,整流子DD22擊穿",DZD5擊穿,DZD5擊穿
+DC82鼓包,DC82鼓包,DZD6击穿,DZD6擊穿
+DC83、DC3鼓包,"DC83,DC3鼓包",DZD9擊穿,DZD9擊穿
+DC83電容鼓包，DC3電容鼓包，DD22擊穿，DR28短路,"DC83電容鼓包,DC3電容鼓包,DD22擊穿,DR28 SHORT",eeprom 资料错误,eeprom 資料錯誤
+DC83鼓包,DC83鼓包,Encoder ground trace熔斷,Encoder ground trace熔斷
+DC83鼓包，整流子DD22、DD23擊穿，銅箔斷，Relay上電不切,"DC83鼓包,整流子DD22,DD23擊穿,銅箔斷,Relay上電不切",Encoder無法通訊,Encoder無法通訊
+DC83鼓包，整流子DD22和DD23擊穿，DU1pin腳熔斷,"DC83鼓包,整流子DD22和DD23擊穿,DU1PIN腳熔斷",encoder端子的铜箔损坏,encoder端子的銅箔損壞
+DC83鼓包、DR28損壞,"DC83鼓包,DR28損壞",FPGA燒壞,FPGA燒毀
+"DC83鼓包、R對N,ST對P短路","DC83鼓包,R對N,ST對P SHORT",HSK接地螺纹外力损坏,HSK接地螺紋外力損壞
+DC84、DC3鼓包，DD22擊穿,"DC84,DC3鼓包,DD22擊穿",HSK螺絲孔斷裂,HSK螺絲孔斷裂
+DC84鼓包，軟起電阻DR28 Open，回聲電阻Open,"DC84鼓包,軟起電阻DR28,OPEN,回聲電阻OPEN",IC輸出腳位過電壓擊穿,IC輸出脚位過電壓擊穿
+DC84鼓包、軟起電阻DR28 Open,"DC84鼓包,軟起電阻DR28,OPEN",IGBT  W對P擊穿,IGBT  W對P擊穿
+DC9异常,DC9异常,IGBT 16Pin 漏焊,IGBT 16PIN 漏焊
+DC9折脚,DC9折脚,IGBT 16pin(COM)對8pin(VCCH) 擊穿,IGBT 16PIN(COM)對8PIN(VCCH) 擊穿
+DC9撞件,DC9撞件,IGBT 20pin(COM)對17pin(VCCL)短路,IGBT 20PIN(COM)對17PIN(VCCL)SHORT
+DC9戳破,DC9戳破,IGBT com脚打火,IGBT com脚打火
+DCBUS電容鼓包，整流子擊穿,"DCBUS電容鼓包,整流子擊穿",IGBT N脚打火,IGBT N脚打火
+DC-DC電路U24 IC燒毀；RS485電路U9 IC燒壞,"DC-DC電路U24,IC燒毀,RS485電路U9,IC燒毀",IGBT pin13~19漏焊,IGBT PIN13~19漏焊
+DC-DC電路重工不良,DC-DC電路重工不良,IGBT pin13~21漏焊,IGBT PIN13~21漏焊
+DC插反向,DC插反向,IGBT pin19漏焊,IGBT PIN19漏焊
+DD1擊穿，,"DD1擊穿,",IGBT pin20、21漏焊,"IGBT PIN20,21漏焊"
+"DD22 Short,DD23 Short，R通道trace熔断，T通达trace熔断","DD22,SHORT,DD23,SHORT,R通道trace熔斷,T通達trace熔斷",IGBT pin20~21漏焊,IGBT PIN20~21漏焊
+"DD22，DD23擊穿,","DD22,DD23擊穿,",IGBT pin22 V相下橋E極漏焊,IGBT PIN22 V相下橋E極漏焊
+DD22，DD23擊穿，DR58炸裂，IGBT炸裂,"DD22,DD23擊穿,DR58炸裂,IGBT炸裂",IGBT pin26（W)漏焊，背面炸裂,"IGBT PIN26（W)漏焊,背面炸裂裂"
+DD22、DD23打火,"DD22,DD23擊穿,DC82鼓包",IGBT pin3 對pin13擊穿,IGBT PIN3 對PIN13擊穿
+DD22、DD23擊穿，DC82鼓包,"DD22,DD23擊穿,IGBT,U對P擊穿",IGBT Pin7擊穿,IGBT PIN7擊穿
+DD22、DD23擊穿，IGBT U對P擊穿,"DD22,DD23打火",IGBT pin上粘錫絲,IGBT PIN上黏錫絲
+DD22、DQ2、IGBT擊穿，剎車晶體和P點有打火，Relay 損壞,"DD22,DQ2,IGBT擊穿,剎車晶體和P點有打火,Relay,損壞",IGBT pin腳上有錫渣,IGBT PIN脚鐵屑污染
+DD22擊穿，IGBT P腳熔斷，本體炸裂，DU5有發熱痕跡，5VD_GD短路，DPH16、DPH7、DPH8、DPH9均損壞,"DD22擊穿,IGBT,P腳熔斷,本體炸裂,DU5有發熱痕跡,5VD_GD SHORT,DPH16,DPH7,DPH8,DPH9均損壞",IGBT pin腳錫短,IGBT PIN腳上有錫渣
+DD22擊穿，IGBT炸,"DD22擊穿,IGBT炸",IGBT PIN腳鐵屑污染,IGBT PIN腳錫短
+DD22击穿，与varistor相连铜箔熔断,"DD22擊穿,與varistor相連銅箔熔斷",IGBT PV阻抗異常，控制測焊錫異常，私自維修,"IGBT PV阻抗异常,控制測焊錫异常,私自維修"
+DD22擊穿，有污染腐蝕,"DD22擊穿,有污染腐蝕",IGBT u-p擊穿,IGBT u-p擊穿
+DD22擊穿，輸入銅箔熔損,"DD22擊穿,輸入銅箔熔損",IGBT UVW上桥击穿，W下桥open，整流子RS对P击穿，DR58炸,"IGBT UVW上橋OPEN,下橋擊穿,整流子RS對N 擊穿,T脚燒斷,DR58炸裂"
+DD22擊穿，輸入端子熔損,"DD22擊穿,輸入端子熔損","IGBT UVW上橋OPEN,下桥击穿，整流子RS对N 击穿，T脚烧断，DR58炸",IGBT UVW上橋擊穿
+DD22打火,DD22打火,IGBT UVW上橋擊穿,"IGBT UVW上橋擊穿,W下橋OPEN,整流子RS對P擊穿,DR58炸裂"
+DD22整流子R與HSK之間跳火，但是單獨量測跳火PIN的管壓降正常，與之對應的二極管並未損壞,"DD22整流子R與HSK之間跳火,但是單獨量測跳火PIN的管壓降正常,與之對應的二極管幷未損壞",IGBT UVW對N short,IGBT UVW對N SHORT
+DD22整流子擊穿（RS對N擊穿），檢查剎車晶體E極與HSK之間存在跳火,"DD22整流子擊穿（RS對N擊穿）,檢查剎車晶體E極與HSK之間存在跳火",IGBT U上橋短路,IGBT U上橋SHORT
+DD22整流子處跳火并擊穿，IGBT跳火炸裂，DR58阻抗增大,"DD22整流子處跳火幷擊穿,IGBT跳火炸裂,DR58阻抗增大",IGBT U上橋擊穿,IGBT U上橋擊穿
+DD23，DD22擊穿,"DD23,DD22擊穿",IGBT U上橋擊穿，DQ2擊穿，回生電阻open,"IGBT U上橋擊穿,DQ2擊穿,回生電阻OPEN"
+DD23、DD22的正負極針腳打火,"DD23,DD22的正負極針腳打火",IGBT U上橋擊穿，DR28燒開路,"IGBT U上橋擊穿,DR28燒開路"
+DD23擊穿,DD23擊穿,IGBT U上橋擊穿，软起烧坏,"IGBT U上橋擊穿,軟起燒毀"
+DD2打火,DD2打火,IGBT U下橋擊穿，PR擊穿，DR58炸,"IGBT U下橋擊穿,PR擊穿,DR58炸裂"
+DD7撞件,DD7撞件,IGBT U相上桥击穿,IGBT U上橋擊穿
+DHP14焊锡不良,DHP14焊錫不良,IGBT U对P短路,IGBT U對PSHORT
+DI8輸入限流電阻R224燒壞，DGND-AGND之間的電阻R222燒壞，電源系統全部擊穿,"DI8輸入限流電阻R224燒毀,DGND-AGND之間的電阻R222燒毀,電源系統全部擊穿","IGBT U對P開路,W對P短路","IGBT U對P開路,W對P SHORT"
+DJ1、DTB1沾UV膠,"DJ1,DTB1沾UV膠",IGBT U对P击穿,IGBT U對P擊穿
+DJ1连接端子有锡渣,DJ1連接端子有錫渣,IGBT U對P擊穿，整流子DD22、DD23擊穿,"IGBT U對P擊穿,整流子DD22,DD23擊穿"
+DJ1偏斜沾膠,DJ1偏斜沾膠,IGBT VW擊穿,IGBT VW擊穿
+DJ1接觸不良,DJ1接觸不良,IGBT V上橋擊穿,IGBT V上橋擊穿
+DJ1粘膠,DJ1粘膠,IGBT V對N擊穿，U對P擊穿，軟起電阻DR28 Open,"IGBT V對N擊穿,U對P擊穿,軟起電阻DR28 OPEN"
+DMCNET通讯异常,DMCNET無法通訊,IGBT V對P短路,IGBT V對PSHORT
+DMCNET無法通訊,DMCNET通訊异常,IGBT V對P擊穿,IGBT V對P擊穿
+DMC連接異常,DMC連接異常,IGBT W上橋擊穿,IGBT W上橋擊穿
+DO1一直有输出,DO1輸出異常,IGBT W相下橋擊穿,IGBT W下橋擊穿
+DO1一直输出,DO1輸出異常,IGBT W對P 短路,IGBT W對PSHORT
+DO1一直輸出,DO1輸出異常,IGBT W對P短路,IGBT W對PSHORT
+DO1不良,DO1異常,IGBT W對P短路。,IGBT W對PSHORT
+DO1无输出,DO1異常,IGBT 下橋控制側擊穿,IGBT 下橋控制側擊穿
+DO1击穿，输出异常,DO1異常,IGBT 本體炸,IGBT 本體炸裂
+DO1異常,DO1異常,IGBT 炸，pin腳有打火,"IGBT 炸裂,PIN腳有打火"
+DO1測試不過,DO1異常,IGBT 控制側損壞,IGBT 控制側損壞
+DO2.3口坏,"DO2異常,DO3異常",IGBT 控制側擊穿,IGBT 控制側擊穿
+DO2.3坏,"DO2異常,DO3異常",IGBT 整流子及DR58損壞,IGBT 整流子及DR58損壞
+DO3異常,DO3異常,IGBT 击穿，relay损坏,"IGBT 擊穿,relay損壞"
+DO3坏,DO3異常,"IGBT,DR58,DD22,DD23损坏","IGBT,DR58,DD22,DD23損壞"
+DO5输出烧了,DO5異常,IGBT、DD22击穿,"IGBT擊穿,DD22擊穿"
+DO5端子无反应,DO5異常,IGBT_pin20(COM)對pin7(VB(W))擊穿,IGBT_PIN20(COM)對PIN7(VB(W))擊穿
+DO无输出,DO異常,igbt11/12上有錫片短路,igbt11/12上有錫片SHORT
+DO功能正常，帶馬達運轉正常,"DO功能正常,帶馬達運轉正常",IGBT-16pinIN(LW)對17pin(VCCL)連錫,IGBT-16PININ(LW)對17PIN(VCCL)連錫
+DO電路二極管未移除,DO電路二極管未移除,IGBT-U相pin腳漏焊,IGBT-U相PIN脚漏焊
+DO点坏,DO異常,IGBT-V相對P擊穿,IGBT-V相對P擊穿
+DO输出异常,DO異常,IGBT上下橋UW對P/N短路,IGBT上下橋UW對P/NSHORT
+DPH15 PIN4-5-6短路,"DPH15,PIN4,5,6 SHORT",IGBT上下桥臂短炸机,IGBT上下橋臂短炸裂機
+DPH15撞件,DPH15撞件,IGBT打火，DR58熔斷,"IGBT打火,DR58熔斷"
+DPH16 PIN腳歪,"DPH16,PIN腳歪",IGBT打火，DR58熔斷，DD22擊穿,"IGBT打火,DR58熔斷,DD22擊穿"
+DPH16pin接觸不良,"DPH16,PIN腳接觸不良",IGBT打火，DR58熔斷，DR57,"IGBT打火,DR58熔斷,DR57"
+DPH16pin接觸不良，錫量少。,"DPH16,PIN腳接觸不,錫量少",IGBT刹车晶体击穿,IGBT刹車晶體擊穿
+DPH16打件歪斜,DPH16打件歪斜,IGBT和DD22擊穿,"IGBT擊穿,DD22擊穿"
+DPH16吃錫不良,DPH16焊錫不良,IGBT炸,IGBT炸裂
+DPH16損壞 ,DPH16損壞,IGBT炸 上桥断，U对N 短,"IGBT炸裂,上橋斷,U對N SHORT"
+DPH16焊锡不良,DPH16焊錫不良,IGBT炸，DD22擊穿,"IGBT炸裂,DD22擊穿"
+DPH4 PIN4接触不良,"DPH4,PIN腳接觸不良",IGBT炸，DD22擊穿，DR28燒壞,"IGBT炸裂,DD22擊穿,DR28燒毀"
+DPH4反向，R相欠相,"DPH4反向,R相欠相",IGBT炸，DD22擊穿，DR28燒壞，,"IGBT炸裂,DD22擊穿,DR28燒毀"
+DPH4光耦打反件,DPH4光耦打反件,IGBT炸，DD22擊穿，DR28燒壞，DZD8擊穿,"IGBT炸裂,DD22擊穿,DR28燒毀,DZD8擊穿"
+DPH7連錫,DPH7連錫,IGBT炸，DQ2和DZD8擊穿,"IGBT炸裂,DQ2和DZD8擊穿"
+DPH9光耦PIN斷,DPH9光耦PIN斷,IGBT炸，DR28燒,"IGBT炸裂,DR28燒"
+DQ2、DD15、DR28燒毀,"DQ2,DD15,DR28燒毀",IGBT炸，DR42炸，DD22擊穿,"IGBT炸裂,DR42炸裂,DD22擊穿"
+DQ2击穿,DQ2擊穿,IGBT炸，DR58、DR28烧毁,"IGBT炸裂,DR58,DR28燒毀"
+"DQ2擊穿，IGBT打火，DR38,DR46打火，有維修痕跡","DQ2擊穿,IGBT打火,DR38,DR46打火,有維修痕迹",IGBT炸，DR58炸,"IGBT炸裂,DR58炸裂"
+"DQ2擊穿,軟起電阻和剎車電阻燒壞","DQ2擊穿,軟起電阻和剎車電阻燒毀",IGBT炸，DR58炸，DD22擊穿,"IGBT炸裂,DR58炸裂,DD22擊穿"
+DQ2击穿，软起烧坏,"DQ2擊穿,軟起燒毀",IGBT炸，DR58炸，剎車晶體擊穿，銅箔燒壞,"IGBT炸裂,DR58炸裂,剎車晶體擊穿,銅箔燒毀"
+DQ2击穿烧坏,DQ2擊穿燒毀,IGBT炸，DR58烧、DQ2击穿,"IGBT炸裂,DR58燒毀,DQ2擊穿"
+DQ2打火,DQ2打火,IGBT炸，DR58燒斷，附近銅箔損壞,"IGBT炸裂,DR58燒毀,附近銅箔損壞"
+DQ2打火，內置回生電阻損壞,"DQ2打火,內置回生電阻損壞",IGBT炸，DU5 GND對VOUT 擊穿,"IGBT炸裂,DU5 GND對V OUT 擊穿"
+DQ2打火，剎車電阻燒,"DQ2打火,剎車電阻燒毀",IGBT炸，DU5過熱，DPH16擊穿,"IGBT炸裂,DU5過熱,DPH16擊穿"
+DQ2燒壞，回升電阻open,"DQ2燒毀,回升電阻OPEN",IGBT炸，整流子炸,"IGBT炸裂,整流子炸裂"
+DQ2燒壞，回升電阻open，軟起電阻有發熱痕跡,"DQ2燒毀,回升電阻OPEN,軟起電阻有發熱痕迹",IGBT炸，整流子炸，DR58炸,"IGBT炸裂,整流子炸裂,DR58炸裂"
+DR1 open，DD1擊穿,"DR1,OPEN,DD1擊穿",IGBT炸，整流子擊穿,"IGBT炸裂,整流子擊穿"
+DR1开裂损坏,DR1開裂損壞,IGBT炸，輸入銅箔熔斷,"IGBT炸裂,輸入銅箔熔斷"
+DR1開裂損壞，DC3短路，DD3有過熱痕跡,"DR1開裂損壞,DC3 SHORT,DD3有過熱痕跡",IGBT炸裂,IGBT炸裂
+DR1開裂損壞，DD1擊穿,"DR1開裂損壞,DD1擊穿",IGBT炸毀，DR58炸,"IGBT炸裂,DR58炸裂"
+DR1開裂損壞，DD1擊穿，DT1和DR4打火，量測線圈正常，DU2過熱損壞，IGBT pin腳之間和導熱rubber上粘有異物，用磁鐵可吸附,"DR1開裂損壞,DD1擊穿,DT1和DR4打火,量測線圈正常,DU2過熱損壞,IGBT,PIN腳之間和導熱rubber上粘有異物,用磁鐵可吸附",IGBT控制側 pin20(COM)對pin18(VFO) Open,IGBT控制側PIN20(COM)對PIN18(VFO) OPEN
+DR1損壞,DR1損壞,IGBT控制側pin20（COM)對pin12(VCCH)低阻抗,IGBT控制側PIN20(COM)對PIN12(VCCH)低阻抗
+DR1燒，DD1擊穿，DC3微鼓包,"DR1燒毀,DD1擊穿,DC3微鼓包",IGBT控制側Pin20(COM)對pin18(VFO)低阻抗,IGBT控制側PIN20(COM)對PIN18(VFO)低阻抗
+DR1燒壞，DC3短路，上電端子RS相有打火痕跡,"DR1燒毀,DC3 SHORT,上電端子RS相有打火痕迹",IGBT短路,IGBT SHORT
+DR1燒壞，DC3微鼓包,"DR1燒毀,DC3微鼓包",IGBT虛焊,IGBT虛焊
+DR1燒壞，DD1 PIN2與PIN3之間擊穿，DR4之間跳火,"DR1燒毀,DD1,PIN2與PIN3之間擊穿,DR4之間跳火",IGBT损坏,IGBT損壞
+DR1燒壞，DD1擊穿,"DR1燒毀,DD1擊穿",IGBT损坏，DD22整流子损坏，DR300电阻燒，DPH7光耦炸,"IGBT損壞,DD22整流子損壞,DR300電阻燒,DPH7光耦炸裂"
+DR1裂,DR1開裂損壞,IGBT损坏，DR58炸,"IGBT損壞,DR58炸裂"
+DR27外力损坏,DR27外力損壞,IGBT损坏，DR58炸，DQ2击穿,"IGBT損壞,DR58炸裂,DQ2擊穿"
+DR28 Open,"DR28,OPEN",IGBT過流損壞,IGBT損壞
+DR28/DR58/IGBT损坏，上蓋缺失（維修中心李井初拆除),"DR28,DR58,IGBT損壞,上蓋缺失（維修中心李井初拆除)",IGBT漏焊,IGBT漏焊
+DR28、DRLY1有过热痕迹,"DR28,DRLY1有過熱痕迹",IGBT击穿,IGBT擊穿
+DR28開路，DRLY1損壞,"DR28開路,DRLY1損壞",IGBT擊穿 U對P相擊穿,"IGBT擊穿,U對P相擊穿"
+DR28開路，DRLY1燙傷,"DR28開路,DRLY1燙傷",IGBT击穿，C/B无显示,"IGBT擊穿,C/B無顯示"
+DR28过热,DR28過熱,"IGBT擊穿，DD22,DD23擊穿","IGBT擊穿,DD22,DD23擊穿"
+DR28过热，回生电阻烧,"DR28過熱,回生電阻燒毀",IGBT擊穿，DD22擊穿，DR28燒，DZD8擊穿，DVAR1pin斷,"IGBT擊穿,DD22擊穿,DR28燒,DZD8擊穿,DVAR1PIN斷"
+DR28過熱，伺服功能正常,"DR28過熱,伺服功能正常","IGBT擊穿,DD22擊穿，控制板無顯示燒黑，電源板RST端子PIN燒壞","IGBT擊穿,DD22擊穿,控制板無顯示燒黑,電源板RST端子PIN燒毀"
+DR28過熱有裂痕，Relay微熔,"DR28過熱有裂痕,Relay微熔",IGBT击穿，DR28烧,"IGBT擊穿,DR28燒毀"
+DR28軟啟燒壞，PIN焊錫不良,"DR28軟啓燒毀,PIN焊錫不良",IGBT擊穿，DR58擊穿，,"IGBT擊穿,DR58擊穿"
+DR28炸,DR28炸,IGBT擊穿，DR58擊穿，DD22擊穿,"IGBT擊穿,DR58擊穿,DD22擊穿"
+DR28燒,DR28燒毀,"IGBT击穿,R相端子螺丝滑牙，端子盖脱落","IGBT擊穿,R相端子螺絲滑牙,端子蓋脫落"
+DR28燒，剎車晶體DQ2擊穿，回聲電阻Open,"DR28燒毀,剎車晶體DQ2擊穿,回聲電阻OPEN",IGBT擊穿，有污染,"IGBT擊穿,有污染"
+DR28燒壞,DR28燒毀,"IGBT击穿，软起电阻炸,RELAY烧","IGBT擊穿,軟起電阻炸裂,RELAY燒"
+DR28燒壞，DR58有打火痕跡，且阻抗值變大8.4Ω，IGBT炸,"DR28燒毀,DR58有打火痕跡,且阻抗值變大8.4Ω,IGBT炸",IGBT擊穿，軟起電阻開路,"IGBT擊穿,軟起電阻開路"
+"DR28烧毁,U对Popen,V,W上下桥均被击穿。","DR28燒毀,U對POPEN,V,W上下橋均被擊穿。","IGBT击穿,软起电阻烧坏","IGBT擊穿,軟起電阻燒毀"
+DR28斷，散熱片外殼損壞,"DR28斷,散熱片外殼損壞","IGBT擊穿、DD23整流子擊穿、DVAR1,DVAR2打火","IGBT擊穿,DD23整流子擊穿,DVAR1,DVAR2打火"
+DR30烧坏,DR30燒毀,IGBT鎖裂,IGBT鎖裂
+"DR39,DD13喷胶前掉件","DR39,DD13噴膠前掉件",inverter炸、DR58炸,"inverter炸,DR58炸"
+DR42炸，DD22擊穿，IGBT炸，軟起電阻燒壞,"DR42炸,DD22擊穿,IGBT炸,軟起電阻燒毀",IPM击穿,IPM擊穿
+DR42炸，IGBT炸，V BUS電壓偵測異常，5VD_GD短路,"DR42炸,IGBT炸,V,BUS電壓偵測異常,5VD_GD SHORT",J10 17pin退pin,J10 17PIN退PIN
+DR42損壞IGBT炸,"DR42損壞,IGBT炸",J10 pin1退pin導致第1位A管子缺筆畫,J10 PIN1退PIN導致第1位A管子缺筆劃
+DR45炸，DD22/DD23击穿，IGBT com对PIN5短路，P对W短路,"DR45炸,DD22,DD23擊穿,IGBT,com對PIN5 SHORT,P對W SHORT",J10 pin4與pin 6短路,J10 PIN4與PIN 6SHORT
+DR45炸，IGBT炸,"DR45炸,IGBT炸",J10 退pin導致七段顯示器缺筆畫,J10 退PIN導致+F521段顯示器缺筆劃
+DR53損壞,DR53損壞,J10 退pin導致第1組七段顯示器A管子缺筆畫,J10 退PIN導致第1組7段顯示器A管子缺筆劃
+DR57 open,"DR57,OPEN",J10 焊錫不良導致缺筆畫,J10 焊錫不良導致筆劃
+DR57維修飛件,DR57維修飛件,J10外力損壞斷線,J10外力損壞斷線
+DR58 open，IGBT UV對N擊穿,"DR58,OPEN,IGBT,UV對N擊穿",J10脫落，U43擊穿,"J10脫落,U43擊穿"
+DR58/DR42炸，DD22擊穿，IGBT炸，软起电阻烧坏,"DR58,DR42炸,DD22擊穿,IGBT炸,軟起電阻燒毀","J10連同銅箔脫落,七段顯示有被撞的痕跡","J10連同銅箔脫落,7段顯示有被撞的痕跡"
+DR58-OPEN，DD22擊穿，IGBT擊穿,"DR58,OPEN,DD22擊穿,IGBT擊穿","J10連同銅箔脫落,七段顯示有被撞壓的痕跡，USB口變形","J10連同銅箔脫落,7段顯示有被撞的痕跡,USB口變形"
+"DR58电阻炸、IGBT击穿、DD22,DD23整流击穿","DR58電阻炸,IGBT擊穿,DD22,DD23整流擊穿",J10端子16PIN漏焊,J10端子16PIN漏焊
+DR58电阻炸、IGBT击穿、DD22整流击穿,"DR58電阻炸,IGBT擊穿,DD22整流擊穿",J10槽内有异物,J10槽內異物
+"DR58电阻炸、IGBT击穿、DD22整流击穿、DR37,DD14,DZD3,DC41损坏","DR58電阻炸,IGBT擊穿,DD22整流擊穿,DR37,DD14,DZD3,DC41損壞",J10槽內錫渣,J10槽內錫渣
+"DR58电阻炸、IGBT击穿、DU2,DU5短路","DR58電阻炸,IGBT擊穿,DU2,DU5 SHORT",J10錫渣短路,J10錫渣SHORT
+"DR58和DR45炸,软起电阻DR28烧,IGBT炸","DR58和DR45炸,軟起電阻DR28燒毀,IGBT炸",J11pin2下陷,J11PIN2下陷
+DR58阻抗值變大，本體存在跳火痕跡，IGBT UVW對N short，剎車晶體C-E量測219kohm，異常正常應為Mohm，軟啟電阻燒壞，relay受熱外殼熱熔,"DR58阻抗值變大,本體存在跳火痕跡,IGBT,UVW對N,SHORT,剎車晶體C-E量測219kohm,異常正常應為Mohm,軟啟電阻燒毀,relay受熱外殼熱熔",J1處銅箔燒碳化,J1處銅箔燒碳化
+DR58阻抗值變大，本體存在跳火痕跡；IGBT UVW對N short；銅箔翹起,"DR58阻抗值變大,本體存在跳火痕跡,IGBT,UVW對N,SHORT,銅箔翹起",J5粘胶,J5粘膠
+DR58炸,DR58炸,J6 Pin2(DGND)與U21 Pin5(DGND)之間Open,J6 PIN2(DGND)與U21 PIN5(DGND)之間OPEN
+DR58炸，DC45燒，IGBT炸，整流子DD22擊穿，DU2，DU5擊穿,"DR58炸,DC45燒毀,IGBT炸,整流子DD22擊穿,DU2,DU5擊穿",J6 Pin2無線尾,J6 PIN2無線尾
+DR58炸，DQ2擊穿，DR66燒，IGBT炸，DU2、DU5、DZD9擊穿,"DR58炸,DQ2擊穿,DR66燒毀,IGBT炸,DU2,DU5,DZD9擊穿",J610 pin13和pin15錫短,"J610 PIN13,PIN15錫短"
+DR58炸，DR28燒，IGBT炸,"DR58炸,DR28燒毀,IGBT炸",J610 pin腳連錫,J610 PIN腳連錫
+DR58炸，DR300、DR37燒，DQ2擊穿，軟起DR28燒，Relay不吸合，IGBT炸，DU2、DU5、DZD9擊穿,"DR58炸,DR300,DR37燒毀,DQ2擊穿,軟起DR28燒毀,Relay不吸合,IGBT炸,DU2,DU5,DZD9擊穿",J610連錫,J610連錫
+DR58炸，DR300、DR37燒，DQ2擊穿，軟起DR58燒，P線燒，Relay不吸合，IGBT炸、DU2和DZD9擊穿,"DR58炸,DR300,DR37燒毀,DQ2擊穿,軟起DR58燒毀,P綫燒毀,Relay不吸合,IGBT炸,DU2和DZD9擊穿",J610无线尾,J610無線尾
+DR58炸，DR300、DR37燒，IGBT炸，DU2擊穿,"DR58炸,DR300,DR37燒毀,IGBT炸,DU2擊穿",J610損壞,J610損壞
+DR58炸，DR300、DR57、DC64燒，IGBT炸，DU2和DU5擊穿，DR49燒,"DR58炸,DR300,DR57,DC64燒毀,IGBT炸,DU2和DU5擊穿,DR49燒毀",J610端口不良,J610端口不良
+DR58炸，DR300燒，IGBT炸，DU2、DU5和DZD9擊穿,"DR58炸,DR300燒毀,IGBT炸,DU2,DU5和DZD9擊穿",J610铜箔损坏,J610銅箔損壞
+DR58炸，DR300燒，IGBT炸，DU2和DU5擊穿,"DR58炸,DR300燒毀,IGBT炸,DU2和DU5擊穿",J610锡短,J610錫短
+DR58炸，DR57和DC64燒，IGBT炸，DU2和DZD9擊穿,"DR58炸,DR57和DC64燒毀,IGBT炸,DU2和DZD9擊穿",J6焊錫不良,J6焊錫不良
+DR58炸，IGBTCOM对PIN11/12/14/15/16/17/21短路，PN对VW短路,"DR58炸,IGBTCOM對PIN11,12,14,15,16,17,21SHORT,PN對VW SHORT",J6傾斜,J6傾斜
+DR58炸，IGBT击穿,"DR58炸,IGBT擊穿",J6端子CN2口開裂,J6端子CN2口開裂
+DR58炸，IGBT擊穿，DZD6擊穿，整流子DD22擊穿，附近銅箔燒斷,"DR58炸,IGBT擊穿,DZD6擊穿,整流子DD22擊穿,附近銅箔燒毀斷",J6撞壞,J6撞壞
+DR58炸，IGBT击穿，软起电阻炸,"DR58炸,IGBT擊穿,軟起電阻炸",L1 L2/USB上電面板一直閃爍顯示Read only,"L1,L2,USB上電面板一直閃爍顯示Read only"
+DR58炸，IGBT擊穿，整流子擊穿,"DR58炸,IGBT擊穿,整流子擊穿",L1、L2輸入過壓,"L1,L2輸入過壓"
+DR58炸，IGBT擊穿，整流子打火,"DR58炸,IGBT擊穿,整流子打火",L1C相端子螺絲損壞,L1C端子螺絲損壞
+DR58炸、IGBT炸,"DR58炸,IGBT炸",L1c漏焊,L1C漏焊
+DR58炸，IGBT炸，,"DR58炸,IGBT炸,",L1c端子內部螺紋損壞,LC端子內部螺紋損壞
+DR58炸，IGBT炸，DD22/DD23擊穿,"DR58炸,IGBT炸,DD22,DD23擊穿",L1C端子螺絲損壞,L1C端子螺絲損壞
+"DR58炸，IGBT炸，DD22/DD23擊穿,DU2/DU5擊穿","DR58炸,IGBT炸,DD22,DD23擊穿,DU2,DU5擊穿",L1L2上電面板無顯示,L1L2上電面板無顯示
+DR58炸，IGBT炸，DD22击穿,"DR58炸,IGBT炸,DD22擊穿",L1相端子螺絲損壞,L1端子螺絲損壞
+DR58炸，IGBT炸，DR28燒,"DR58炸,IGBT炸,DR28燒毀",L2c包焊,L2C包焊
+DR58炸，IGBT炸，DR28燒壞,"DR58炸,IGBT炸,DR28燒毀",L2c相端子螺絲損壞,L2C端子螺絲損壞
+DR58炸，IGBT炸，DU2擊穿,"DR58炸,IGBT炸,DU2擊穿",L2c端子內部螺紋損壞,L2C端子內部螺紋損壞
+DR58炸，IGBT炸，DU2擊穿，DR300、DR57、DC64也有燒壞,"DR58炸,IGBT炸,DU2擊穿,DR300,DR57,DC64也有燒毀",L2C端子螺母滑絲,L2C端子螺母滑絲
+DR58炸，IGBT炸，DU5擊穿，DU2擊穿,"DR58炸,IGBT炸,DU5擊穿,DU2擊穿",L2C端子螺丝无法旋入旋出,L2C端子螺絲無法旋入旋出
+DR58炸，IGBT炸，DU5燒,"DR58炸,IGBT炸,DU5燒毀",L2C螺丝受外力损坏,L2C螺絲受外力損壞
+"DR58炸，IGBT炸，整流子DD22,DD23擊穿，DD22PIN與HSK之間跳火","DR58炸,IGBT炸,整流子DD22,DD23擊穿,DD22PIN與HSK之間跳火",L2相端子螺絲損壞,L2端子螺絲損壞
+DR58炸，IGBT炸，整流子DD22擊穿,"DR58炸,IGBT炸,整流子DD22擊穿",L2端子螺絲卡死損壞,L2端子螺絲損壞
+DR58炸，IGBT炸，整流子DD23、DD22擊穿，DU2擊穿,"DR58炸,IGBT炸,整流子DD23,DD22擊穿,DU2擊穿",L42電感損壞,L42電感損壞
+"DR58炸，IGBT炸,整流子击穿","DR58炸,IGBT炸,整流子擊穿",L611線圈斷,L611線圈斷
+DR58炸，IGBT损坏，与整流子相连铜箔熔断,"DR58炸,IGBT損壞,與整流子相連銅箔熔斷",L612損壞,L612損壞
+DR58炸，IGBT損壞，整流子擊穿,"DR58炸,IGBT損壞,整流子擊穿",MODE、DOWN、SET、SHIFT按鍵缺失,"MODE,DOWN,SET,SHIFT按鍵缺失"
+"DR58炸,软起电阻DR28过热，IGBT P对UVW open，N对UVW短路，控制侧坏","DR58炸,軟起電阻DR28過熱,IGBT,P對UVW,OPEN,N對UVW SHORT,控制側壞",mode按鍵損毀,MODE按鍵損毀
+DR58炸，整流子擊穿，IGBT炸裂,"DR58炸,整流子擊穿,IGBT炸",Mode按鍵損壞,MODE按鍵損毀
+DR58炸，整流子擊穿，IGBT損壞,"DR58炸,整流子擊穿,IGBT損壞",MODE键缺失,MODE按鍵缺失
+DR58炸、DR300燒、IGBT炸、DU2和DU5擊穿,"DR58炸,DR300燒毀,IGBT炸,DU2和DU5擊穿",MODE鍵脫落,MODE按鍵缺失
+DR58炸、DR300燒壞、IGBT炸、DU2擊穿,"DR58炸,DR300燒毀,IGBT炸,DU2擊穿",MODE键损坏,MODE按鍵損毀
+DR58炸、IGBT擊穿,"DR58炸,IGBT擊穿",mode鍵損壞，R相端子螺絲損壞,"MODE按鍵損壞,R相端子螺絲損壞"
+DR58炸、IGBT擊穿、DD22擊穿、DR300燒壞,"DR58炸,IGBT擊穿,DD22擊穿,DR300燒毀",MODE键损坏掉落,MODE按鍵損毀
+DR58炸、IGBT擊穿、DPH2燒,"DR58炸,IGBT擊穿,DPH2燒毀",MODE键断,MODE按鍵斷裂
+"DR58炸、IGBT擊穿、DR37,DR41燒、DD22,DD23整流子擊穿、","DR58炸,IGBT擊穿,DR37,DR41燒毀,DD22,DD23整流子擊穿,","MODE键断,SHIFT按键断","MODE按鍵斷裂,SHIFT按鍵斷裂"
+DR58炸、IGBT擊穿、整流子擊穿,"DR58炸,IGBT擊穿,整流子擊穿",NA,NA
+DR58炸、IGBT擊穿、整流子擊穿、RS相銅箔炸、DR24燒,"DR58炸,IGBT擊穿,整流子擊穿,RS相銅箔炸,DR24燒毀","N-C-D之間打火，IGBT擊穿，DD22擊穿，回生電阻OPEN,DRLY1短路","N-C-D之間打火,IGBT擊穿,DD22擊穿,回生電阻OPEN,DRLY1 SHORT"
+DR58炸、IGBT擊穿、整流子擊穿、剎車晶體擊穿,"DR58炸,IGBT擊穿,整流子擊穿,剎車晶體擊穿",NDF,NDF
+DR58炸、IGBT炸,"DR58炸,IGBT炸",No Defect Found,No Defect Found
+DR58炸、IGBT炸、DQ2擊穿,"DR58炸,IGBT炸,DQ2擊穿",N对RS短路,N對RS SHORT
+DR58炸、IGBT炸、DU2擊穿,"DR58炸,IGBT炸,DU2擊穿",OA/OB/OZ对GND阻抗异常,"OA,OB,OZ對GND阻抗异常"
+DR58炸、IGBT炸、DU2擊穿、DR300燒、DD22擊穿,"DR58炸,IGBT炸,DU2擊穿,DR300燒毀,DD22擊穿",OAOBOZ波形正常,"OA,OB,OZ波形正常"
+DR58炸、整流子擊穿、IGBT擊穿、銅箔炸，5VD_GD短路、L1L2上電無顯示,"DR58炸,整流子擊穿,IGBT擊穿,銅箔炸,5VD_GD SHORT,L1L2上電無顯示",OAOBOZ信号无输出,"OA,OB,OZ信號無輸出"
+DR58炸裂，IGBT擊穿,"DR58炸,IGBT擊穿",OAOBOZ无输出,"OA,OB,OZ信號無輸出"
+DR58炸裂，IGBT炸，DC54與V相端子跳火,"DR58炸,IGBT炸,DC54與V相端子跳火",P1-01參數設置錯誤,P1-01參數設置異常
+DR58炸裂，IGBT炸裂,"DR58炸,IGBT炸",P1-37參數設置異常,P1-37參數設置異常
+DR58炸裂，IGBT炸裂，DD22擊穿,"DR58炸,IGBT炸,DD22擊穿",PCB孔徑不符規格，插件難插導致容易折腳,"PCB孔徑不符規格,插件難插導致容易折脚"
+DR58炸裂，IGBT炸裂，DD23 DD22 擊穿,"DR58炸,IGBT炸,DD23,DD22,擊穿",PH20/PH21為W1934週TLP2366批量品質問題光耦,"PH20,PH21為W1934週TLP2366批量品質問題光耦"
+DR58炸裂，IGBT炸裂，DD23 T處銅箔熔斷，T對P擊穿，DD22 RS對N擊穿,"DR58炸,IGBT炸,DD23,T處銅箔熔斷,T對P擊穿,DD22,RS對N擊穿",PIN30 外漏,PIN30 外漏
+"DR58炸裂，IGBT炸裂，DU2,DU5擊穿","DR58炸,IGBT炸,DU2,DU5擊穿",Pluse Output电路接线异常,PULSE OUTPUT電路接線異常
+DR58炸裂，IGBT炸裂，pin腳有打火痕跡,"DR58炸,IGBT炸,PIN腳有打火痕跡",PN对R OPEN.N对T短路,PN對R OPEN.N對TSHORT
+DR58炸裂，IGBT炸裂，VW對PE擊穿，VW之間擊穿,"DR58炸,IGBT炸,VW對PE擊穿,VW之間擊穿",PULSE INPUT电路限流电阻烧,PULSE INPUT電路限流電阻燒
+"DR58炸裂，整流子DD23,DD22擊穿，IGBT 炸裂","DR58炸,整流子DD23,DD22擊穿,IGBT,炸",Pulse Input电路接线异常,PULSE INPUT電路接線異常
+DR58損壞，IGBT VW對P擊穿,"DR58損壞,IGBT,VW對P擊穿","pulse output電路U25燒壞，R205阻值變大,電源系統全部擊穿","PULSE OUTPUT電路U25燒毀,R205阻值變大,電源系統全部擊穿"
+DR58損壞，IGBT V下桥击穿UW上桥击穿,"DR58損壞,IGBT,V下橋擊穿UW上橋擊穿",PULSE功能測試不過,PULSE功能測試不過
+DR58損壞，IGBT 炸裂,"DR58損壞,IGBT,炸裂",pulse輸入伺服無動作,PULSE輸入伺服無動作
+DR58損壞；IGBT模塊U相上橋直通，UVW下橋直通,"DR58損壞,IGBT模塊U相上橋直通,UVW下橋直通",P相端子螺絲損壞,P端子_螺絲損毀
+DR58燒，DD22擊穿，IGBT擊穿,"DR58燒毀,DD22擊穿,IGBT擊穿",P对HSK低阻抗30.8Ω，N对HSK130.9Ω,"P對HSK低阻抗30.8Ω,N對HSK130.9Ω"
+"DR58燒壞，DR1 OPEN,R通道銅箔熔斷，IGBT銅底板燒穿，DD22，DD23擊穿","DR58燒毀,DR1,OPEN,R通道銅箔熔斷,IGBT銅底板燒毀穿,DD22,DD23擊穿",P对RS open，对T短路，N对RS,"P對RS OPEN,對TSHORT,N對RS"
+DR58燒壞，IGBT擊穿,"DR58燒毀,IGBT擊穿",P对RS短路,P對RS SHORT
+DR58燒毀，IGBT PIN脚熔断,"DR58燒毀,IGBT,PIN脚熔斷",P对SUVW短路，N对R短路,"P對SUVW SHORT,N對R SHORT"
+DR58燒毀，附近銅箔損壞，IGBT炸，DQ2击穿，DD22和DD23击穿,"DR58燒毀,附近銅箔損壞,IGBT炸,DQ2擊穿,DD22和DD23擊穿","P对UVW open,N对RS 短路，对UVWopen","P對UVW OPEN,N對RS SHORT,對UVWOPEN"
+DR58燒毀，附近銅箔翹皮，IGBT炸，DQ2击穿，MODE鍵斷裂,"DR58燒毀,附近銅箔翹皮,IGBT炸,DQ2擊穿,MODE鍵斷裂",P对UVW open，N对UW open，对V短路,"P對UVW OPEN,N對UW OPEN,對V SHORT"
+DRLY2處錫渣短路,DRLY2處錫渣SHORT,P对UW open，N对W open,"P對UW OPEN,N對W OPEN"
+DSP、L1、软起电阻烧坏，刹车电阻开路,"DSP,L1,軟起電阻燒毀,刹車電阻開路",P对U短路，N对UVW open,"P對U SHORT,N對UVW OPEN"
+DSP污染,DSP污染,P對U短路，N對VW open,"P對U SHORT,N對VW OPEN"
+DSP問題，DSP_CLK腳位低阻抗,"DSP問題,DSP_CLK腳位低阻抗",P对U短路IGBT损坏,P對U SHORTIGBT損壞
+DSP材料不良DSP_CLK腳位阻抗變異,DSP材料不良DSP_CLK腳位阻抗變異,P对V open，N对UW短路,"P對V OPEN,N對UW SHORT"
+DSP材料不良产线维修未拦截，二次流出 ,"DSP材料不良産綫維修未攔截,二次流出",P對V短路,P對V SHORT
+DSP燒壞,DSP燒毀,P對WU pin腳跳火,P對WU PIN腳跳火
+DSP燒壞、U24燒壞,"DSP燒毀,U24燒毀",P对W相Short,P對W SHORT
+DSP短路,DSP SHORT,P对W相特性Short,P對W SHORT
+DSP黑屏问题,DSP黑屏問題,P对W短路,P對W SHORT
+DT1 pin4與PIN5之間open，DU2 Vout與GND擊穿,"DT1,PIN4與PIN5之間OPEN,DU2,Vout與GND擊穿",Q12-CE擊穿,Q12-CE擊穿
+"DT1变压器铁屑侵入,PIN1,PIN2,PIN3短路造成无显示","DT1變壓器鐵屑侵入,PIN1,PIN2,PIN3 SHORT造成無顯示",Q12阻值异常,Q12阻值异常
+DT1底部夾線頭打火,DT1底部夾線頭打火,Q12軟擊穿,Q12軟擊穿
+DTB1（NUVW）端子粘膠，DR28燒，IGBT單體量測PN對VW短路，控制側損壞,"DTB1（NUVW）端子粘膠,DR28燒,IGBT單體量測PN對VW SHORT,控制側損壞",Q12短路,Q1 SHORT
+DTB1漏焊,DTB1漏焊,Q12損壞,Q12損壞
+DU1擊穿，DT1底部打火,"DU1擊穿,DT1底部打火",Q12擊穿,Q12擊穿
+DU1本體炸裂，導熱Rubber上有異物,"DU1本體炸裂,導熱Rubber上有異物",Q16擊穿,Q16擊穿
+DU1損毀,DU1損毀,Q9 碎件,Q9 碎件
+DU2存在過熱痕跡，Vin與GND之間擊穿；S相銅箔過熱翹起，但整流子無損壞；DC64處銅箔熔斷；IGBT擊穿與HSK之間跳火,"DU2存在過熱痕跡,Vin與GND之間擊穿,S相銅箔過熱翹起,但整流子無損壞,DC64處銅箔熔斷,IGBT擊穿與HSK之間跳火","R,L1L2相端子螺絲損壞","R,L1L2相端子螺絲損壞"
+Dvar1炸裂，DC3鼓包，DR28炸，DC52鼓包,"Dvar1炸裂,DC3鼓包,DR28炸,DC52鼓包",R，S相端子螺絲損壞,"R,S端子_螺絲損壞"
+DVAR1燒壞,DVAR1燒毀,"R,S相端子螺絲損壞","R,S端子_螺絲損壞"
+DZ20過熱,DZ20過熱,R，S端子螺絲損壞,"R,S端子_螺絲損壞"
+DZD13 diode反向漏电,"DZD13,diode反向漏電",R、S、L1相端子螺絲損壞,"R,S,L1端子_螺絲損壞"
+DZD3異常,DZD3異常,R、S、T、L1上電端子pin腳無線尾,"R,S,T,L1上電端子PIN脚無綫尾"
+DZD5擊穿,DZD5擊穿,R/L1相端子螺絲損壞,R/L1端子_螺絲損壞
+DZD6烧,DZD6燒毀,R118被撞件碎裂,R118被撞件碎裂
+DZD7擊穿,DZD7擊穿,R15、R222、R201燒,"R15,R222,R201燒"
+DZD9擊穿,DZD9擊穿,R15、R222、R76燒，D13過熱,"R15,R222,R76燒,D13過熱"
+DZD9異常發熱，量測兩端電壓為7.5V（正常為15V）,"DZD9異常發熱,量測兩端電壓爲7.5V（正常爲15V）",R160燒,R160燒毀
+E03报警,E03報警,R160燒、PH4 Open,"R160燒毀,PH4 OPEN"
+Encoder ground trace熔斷,"Encoder,ground,trace熔斷",R160燒、PH5 pin1熔斷、PH4 Open,"R160燒毀,PH5 PIN1熔斷,PH4 OPEN"
+ER061电池欠压,ER061電池欠壓,R160燒壞、C140、R153損壞,"R160燒毀,C140,R153損毀"
+ETHERCAT ID错误问题,"ETHERCAT,ID錯誤問題",R188虛焊,R188虛焊
+ETHERCAT通讯异常,ETHERCAT通訊异常,R218接触不良,R218接觸不良
+g34故障,g34故障,R218焊錫不良,R218焊錫不良
+GBT PIN腳上有一根導電的金屬絲,"GBT,PIN腳上有一根導電的金屬絲",R23焊錫不良,R23焊錫不良
+HSK内卡螺丝,HSK內卡螺絲,R250焊錫異常,R250焊錫異常
+HSK安裝腳斷,HSK安裝腳斷,"R252,R253，R254,R255燒件","R252,R253,R254,R255燒件"
+HSK底座缺角,HSK底座缺角,"R252,R253燒件","R252,R253燒毀"
+IGBT +15V擊穿,"IGBT,+15V擊穿","R252,R253烧毁","R252,R253燒毀"
+IGBT 16Pin 漏焊,"IGBT,16PIN漏焊",R252、R253、R254、R255燒,"R252,R253,R254,R255燒毀"
+IGBT 16pin(COM)對8pin(VCCH) 擊穿,"IGBT,16PIN(COM)對8PIN(VCCH),擊穿",R252、R253、R254、R255燒毀,"R252,R253,R254,R255燒毀"
+IGBT com脚打火，铜箔烧坏,"IGBT,com脚打火,銅箔燒壞",R252、R253、R254、R255烧碳化,"R252,R253,R254,R255燒碳化"
+IGBT N PIN腳漏焊,"IGBT,N,PIN脚漏焊",R252、R253、R254、R255燒壞,"R252,R253,R254,R255燒毀"
+IGBT N對U短路,"IGBT,N對U SHORT",R252、R253、R255燒,"R252,R253,R255燒毀"
+IGBT PIN11-PIN12金属屑短路,"IGBT,PIN11,PIN12金屬屑SHORT",R252、R253損壞,"R252,R253損壞"
+"IGBT PIN12,PIN13錫短，導致電壓偵測異常，伺服上電報警AL09F","IGBT,PIN12,PIN13錫短,導致電壓偵測异常,伺服上電報警AL09F",R252、R253燒,"R252,R253燒毀"
+IGBT PIN12-13之間夾錫渣,"IGBT,PIN12~13之間夾錫渣",R252、R253燒毀,"R252,R253燒毀"
+IGBT pin13~19漏焊,"IGBT,PIN13~19漏焊",R252、R253燒碳化,"R252,R253燒碳化"
+IGBT pin13~21漏焊,"IGBT,PIN13~21漏焊",R252、R253燒壞,"R252,R253燒毀"
+IGBT Pin19擊穿,"IGBT,PIN19擊穿",R252/253/254/255燒毀,"R252,253,254,255燒毀"
+IGBT PIN19漏焊，IGBT 19PIN與OC偵測相關，觸發OC動作,"IGBT,PIN19漏焊,IGBT,19PIN與OC偵測相關,觸發OC動作",R252/R253/R254/R255電阻燒壞,"R252,R253,R254,R255電阻燒毀"
+IGBT pin20~21漏焊,"IGBT,PIN20~21漏焊",R252/R253限流電阻燒壞,"R252,R253限流電阻燒毀"
+IGBT pin3和pin5漏焊,"IGBT,PIN3和PIN5漏焊",R252和R253燒毀,"R252,R253燒毀"
+IGBT Pin3斷,"IGBT,PIN3斷",R254、R255、R252、R253電阻燒壞,"R254,R255,R252,R253電阻燒毀"
+IGBT PIN3腳漏焊,"IGBT,PIN3漏焊",R254、R255燒毀,"R254,R255燒毀"
+IGBT PIN3漏焊,"IGBT,PIN3漏焊",R254、R255燒壞,"R254,R255燒毀"
+IGBT pin腳上有錫渣,"IGBT,PIN腳上有錫渣",R254/R255電阻過熱,"R254,R255電阻過熱"
+IGBT PIN脚与底部有金属导电异物,"IGBT,PIN脚與底部有金屬導電异物",R254/R255電阻燒壞,"R254,R255電阻燒毀"
+IGBT PIN腳鐵屑污染,"IGBT,PIN脚鐵屑污染",R255燒毀,R255燒毀
+IGBT PIN腳漏焊,"IGBT,PIN脚漏焊",R383一端拒焊,R383一端拒焊
+IGBT P对U open，控制侧损坏,"IGBT,P對U,OPEN,控制側損壞",R620虛焊,R620虛焊
+IGBT P對UV相击穿 DR58炸,"IGBT,P對UV相擊穿,DR58炸",reset重启,reset重啓
+IGBT P對U短路,"IGBT,P對U SHORT",RJ45端口异常,RJ45端口異常
+IGBT P点打火,"IGBT,P點打火",RS485通訊不上,RS485通訊不上
+IGBT P点打火，对Uopen，控制侧损坏,"IGBT,P點打火,對UOPEN,控制側損壞",RST輸入端銅箔翹皮，整流子擊穿,"RST輸入端銅箔翹皮,整流子擊穿"
+IGBT UVW上下橋擊穿,"IGBT,UVW上下橋擊穿",RS相端子螺絲損壞,RS相端子螺絲損壞
+"IGBT UVW上橋OPEN,下桥击穿，整流子RS对N 击穿，T脚烧断，DR58炸","IGBT,UVW上橋OPEN,下橋擊穿,整流子RS對N,擊穿,T脚燒斷,DR58炸",RS相铜箔炸断，整流子击穿,"RS相銅箔炸斷,整流子擊穿"
+IGBT UVW上橋擊穿,"IGBT,UVW上橋擊穿",RS相銅箔斷，DD22擊穿,"RS相銅箔斷,DD22擊穿"
+IGBT UVW上桥击穿，W下桥open，整流子RS对P击穿，DR58炸,"IGBT,UVW上橋擊穿,W下橋OPEN,整流子RS對P擊穿,DR58炸",RS銅箔熔斷、DQ2，DD22擊穿,"RS銅箔熔斷,DQ2,DD22擊穿"
+IGBT UVW下橋擊穿,"IGBT,UVW下橋擊穿",RS銅箔斷，DD22擊穿，IGBT炸,"RS銅箔斷,DD22擊穿,IGBT炸"
+IGBT UVW下橋擊穿，UW上橋擊，V上橋開路,"IGBT,UVW下橋擊穿,UW上橋擊,V上橋開路",RT相銅箔被燒斷,RT相銅箔被燒斷
+IGBT UV上下橋擊穿,"IGBT,UV上下橋擊穿",R相欠相，DD19反向,"R相欠相,DD19反向"
+IGBT UV上下臂擊穿，DR28損壞,"IGBT,UV上下臂擊穿,DR28損壞",R相端子垫片翘起,R相端子墊片翹起
+IGBT UV上橋擊穿、DQ2击穿，DR28烧，刹车电阻开路,"IGBT,UV上橋擊穿,DQ2擊穿,DR28燒,刹車電阻開路",R相端子螺絲孔牙紋損壞,R相端子螺絲孔牙紋損壞
+IGBT UV對P短路,"IGBT,UV對P SHORT",R相端子螺絲卡死,R相端子螺絲卡死
+IGBT UV对P短路，UW对N短路,"IGBT,UV對P SHORT,UW對N SHORT",R相端子螺絲損壞,R相端子螺絲損壞
+IGBT UV相下桥击穿 DR58炸,"IGBT,UV相下橋擊穿,DR58炸",R相端子螺絲損壞，MODE键掉落,"R相端子螺絲損壞,MODE鍵掉落"
+IGBT UW上下橋擊穿,"IGBT,UW上下橋擊穿",R相端子螺絲損壞，MODE键掉落，端子盖一端脱落,"R相端子螺絲損壞,MODE鍵掉落,端子蓋一端脫落"
+IGBT UW上下橋擊穿，V上橋擊,"IGBT,UW上下橋擊穿,V上橋擊穿",R相铜箔炸裂，整流子处散热片有打火痕迹,"R相銅箔炸裂,整流子處散熱片有打火痕迹"
+IGBT UW上橋擊穿,"IGBT,UW上橋擊穿",R相銅箔炸斷，DD22擊穿,"R相銅箔炸斷,DD22擊穿"
+IGBT UW對P击穿，整流子RS对P击穿,"IGBT,UW對P擊穿,整流子RS對P擊穿",R相銅箔斷，DD22擊穿,"R相銅箔斷,DD22擊穿"
+IGBT U上桥击穿,"IGBT,U上橋擊穿",R相銅箔斷，DR28燒壞，IGBT pin腳打火，本體炸裂，DD22擊穿，5VD_GD短路,"R相銅箔斷,DR28燒毀,IGBT PIN腳打火,本體炸裂,DD22擊穿,5VD_GD短路"
+IGBT U上橋擊穿，DQ2擊穿，回生電阻open,"IGBT,U上橋擊穿,DQ2擊穿,回生電阻OPEN",R相銅箔斷，DR45炸，DR58燒壞，IGBT炸,"R相銅箔斷,DR45炸,DR58燒毀,IGBT炸"
+IGBT U上橋擊穿，DR28燒開路,"IGBT,U上橋擊穿,DR28燒開路",R相輸入端到Varistor的銅箔翹皮，整流子DD22、DD23擊穿，軟起電阻DR28燒，IGBT炸,"R相輸入端到Varistor的銅箔翹皮,整流子DD22,DD23擊穿,軟起電阻DR28燒,IGBT炸"
+IGBT U下橋擊穿,"IGBT,U下橋擊穿",R相輸入端到Varistor的銅箔翹皮，整流子DD22擊穿，DR42炸，IGBT炸,"R相輸入端到Varistor的銅箔翹皮,整流子DD22擊穿,DR42炸,IGBT炸"
+IGBT U下橋擊穿，PR擊穿，DR58炸,"IGBT,U下橋擊穿,PR擊穿,DR58炸",R相螺絲傾斜,R相螺絲傾斜
+IGBT U對P open，銅箔燒壞,"IGBT,U對P,OPEN,銅箔燒壞",R相螺絲損壞,R相螺絲損壞
+"IGBT U對P開路,W對P短路","IGBT,U對P開路,W對P SHORT",R相螺絲滑牙,R相螺絲滑牙
+IGBT U對P擊穿,"IGBT,U對P擊穿",R端子滑牙,R端子滑牙
+IGBT U对P相OPEN,"IGBT,U對P,OPEN",R端子螺母滑絲,R端子螺母滑絲
+IGBT U对P短路,"IGBT,U對P SHORT",R端子螺絲損壞,R端子螺絲損壞
+IGBT U對P短路，V對N短路,"IGBT,U對P SHORT,V對N SHORT",R端子螺絲滑牙,R端子螺絲滑牙
+IGBT U和W上下橋短路,"IGBT,U和W上下橋SHORT",R铜箔炸，整流子DD22打火,"R銅箔炸,整流子DD22打火"
+IGBT U相上桥击穿,"IGBT,U相上橋擊穿",R銅箔熔斷,R銅箔熔斷
+IGBT VW上下橋擊穿,"IGBT,V,W上下橋擊穿",SET按鍵外力脫落,SET按鍵外力脫落
+IGBT VW上橋擊穿,"IGBT,V,W上橋擊穿",SET按鍵斷裂脫落,SET按鍵斷裂脫落
+IGBT VW下橋擊穿、U上橋擊穿,"IGBT,V,W下橋擊穿,U上橋擊穿",SET鍵受外力撞斷,SET按鍵受外力撞斷
+IGBT V上上橋擊穿,"IGBT,V上橋擊穿",set鍵與shift功能一致,SET按鍵與shift功能一致
+IGBT V上橋擊穿,"IGBT,V上橋擊穿",SET键断裂,SET按鍵斷裂
+IGBT V上橋擊穿，整流子击穿，DR45炸,"IGBT,V上橋擊穿,整流子擊穿,DR45炸",SG1烧掉,SG1燒毀
+IGBT V上橋控制與com脚擊穿，與V相擊穿,"IGBT,V上橋控制與com脚擊穿,與V相擊穿",SHIFT按鍵帽缺失,SHIFT按鍵帽缺失
+IGBT V上橋短路,"IGBT,V上橋SHORT",Shift按鍵斷,SHIFT按鍵斷裂
+IGBT v对p击穿,"IGBT,V對P擊穿",SHIFT键不灵,SHIFT鍵不靈
+IGBT V對P短路,"IGBT,V對P SHORT",SMT腳位沒有錫,SMT腳位沒有錫
+IGBT V相&W相上橋擊穿，伺服內部進入水,"IGBT,V,W上橋擊穿,伺服內部進入水",SPS/DCBUS电容鼓包，整流子击穿,"SPS/DCBUS電容鼓包,整流子擊穿"
+IGBT V相下橋擊穿,"IGBT,V相下橋擊穿",SPS电容鼓包,SPS電容鼓包
+IGBT W上桥击穿,"IGBT,W上橋擊穿",S和L1相端子螺絲損壞,"S,L1端子_螺絲損壞"
+IGBT W對P 短路,"IGBT,W對P SHORT",S相端子内部螺纹损坏,S端子_螺絲損壞
+IGBT W对P击穿,"IGBT,W對P擊穿",S相端子螺絲損壞,S端子_螺絲損壞
+IGBT W對P短路,"IGBT,W對P SHORT",S相端子螺絲锁附时有阻力,S端子_螺絲鎖附時有阻力
+IGBT W相上橋擊穿,"IGBT,W上橋擊穿",S相螺絲滑牙,S端子_螺絲滑牙
+IGBT 擊穿,"IGBT,擊穿",S端子螺丝无法旋入旋出,S端子_螺絲無法旋入旋出
+IGBT 擊穿，DR28損壞,"IGBT,擊穿,DR28損壞",Txx62569週期內產品，客戶預防性更換,"Txx62569週期內產品,客戶預防性更換"
+"IGBT 边缘锁裂,内部油污 ,com对PIN12特性异常","IGBT,邊緣鎖裂,內部油污,com對PIN12特性异常",T相端子螺絲損壞,T端子_螺絲損壞
+IGBT 损坏,"IGBT,損壞",T相螺絲滑牙,T端子_螺絲滑牙
+IGBT 控制側損壞,"IGBT,控制側損壞",U\W相下橋開路，V相下橋短路,"U\W相下橋開路,V相下橋短路"
+IGBT 脚压弯损伤,"IGBT,脚壓彎損傷",U12焊錫,U12焊錫
+IGBT 碳化溢錫,"IGBT,碳化溢錫",U14 Pin10、Pin12擊穿,"U14 PIN10,PIN12擊穿"
+IGBT 整流子及DR58損壞,"IGBT,整流子及DR58損壞",U14烧毁,U14燒毀
+"IGBT&DR58損壞，DR28燒,內部有發現導電金屬片","IGBT,DR58損壞,DR28燒,內部有發現導電金屬片",U1焊锡不良,U1焊錫不良
+IGBT，DQ2擊穿,"IGBT,DQ2擊穿",U1软击穿,U1擊穿
+IGBT-16pinIN(LW)對17pin(VCCL)連錫,IGBT-16PININ(LW)對17PIN(VCCL)連錫,U1击穿,U1擊穿
+IGBT-V相對P擊穿,"IGBT,V對P擊穿",U21 pin6、7擊穿,"U21 PIN6,7擊穿"
+IGBT击穿,IGBT擊穿,U21、U701損壞,"U21,U701損壞"
+IGBT击穿 U对P相击穿,"IGBT擊穿,U對P相擊穿",U21和R136損壞,"U21,R136損壞"
+IGBT击穿 软起电阻烧坏,"IGBT擊穿,軟起電阻燒壞",U21和ZD17擊穿,"U21,ZD17擊穿"
+IGBT击穿 整流子击穿 DR58炸,"IGBT擊穿,整流子擊穿,DR58炸",U21軟擊穿,U21軟擊穿
+"IGBT击穿,DD22,DD23击穿","IGBT擊穿,DD22,DD23擊穿",U21损坏,U21損壞
+IGBT击穿，DR28烧,"IGBT擊穿,DR28燒",U21维修不良,U21維修不良
+"IGBT击穿,DR52,DR58烧","IGBT擊穿,DR52,DR58燒",U21燒壞,U21燒毀
+"IGBT击穿,DR57,DR58炸","IGBT擊穿,DR57,DR58炸",U21燒壞、U2損壞,"U21燒毀,U2損壞"
+"IGBT击穿,DR58击穿,铜箔翘起","IGBT擊穿,DR58擊穿,銅箔翹起",U21燒壞、U44、U2損壞,"U21燒毀,U44,U2損壞"
+"IGBT击穿,DR58炸","IGBT擊穿,DR58炸",U21击穿,U21擊穿
+"IGBT击穿,R相端子螺丝滑牙，端子盖脱落","IGBT擊穿,R端子螺絲滑牙,端子蓋脫落",U24、U33擊穿,"U24,U33擊穿"
+"IGBT击穿,R端子螺丝损坏","IGBT擊穿,R端子螺絲損壞",U24損壞,U24損壞
+"IGBT击穿,导热Rubber上有异物","IGBT擊穿,導熱Rubber上有異物",U24輸出異常,U24輸出異常
+"IGBT击穿,有污染","IGBT擊穿,有污染",U24输出电压偏低,U24輸出電壓偏低
+"IGBT击穿,刹车晶体DQ2烧坏，电容DC17鼓包，DR300烧坏","IGBT擊穿,刹車晶體DQ2燒壞,電容DC17鼓包,DR300燒壞",U24擊穿,U24擊穿
+"IGBT击穿,金属丝污染","IGBT擊穿,金屬絲污染",U25 pin14(OA)對pin8(GND)短路，R203 Open,"U25 PIN14(OA)對PIN8(GND)SHORT,R203 OPEN"
+IGBT击穿、DPH9pin脚短路、DPH16pin脚短路,"IGBT擊穿,DPH9PIN脚SHORT,DPH16PIN脚SHORT",U25 pin14(OA)對pin8(GND)短路，R203阻值變大，ZD20短路,"U25 PIN14(OA)對PIN8(GND)SHORT,R203阻值變大,ZD20 SHORT"
+IGBT击穿、刹车晶体烧坏,"IGBT擊穿,刹車晶體燒壞",U25 pin14(OA)對pin8(GND)短路，限流電阻R203 Open,"U25 PIN14(OA)對PIN8(GND)SHORT,限流電阻R203 OPEN"
+IGBT击穿、整流子击穿、R相铜箔炸、软起电阻烧,"IGBT擊穿,整流子擊穿,R相銅箔炸,軟起電阻燒",U25 pin2(OB)對pin8(GND)短路,U25 PIN2(OB)對PIN8(GND)SHORT
+IGBT包焊,IGBT包焊,U25 pin2(OB)對pin8(GND)擊穿,U25 PIN2(OB)對PIN8(GND)擊穿
+IGBT打火，DT1底部打火,"IGBT打火,DT1底部打火",U25 Pin8(DGND)對Pin13(OA#)短路,U25 PIN8(DGND)對PIN13(OA#)SHORT
+IGBT夾銅絲,IGBT夾銅絲,U25 Pin8(DGND)對Pin2(OB)短路,U25 PIN8(DGND)對PIN2(OB)短路
+IGBT边缘锁裂，静态量测正常，功能测试正常,"IGBT邊緣鎖裂,靜態量測正常,功能測試正常",U25 擊穿，R254、R255阻值變大，C707打火,"U25 擊穿,R254,R255阻值變大,C707打火"
+IGBT坏,IGBT異常,U25PIN14-OA对GND短路,U25PIN14-OA對GND SHORT
+IGBT报警AL001,IGBT報警AL001,U25和R204損壞,"U25,R204損壞"
+IGBT没有锁螺丝,IGBT沒有鎖螺絲,U25焊锡不良,U25焊錫不良
+IGBT过热,IGBT過熱,U25過電壓擊穿,U25過電壓擊穿
+IGBT过热报警,IGBT過熱,U27 pin3高跷,U27 PIN3高蹺
+IGBT炸,IGBT炸,U2被不明液體污染,U2被不明液體污染
+IGBT炸,IGBT炸,U2無法產生PO_Z信號,U2無法產生PO_Z信號
+IGBT炸 DR58炸,"IGBT炸,B705:B737DR58炸",U2進膠,U2進膠
+IGBT炸 DR58炸 整流子擊穿 軟起燒壞,"IGBT炸,DR58炸,整流子擊穿,軟起燒壞",U2输出encoder信号异常,U2輸出encoder信號異常
+IGBT炸 上桥断，U对N 短,"IGBT炸,上橋斷,U對N,短",U32 pin3-2 pin4-2短路,U32 PIN3-2 PIN4-2 SHORT
+IGBT炸，C/B无显示,"IGBT炸,C,B無顯示",U33焊錫不良,U33焊錫不良
+IGBT炸，DD22擊穿,"IGBT炸,DD22擊穿",U37受到腐蚀,U37受到腐蝕
+IGBT炸，DD22擊穿，DR28燒壞,"IGBT炸,DD22擊穿,DR28燒壞",U42,U42
+IGBT炸，DD22擊穿，DR28燒壞，,"IGBT炸,DD22擊穿,DR28燒壞,",U42 Pin3-2击穿,U42 PIN3-2擊穿
+IGBT炸，DD22擊穿，DR28燒壞，DZD8擊穿,"IGBT炸,DD22擊穿,DR28燒壞,DZD8擊穿",U42 Pin3-2击穿，pin4-2击穿,"U42 PIN3-2擊穿,PIN4-2擊穿"
+IGBT炸，DD22擊穿，R相銅箔炸斷,"IGBT炸,DD22擊穿,R相銅箔炸斷","U42 Pin3-2擊穿，pin4-3擊穿,U43 Pin2-4擊穿","U42 PIN3-2擊穿,PIN4-3擊穿,U43 PIN2-4擊穿"
+IGBT炸，DR28阻值OPEN,"IGBT炸,DR28阻值OPEN",U42 Pin3-2擊穿，U43 Pin3-2擊穿，Pin4-2擊穿,"U42 PIN3-2擊穿,U43 PIN3-2擊穿,PIN4-2擊穿"
+IGBT炸，DR28燒,"IGBT炸,DR28燒",U42 Pin4-2、Pin3-2击穿,"U42 PIN4-2,PIN3-2擊穿"
+IGBT炸，DR42炸，DD22擊穿,"IGBT炸,DR42炸,DD22擊穿",U42 Pin4-2击穿，Pin3-2击穿,"U42 PIN4-2擊穿,PIN3-2擊穿"
+IGBT炸，DR58無損壞，AB機,"IGBT炸,DR58無損壞,AB機",U42、U43击穿,"U42,U43擊穿"
+IGBT炸，DR58炸,"IGBT炸,DR58炸",U42重工不良,U42重工不良
+IGBT炸，DR58炸 DD23整流子處跳火，DD23擊穿,"IGBT炸,DR58炸,DD23整流子處跳火,DD23擊穿",U42擊穿,U42擊穿
+IGBT炸，DR58炸，DD22擊穿,"IGBT炸,DR58炸,DD22擊穿",U43 pin3-2&pin4-2短路,U43 PIN3-2&PIN4-2 SHORT
+IGBT炸，DR58炸，剎車晶體擊穿，銅箔燒壞,"IGBT炸,DR58炸,剎車晶體擊穿,銅箔燒壞",U43 Pin3-2击穿,U43 PIN3-2擊穿
+IGBT炸，DU5 GND對VOUT 擊穿，DR58無損壞,"IGBT炸,DU5,GND對VOUT,擊穿,DR58無損壞",U43 Pin3-2击穿，Pin4-2击穿,"U43 PIN3-2擊穿,PIN4-2擊穿"
+IGBT炸，软起烧坏，DR58炸,"IGBT炸,軟起燒壞,DR58炸",U43損壞，是Txx62569风险范围,"U43損壞,是Txx62569風險範圍"
+IGBT炸，輸入銅箔熔斷,"IGBT炸,輸入銅箔熔斷",U44損壞,U44損壞
+IGBT炸，整流子擊穿,"IGBT炸,整流子擊穿",U44輸出異常,U44輸出異常
+IGBT炸，整流子击穿，DR45炸，铜箔炸,"IGBT炸,整流子擊穿,DR45炸,銅箔炸",U45缺件,U45缺件
+IGBT炸，整流子击穿，DR58炸,"IGBT炸,整流子擊穿,DR58炸",U5焊锡不良,U5焊錫不良
+IGBT炸，整流子炸，DR58炸,"IGBT炸,整流子炸,DR58炸",U610異常,U610異常
+IGBT炸、DR4打火，軟起燒,"IGBT炸,DR4打火,軟起燒",U610輸出異常,U610輸出異常
+IGBT炸表面有过热痕迹,IGBT炸表面有過熱痕迹,U611錫短,U611錫短
+IGBT炸裂,IGBT炸裂,U616 pin7与pin8锡短,"U616 PIN7,PIN8錫短"
+IGBT炸裂，DR58炸裂,"IGBT炸裂,DR58炸",U8異常,U8異常
+IGBT炸毀，DR58炸,"IGBT炸毀,DR58炸",U9 5VD_iso对DGND_ISO短路,U9 5VD_iso對DGND_ISO SHORT
+IGBT损坏,IGBT損壞,U9炸裂，U33擊穿,"U9炸裂,U33擊穿"
+IGBT損壞，DD22特性異常，軟起電阻DR28燒壞整流子與VARISTOR相連銅箔熔斷,"IGBT損壞,DD22特性異常,軟起電阻DR28燒壞整流子與VARISTOR相連銅箔熔斷",U9虛焊,U9虛焊
+IGBT損壞，DR58、DR28損壞,"IGBT損壞,DR58,DR28損壞",U9擊穿，5Vdc_ISO對DGND_ISO短路，5VDPWR對GND短路/ZD10燒,"U9擊穿,5Vdc_ISO對DGND_ISO SHORT,5VDPWR對GND SHORT,ZD10燒"
+IGBT損壞，DR58炸，變壓器底部打火，DU1損壞（BP對GND阻抗偏低129.7kΩ）,"IGBT損壞,DR58炸,變壓器底部打火,DU1損壞（BP對GND阻抗偏低129.7kΩ）",unk,unk
+IGBT損壞，DR58損壞,"IGBT損壞,DR58損壞",UP、DOWN、SET、SHIFT按键断裂脫落,"UP,DOWN,SET,SHIFT按鍵斷裂脫落"
+IGBT损坏，软起电阻DR28open,"IGBT損壞,軟起電阻DR28OPEN",UP键失灵无反应,UP按鍵失靈無反應
+IGBT损坏伺服内部有金属导电异物,IGBT損壞伺服內部有金屬導電异物,UP键断裂,UP按鍵斷裂
+IGBT控制側pin20（COM)對pin12(VCCH)低阻抗,IGBT控制側PIN20（COM)對PIN12(VCCH)低阻抗,USB上電，面板顯示Read only,"USB上電,面板顯示Read only"
+IGBT控制側Pin20(COM)對pin18(VFO)低阻抗,IGBT控制側PIN20(COM)對PIN18(VFO)低阻抗,USB上电无显示,USB上電無顯示
+IGBT控制侧损坏,IGBT控制側損壞,USB上電顯示DFU,USB上電顯示DFU
+IGBT焊點邊上PCB碳化,IGBT焊點邊上PCB碳化,USB接口損壞,USB接口損壞
+IGBT锁裂,IGBT鎖裂,USB无法通讯,USB無法通訊
+IGBT漏焊,IGBT漏焊,USB無法識別,USB無法識別
+IGBT漏焊導致IGBT U上橋擊穿,"IGBT漏焊導致IGBT,U上橋擊穿",USB端子粘胶,USB端子黏膠
+IGBT漏锁螺丝，DR58損壞，IGBT UVW上下桥击穿,"IGBT漏鎖螺絲,DR58損壞,IGBT,UVW上下橋擊穿",UVW上桥open VW下桥击穿，DR58炸,"UVW上橋OPEN VW下橋擊穿,DR58炸裂"
+IGBT漏锁螺丝，DR58損壞，IGBT UW上下桥击穿,"IGBT漏鎖螺絲,DR58損壞,IGBT,UW上下橋擊穿",UV对PN击穿，PR击穿，DR58炸,"UV對PN擊穿,PR擊穿,DR58炸"
+IGBT模塊損壞，UVW對P/N之間短路，六橋臂均擊穿；PCB走綫已露出；DR58損壞,"IGBT模塊損壞,UVW對P,N之間SHORT,六橋臂均擊穿,PCB走綫已露出,DR58損壞",U上桥擊穿，UW下桥open，DR58炸,"U上橋擊穿,UW下橋OPEN,DR58炸"
+IGBT镭射焊锡碳化，功能测试正常。,"IGBT鐳射焊錫碳化,功能測試正常。",U相端子螺丝受外力損壞,U端子_螺絲損壞
+IN口无通讯,IN口無通訊,U相端子螺絲損壞,U端子_螺絲損壞
+"IN口无通讯,切片分析结果为焊接后应力拉扯","IN口無通訊,切片分析結果爲焊接後應力拉扯",U对P击穿,U對P擊穿
+IO无信号,I/O異常,V_BUS电压显示异常,V_BUS電壓顯示異常
+IO异常,I/O異常,varistor打火，整流子擊穿，IGBT損壞,"varistor打火,整流子擊穿,IGBT損壞"
+io有问题,I/O異常,VARISTOR打火，整流子擊穿，IGBT損壞，DR58燒壞，DR28軟啟燒，按鍵壞，USB端子壞,"VARISTOR打火,整流子擊穿,IGBT損壞,DR58燒毀,DR28軟啓燒,按鍵壞,USB端子壞"
+IO壞,I/O異常,VARISTOR炸,VARISTOR炸裂
+IO点烧了，接错线，5V输入结成24V的,I/O異常,VARISTOR炸，,VARISTOR炸裂
+"IPM pin9,pin10引脚粘連焊锡丝，上电报警AL006","IPM PIN9,PIN10引脚粘連焊錫絲,上電報警AL006",VARISTOR炸，DR28燒壞，DC52鼓包，DC3鼓包,"VARISTOR炸裂,DR28燒壞,DC52鼓包,DC3鼓包"
+IPM裂痕，DR58 DR57 DC64燒毀,"IPM裂痕,DR58,DR57,DC64燒毀",V-BUS電壓異常為12V,V-BUS電壓異常為12V
+J10 PAD 断,J10 PAD 斷,V上橋控制與GD擊穿,V上橋控制與GD擊穿
+J10 pin1退pin,J10 PIN1退PIN,V相上桥短路,V端子_上橋SHORT
+J10 外力损坏,J10外力損壞,V相端子螺絲損壞,V端子_螺絲損壞
+J10外力損壞斷線,J10外力損壞,V對P特性short,V對P特性SHORT
+J10高蹺漏焊，面板不顯示,"J10高蹺漏焊,面板不顯示",V對P擊穿,V對P擊穿
+J10焊錫不良,J10焊錫不良,W相上桥短路,W端子_上橋SHORT
+J10脫落，U43擊穿,"J10脫落,U43擊穿",W相端子滑牙，UW相端子附近塑胶外力损坏,"W端子_螺絲滑牙,UW相端子附近塑膠外力損壞"
+"J10連同銅箔脫落,七段顯示有被撞壓的痕跡，USB口變形","J10連同銅箔脫落,七段顯示有被撞壓的痕跡,USB口變形",W相端子過熱燒壞,W端子_過熱燒壞
+J1處銅箔燒碳化,J1銅箔燒碳化,W相端子螺絲損壞,W端子_螺絲損壞
+J5粘胶,J5黏膠,W相螺絲卡死,W端子_螺絲卡死
+J5進水報警AL016,"J5進水,AL016",W相螺絲損壞,W端子_螺絲損壞
+J6 pin斷,J6 PIN斷,W相螺丝盤頭十字紋損壞，螺絲無法擰下來,"W端子_螺絲盤頭十字紋損壞,螺絲無法擰下來"
+J610 PIN6-8锡短,J610 PIN6-8錫短,W相螺絲斷,W端子_螺絲斷裂
+J610 pin腳連錫,J610 PIN腳連錫,W對P特性short,W對P特性SHORT
+J610連錫,J610連錫,W對P擊穿,W對P擊穿
+J6傾斜,J6傾斜,X1起振異常,X1起振異常
+J6損壞,J6損壞,X2腐蝕不起振,X2腐蝕不起振
+J6端子CN2口開裂,J6端子CN2口開裂,X2震动异常,X2震動異常
+J7端子PIN19（VREF）有异物,J7端子PIN19（VREF）有異物,X'TAL不起振,X'TAL無法起振
+KEYPAD 銘板脫落不見，mode按鍵損壞,"keypad銘板脫落不見,mode按鍵損壞",X'TAL無法起振DSP無法作動,X'TAL無法起振DSP無法作動
+keypad上SET按鍵損壞,keypad上SET按鍵損壞,ZD614穩壓管擊穿,ZD614穩壓管擊穿
+keypad按鍵損壞，分析受外力影響，但與機構設計相關,"keypad按鍵損壞,分析受外力影響,但與機構設計相關",ZD615和ZD7擊穿,"ZD615,ZD7擊穿"
+keypad缺失，CN2粘胶,"keypad缺失,CN2粘膠",人工插歪,人工插歪
+L1、L2打火,L1、L2打火,上電AL01,上電AL001
+L1C相端子螺絲損壞,L1C相端子螺絲損壞,上電一段時間後無顯示,上電無顯示
+L1C相端子螺絲滑牙,LC1_螺絲滑牙,上電不顯示,上電無顯示
+L1c端子螺絲受外力損壞,L1_螺絲損壞,上電面板不亮,上電無顯示
+L1C端子螺絲損壞,L1_螺絲損壞,上电报警AL006,上電報警AL006
+L1C螺絲无法旋入旋出。,L1C_螺絲滑牙,上電報警AL011,上電報警AL011
+L1C螺丝滑牙,L1C_螺絲滑牙,上电报警AL09C,上電報警AL09C
+L1C螺絲滑牙，螺母正常,"L1C_螺絲滑牙,螺母正常",上电无显示,上電無顯示
+L1C螺丝坏拧不下去,L1C_螺絲滑牙,上電無顯示，DSP有呲呲的異響,"上電無顯示,DSP有呲呲的異響"
+L1L2上电面板无显示,"L1,L2上電無顯示",上电无显示，可连接ASDA-SOFT，可读取参数但显示密码保护已开启，韧体版本等参数无法显示,"上電無顯示,可連接ASDA-SOFT,可讀取參數但顯示密碼保護已開啓,韌體版本等參數無法顯示"
+L1L2上电无显示,"L1,L2上電無顯示",上电跳闸,上電跳閘
+L1L2上電顯示正常,"L1,L2上電顯示正常",上電顯示正常，帶動馬達轉動正常,"上電顯示正常,帶動馬達轉動正常"
+L1L2相端子螺絲損壞,"L1,L2_螺絲損壞",上電顯示正常，帶動馬達轉動正常，報警AL3CF為參數設置問題,"上電顯示正常,帶動馬達轉動正常,報警AL3CF為參數設置問題"
+L1上电端子滑牙,L1_上電端子滑牙,"上電顯示正常,整流子處有配線線頭","上電顯示正常,整流子處有配線線頭"
+L1相端子螺絲損壞,L1_螺絲損壞,上蓋損壞,上蓋損壞
+L1相螺絲損壞,L1_螺絲損壞,上蓋撞斷,上蓋撞斷
+l1端子滑牙,L1_螺絲滑牙,大電容鼓包,大電容鼓包
+L1螺丝滑牙,L1_螺絲滑牙,不确定,不確定
+L2c相端子螺絲損壞,L2C_螺絲損壞,內部PCB電鍍蝕刻清洗不確實氯殘留,內部PCB電鍍蝕刻清洗不確實氯殘留
+L2C端子螺母滑絲,L2C_螺絲滑牙,內部進水腐蝕,內部進水腐蝕
+L2c端子螺絲受外力損壞,L2C_螺絲損壞,內部進水腐蝕，剎車晶體DQ2擊穿，回生電阻燒,"內部進水腐蝕,剎車晶體DQ2擊穿,回生電阻燒"
+L2C擰不緊,L2C_螺絲滑牙,內部腐蝕嚴重,內部進水腐蝕
+L2C螺丝損壞,L2C_螺絲損壞,內部铁粉污染,內部鐵粉污染
+L2C螺丝滑牙,L2C_螺絲滑牙,內部鐵粉污染，DT1打火,"內部鐵粉污染,DT1打火"
+L2C螺絲滑牙,L2C_螺絲滑牙,内部鐵粉污染嚴重，DZD8被客戶自行拆除，DQ2擊穿，回聲電阻阻值變大,"內部鐵粉污染,DZD8被客戶自行拆除,DQ2擊穿,回聲電阻阻值變大"
+L2C螺丝坏拧不下去,L2C_螺絲滑牙,反向阻抗低，漏电流过大,"反向阻抗低,漏電流過大"
+L2C点滑牙,L2C_螺絲滑牙,手焊時錫渣掉落IGBT腳位短路,手焊時錫渣掉落IGBT脚位短路
+L2L螺丝滑牙,L2L_螺絲滑牙,主電路異常,主電路異常
+L2c相端子螺絲損壞,L2L_螺絲滑牙,功能正常,功能正常
+L2端子螺絲卡死,L2_螺絲卡死,功能正常，AL3CF為參數設置問題,"功能正常,AL3CF為參數設置問題"
+L2螺丝滑牙,L2_螺絲滑牙,功能正常，铭板有摔伤。,"功能正常,銘板有摔傷。"
+L2螺絲滑牙,L2_螺絲滑牙,功能正常、通讯正常,"功能正常,通訊正常"
+L2螺丝滑开,L2_螺絲滑牙,可能客戶UVW交流入力,可能客戶UVW交流入力
+LA002报警,AL002,右側數碼管不亮,右側數碼管不亮
+mini-b连接不上台达调试软件,mini-b連接不上臺達調試軟件,外力损坏,外力損壞
+mode shift鍵斷,mode shift鍵斷,外部接線異常,外部接線異常
+MODE、DOWN、SET、SHIFT按鍵缺失,"MODE,DOWN,SET,SHIFT按鍵缺失","外部溫度過高導致伺服報警AL016,CASE熱融。","外部溫度過高導致伺服報警AL016,CASE熱融。"
+MODE、UP、SHIFT鍵損壞,"MODE,UP,SHIFT鍵損壞",外部端子损坏,外部端子損壞
+MODE、上鍵損壞,"MODE,上鍵損壞",外殼混料,外殼混料
+MODE按钮缺失,MODE按鈕缺失,外壳烧熔,外殼燒熔
+MODE按鍵掉落,MODE按鈕缺失,未知,未知
+MODE按鍵脫落,MODE按鈕缺失,未能重现异常,未能重現異常
+MODE按鍵損壞,MODE按鍵損壞,未能重现故障,未能重現異常
+MODE按键坏了,MODE按鍵損壞,正常,正常
+MODE鍵、上鍵損壞,MODE按鍵損壞,回升电阻发热,回生電阻發熱
+MODE鍵損壞,MODE按鍵損壞,回生設定異常,回生設定異常
+mode鍵損壞，R相端子螺絲損壞,"MODE按鍵損壞,R相端子螺絲損壞",回生电阻open,回生電阻OPEN
+MODE鍵撞壞,MODE按鍵損壞,回生电阻烧,回生電阻燒毀
+MODE键断,MODE按鍵損壞,异物污染,異物污染
+MODE键断裂,MODE按鍵損壞,异物污染，X'TAL無法起振DSP無法作動,"異物污染,X'TAL無法起振DSP無法作動"
+MODE键坏,MODE按鍵損壞,异物掉落在排pin上,異物掉落在排PIN上
+"N-C-D之間打火，IGBT擊穿，DD22擊穿，回生電阻OPEN,DRLY1短路","N-C-D之間打火,IGBT擊穿,DD22擊穿,回生電阻OPEN,DRLY1 SHORT","有污染腐蝕，DQ2短路，回生電阻OPEN,U33短路，DR4炸","有污染腐蝕,DQ2短路,回生電阻OPEN,U33短路,DR4炸"
+NDF,NDF,污染,異物污染
+NDF-檢測正常,NDF-檢測正常,自行維修,自行維修
+N对RS短路,N對RS SHORT,伺服上电显示正常,伺服上電顯示正常
+N对UVW open,N對UVW OPEN,伺服功能正常,伺服功能正常
+OA.OB口坏了,"OA,OB口壞了",伺服功能正常，但是有过压记录,"伺服功能正常,但是有過壓記錄"
+OAOBOZ信号无输出,"OA,OB,OZ信號輸出異常",伺服死機,伺服死機
+OAOBOZ无输出,"OA,OB,OZ信號輸出異常",伺服串聯下一台伺服失敗,伺服串聯下一台伺服失敗
+OAOBOZ輸出異常,"OA,OB,OZ信號輸出異常",伺服重啟,伺服重啟
+OA輸出異常,OA信號輸出異常,伺服報過載AL006,伺服報過載AL006
+OB信號無輸出,OB信號輸出異常,伺服無法工作,伺服無法工作
+OB输出异常,OB信號輸出異常,伺服检测正常,伺服功能正常
+OCA报警,OCA報警,低速卡顿,低速卡頓
+OX009F,OX009F,攻牙問題,攻牙問題
+P/N對PE短路,"P,N對PE SHORT",使能報AL003,AL003
+"P/N對Ropen，對UW短路,N對C擊穿","P,N對R OPEN,對UW SHORT,N對C擊穿",使能報警AL031,AL031
+P/N对RS OPEN ,"P,N對RS OPEN",刷A測B,刷A測B
+P1-01參數設置錯誤,P1-01參數設置異常,刹車晶體DQ2燒壞， 軟啓電阻DR28 open,"刹車晶體DQ2燒壞, 軟啓電阻DR28 OPEN"
+P1-37參數設置異常,P1-37參數設置異常,刹車模組損壞,刹車模組損壞
+PLC脉冲只朝一个方向走,PLC脉衝只朝一個方向走,拆機檢查發現J6端子組裝單邊高蹺，製程問題,"拆機檢查發現J6端子組裝單邊高蹺,製程問題"
+PN短路,PN SHORT,服務用機未使用退回,服務用機未使用退回
+PN对R open,PN SHORT,杭州正宇科技有限公司,杭州正宇科技有限公司
+"power板R\S端子附近燒毀，銅箔融毀,DR58,DR57,DC64燒毀，IPM引脚閒有打火","POWER板R\S端子附近燒毀,銅箔融毀,DR58,DR57,DC64燒毀,IPM引脚閑有打火",板子燒毀,板子燒毀
+power板R\S端子附近燒毀，銅箔融毀，U對P短路，R對P\N開路,"POWER板R\S端子附近燒毀,銅箔融毀,U對P SHORT,R對P\N開路",金屬絲污染，整流子打火,"金屬絲污染,整流子打火"
+PULSE INPUT电路限流电阻烧,PULSE INPUT電路限流電阻燒,保留參數和只讀參數無法寫入,保留參數和只讀參數無法寫入
+PULSE OUTPUT异常,PULSE OUTPUT異常,剎車晶體DQ2擊穿，回生電阻燒,"剎車晶體DQ2擊穿,回生電阻燒"
+pulse output電路U25燒壞，R205阻值變大壞，電源系統全部擊穿,"PULSE OUTPUT電路U25燒壞,R205阻值變大壞,電源系統全部擊穿",客戶更新韌體失敗,客戶更新韌體失敗
+pulse不接受脈衝,PULSE不接受脈衝,屏幕不顯示,屏幕不顯示
+pulse和sign之间短路,PULSE和SIGN之間SHORT,待材料分析,待材料分析
+P-U相短路,P-U相SHORT,按shift鍵會造成EtherCAT通訊錯誤,按SHIFT鍵會造成EtherCAT通訊錯誤
+PWM_V#信號無法PULL HIGH,PWM_V#信號無法PULL HIGH,按鍵保護蓋遺失，按鍵損壞,"按鍵保護蓋遺失,按鍵損壞"
+PW擊穿，NU 斷開，DR58炸,"PW擊穿,NU 斷開,DR58炸",按鍵脫落,按鍵脫落
+PX伺服通讯不稳定,PX伺服通訊不穩定,按鍵損壞,按鍵損毀
+P相端子螺絲損壞,P相_螺絲損壞,按键键断,按鍵鍵斷
+"P对R OPEN,对SUVW 短路，N对R open","P對R OPEN,對SUVW SHORT,N對R OPEN",按鍵斷,按鍵鍵斷
+P对Ropen，N对Rsopen，DC3/DC53鼓包,"P對R OPEN,N對RS OPEN,DC3,DC53鼓包",炸機,炸機
+P对RS open，对T短路，N对RS,"P對RS OPEN,對T SHORT,N對RS",炸機嚴重,炸機
+P对RSopen，对UVW open，N对RSUopen,"P對RS OPEN,對UVW OPEN,N對RSU OPEN",面板不亮,面板不顯示
+P对RS短路,P對RS SHORT,面板不顯示,面板不顯示
+P对SUVW短路，N对R短路,"P對SUVW SHORT,N對R SHORT",面板顯示异常,面板顯示異常
+"P对U OPEN,N对W短路","P對U OPEN,N對W SHORT",面板显示乱码,面板顯示亂碼
+P对UV open，N对W短路,"P對UV OPEN,N對W SHORT",風扇後蓋CASE卡扣脫出,風扇後蓋CASE卡扣脫出
+"P对UVW open,N对RS 短路，对UVWopen","P對UVW OPEN,N對RS SHORT,對UVW OPEN",風扇異響,風扇異響
+P對UVW短路,P對UVW SHORT,原因不明,原因不明
+"P对UVW短路,进液体腐蚀污染","P對UVW SHORT,進液體腐蝕污染",案件蓋銘板用錯料,案件蓋銘板用錯料
+P对UW open，N对W open,"P對UW OPEN,N對W OPEN",粉塵污染,粉塵污染
+P对U短路,P對U SHORT,粉塵污染導致DQ2炸，DD23擊穿，DD15炸，DJ4跳火，回生電阻OPEN,"粉塵污染導致DQ2炸,DD23擊穿,DD15炸,DJ4跳火,回生電阻OPEN"
+"P對U短路 ,控制側有鐳射焊錫偏移碳化點，PIN間無短路現象","P對U SHORT,控制側有鐳射焊錫偏移碳化點,PIN間無SHORT現象",脈衝輸入異常,脈衝輸入異常
+P對U短路，N對VW open,"P對U SHORT,N對VW OPEN",逆變短路,逆變SHORT
+P對U擊穿 軟起電阻燒壞,P對U擊穿 軟起電阻燒壞,逆變模塊U/W對P短路,逆變模塊U/W對P SHORT
+P对V open P对W短路，N对RS短路，N对UV OPEN.,"P對V OPEN,P對W SHORT,N對RS SHORT,N對UV OPEN",針脚無歪斜，通訊正常,"針脚無歪斜,通訊正常"
+P对V open，N对UW短路,"P對V OPEN,N對UW SHORT",高壓測試,高壓測試
+P對Vopen,P對V OPEN,偶發性無顯示,偶爾無顯示
+P對V短路,P對V SHORT,偶爾無顯示,偶爾無顯示
+P對V擊穿,P對V擊穿,參數異常,參數設置異常
+P对W相特性Short,P對W相特性SHORT,參數設定錯誤,參數設置異常
+P对V短路,P對W SHORT,參數設置异常,參數設置異常
+P對W擊穿,P對W擊穿,堵轉,堵轉
+Q10擊穿,Q10擊穿,帶馬達長時間運轉正常,帶馬達運轉正常
+"Q11,R260已经移除，运行正常","Q11,R260已經移除,運行正常",帶馬達運轉正常,帶馬達運轉正常
+Q11击穿,Q11擊穿,帶馬達運轉正常，按鍵丟失,"帶馬達運轉正常,按鍵丟失"
+Q12、Q13、Q15、Q16擊穿,"Q12,Q13,Q15,Q16擊穿","帶馬達運轉正常,監控命令位置PUU與回授位置PUU一致","帶馬達運轉正常,監控命令位置PUU與回授位置PUU一致"
+Q12-CE擊穿,Q12-CE擊穿,帶馬達運轉正常，與CNC通訊正常,"帶馬達運轉正常,與CNC通訊正常"
+Q12擊穿,Q12擊穿,"帶馬達運轉正常,與PLC通訊正常","帶馬達運轉正常,與PLC通訊正常"
+Q13擊穿,Q13擊穿,帶載運行正常,帶馬達運轉正常
+Q15阻值異常,Q15阻值異常,帶電機運行正常,帶電機運行正常
+Q15擊穿,Q15擊穿,接地螺絲擰不緊,接地螺絲_螺絲滑牙
+Q16阻值異常,Q16阻值異常,接綫端子DTB1包焊,接線端子DTB1包焊
+Q16损坏,Q16損壞,接綫端子L1、U相包焊,"接線端子L1,U相包焊"
+Q9 碎件,Q9碎件,接綫端子P、R、T相漏焊,"接線端子P,R,T相漏焊"
+R S T對P short,"R,S,T對P SHORT",接綫端子S螺絲滑牙,接線端子S螺絲滑牙
+"R,L1L2相端子螺絲損壞","R,L1,L2_螺絲損壞",接綫端子打火,接線端子打火
+R，S相端子螺絲損壞,"R,S_螺絲損壞",接綫錯誤,接線錯誤
+"R,S相端子螺絲損壞","R,S_螺絲損壞",控制板CN2處折斷,控制板CN2處折斷
+R，S端子螺絲損壞,"R,S_螺絲損壞",控制板多處炸機，U1、U5、U6、U7、U8、U15、U18、U33、L1、D13等損壞,"控制板多處炸機,U1,U5,U6,U7,U8,U15,U18,U33,L1,D13等損壞"
+R、S、L1相端子螺絲損壞,R、S、L1_螺絲損壞,控制板有明顯維修痕迹,控制板有明顯維修痕迹
+R\T相銅箔熔斷,R\T相銅箔熔斷,控制電上電，讀取不到ID,"控制電上電,讀取不到ID"
+R160燒,R160燒壞,清理膠後故障消失,清理膠後故障消失
+R160燒、C140、R153損壞,"R160燒壞,C140,R153損壞",焊錫問題,焊錫問題
+R205燒壞,R205燒壞,產品帶馬達使能，伺服並無的異響，距離產品10cm以內，能聽相對微弱電磁聲音,"產品帶馬達使能,伺服並無的異響,距離產品10cm以內,能聽相對微弱電磁聲音"
+R252/R253/R254/R255電阻燒壞,"R252,R253,R254,R255電阻燒壞",產品帶馬達運轉正常,帶馬達運轉正常
+"R252,R253，R254,R255燒壞","R252,R253,R254,R255燒壞",產品檢測正常,產品檢測正常
+"R252,R253燒件","R252,R253燒壞",産品帶馬達運轉正常,帶馬達運轉正常
+"R252,R253燒壞","R252,R253燒壞",異物,異物
+R252、R253燒壞,"R252,R253電阻燒壞",軟起電阻DR28燒，DR42炸，IGBT炸，整流子DD22、DD23擊穿,"軟起電阻DR28燒毀,DR42炸裂,IGBT炸,整流子DD22,DD23擊穿"
+"R252，R253燒壞,3.3V擊穿,灌入3.3V電壓，DSP異常發熱","R252,R253燒壞,3.3V擊穿,灌入3.3V電壓,DSP異常發熱",軟起電阻DR28燒壞，IGBT炸,"軟起電阻DR28燒毀,IGBT炸裂"
+R252、R253、R254、R255損壞,"R252,R253,R254,R255損壞",軟起電阻DR28燒壞，回聲電阻Open，銅箔燒壞,"軟起電阻DR28燒毀,回聲電阻OPEN,銅箔燒毀"
+R252、R253、R254、R255燒,"R252,R253,R254,R255電阻燒壞",软起电阻炸,軟起電阻炸裂
+R252、R253、R254、R255燒毀,"R252,R253,R254,R255電阻燒壞",软起电阻燒,軟起電阻燒毀
+R252、R253、R254、R255燒碳化,"R252,R253,R254,R255電阻燒壞",软起电阻烧，IGBT炸,"軟起電阻燒毀,IGBT炸裂"
+R252、R253、R254、R255燒壞,"R252,R253,R254,R255電阻燒壞",软起电阻燒壞,軟起電阻燒毀
+R252、R253損壞,"R252,R253損壞",軟起燒,軟起燒毀
+R252、R253燒,"R252,R253電阻燒壞",軟啟電阻DR28燒壞，DC83側邊鼓包,"軟啟電阻DR28燒毀,DC83側邊鼓包"
+R252、R253燒碳化,"R252,R253電阻燒壞",通讯半小时报AL185,通訊半小時報AL185
+R252、R253燒壞,"R252,R253電阻燒壞",通讯正常,通訊正常
+R252、R253燒壞，RST pin腳有打火，控制板有噴灰,"R252,R253電阻燒壞,RST PIN脚有打火,控制板有噴灰",通讯正常，功能正常,"通訊正常,功能正常"
+R254/R255電阻過熱,"R254,R255電阻過熱",通讯正常，伺服检测正常,"通訊正常,伺服檢測正常"
+R254/R255電阻燒壞,"R254,R255電阻燒壞",通讯正常、运转正常,"通訊正常,運轉正常"
+"R254,R255電阻燒壞","R254,R255電阻燒壞",通讯异常,通訊異常
+R254、R255燒毀,"R254,R255電阻燒壞",通讯连不上,通訊連不上
+R254、R255燒壞,"R254,R255電阻燒壞",通電無顯示,通電無顯示
+R260  BOM錯建为0Ω,R260 BOM錯建爲0Ω,部速度命令馬達運轉速度不穩定,部速度命令馬達運轉速度不穩定
+R260 BOM錯建为0Ω,R260 BOM錯建爲0Ω,單獨給控制板上5V電，面板無顯示,"單獨給控制板上5V電,面板無顯示"
+R260重工不良,R260重工不良,報警AL001,AL001
+R58跨壓在0.7V，此電壓已經觸發OC，說明上橋存在偷開,"R58跨壓在0.7V,此電壓已經觸發OC,說明上橋存在偷開",報警AL006,AL006
+read only,read only,報警AL011,AL011
+relay不切,relay不切,報警AL011幷閃爍,AL011並閃爍
+RL001报警,AL001,報警AL085,AL085
+RL003,AL003,殘餘樹脂使clamp 夾住lead fame時，造成frame滑動而拉扯到wire bond的線,"殘餘樹脂使clamp 夾住lead fame時,造成frame滑動而拉扯到wire bond的線"
+RL083,AL083,測試probe導致pad crack,測試probe導致pad crack
+RN击穿,RN擊穿,無,無
+RS&RT上电SERVO ON报警AL022-重组后正常,RS&RT上電SERVO ON報警AL022-重組後正常,無失效現象,無失效現象
+RST阻值异常,RST阻值異常,無法通訊,無法通訊
+RST對P/N特徵正常；輸出端子P對N阻抗30.1Ω,"RST對P,N特徵正常,輸出端子P對N阻抗30.1Ω",無法燒錄,無法燒錄
+RST輸入端銅箔翹皮,RST輸入端銅箔翹皮,"無規律的報警AL048, AL007","無規律的報警AL048, AL007"
+RS相端子螺絲損壞,RS_螺絲損壞,無損壞,無損壞
+RS相銅箔斷，DD22擊穿,"RS相銅箔斷,DD22擊穿",無零件損壞,無損壞
+RS接线输入电压过低,RS接綫輸入電壓過低,無端子保護蓋,無端子保護蓋
+RS通道銅箔翹起，整流子DD22擊穿,"RS通道銅箔翹起,整流子DD22擊穿",無輸出,無輸出
+RT/L1L2上电使能后报AL022,"RT,L1L2上電使能後報AL022",無顯示,無顯示
+RT相銅箔被燒斷,RT相銅箔被燒斷,無顯示，U21損壞,"無顯示,U21損壞"
+RT銅箔熔斷，DD22擊穿，DQ2剎車晶體燒壞,"RT銅箔熔斷,DD22擊穿,DQ2剎車晶體燒壞",程式燒錄失敗,程式燒錄失敗
+R口滑牙,R端子_螺絲滑牙,進水腐蝕,進水腐蝕
+R位螺丝滑牙,R端子_螺絲滑牙,韌體BUG,韌體BUG
+R相欠相,R欠,韌體新功能導致客戶誤退,韌體新功能導致客戶誤退
+R相對N擊穿,R對N擊穿,韌體燒錄,韌體燒錄
+R相端子牙紋損壞，螺絲退不出來,"R端子_牙紋損壞,螺絲退不出來",塑膠外殼燒熔，DC83、82鼓包，整流子DD22、DD23擊穿,"塑膠外殼燒熔,DC83,82鼓包,整流子DD22,DD23擊穿"
+R相端子螺絲卡死,R端子_螺絲卡死,過流,過流
+R相端子螺絲卡頓,R端子_螺絲卡頓,過壓,過壓
+R相端子螺絲損壞,R端子_螺絲損壞,過壓過流,過壓過流
+R相端子螺絲損壞，MODE键掉落,"R端子_螺絲損壞,MODE鍵掉落",零飄,零飄
+R相端子螺絲損壞，MODE键掉落，端子盖一端脱落,"R端子_螺絲損壞,MODE鍵掉落,端子蓋一端脫落",電阻高蹺,電阻高蹺
+R相端子螺絲滑牙,R端子_螺絲滑牙,电流平稳、功能正常,"電流平穩,功能正常"
+R相端子螺絲滑牙，無法進退,"R端子_螺絲滑牙,無法進退",电流侦测异常,電流偵測異常
+R相端子坏,R端子_螺絲損壞,電容鼓包,電容鼓包
+R相铜箔熔断，整流子DD22击穿,"R相銅箔熔斷,整流子DD22擊穿",電感性負載,電感性負載
+R相輸入端到Varistor的銅箔翹皮，整流子DD22、DD23擊穿，軟起電阻DR28燒，IGBT炸,"R相輸入端到Varistor的銅箔翹皮,整流子DD22、DD23擊穿,軟起電阻DR28燒,IGBT炸",電源板：DT1打火，PIN1和PIN2 Open，DU1擊穿，整流子DD22擊穿，IGBT擊穿，DR300燒壞，控制板噴灰，電源系統全部損壞,"電源板：DT1打火,PIN1和PIN2 OPEN,DU1擊穿,整流子DD22擊穿,IGBT擊穿,DR300燒壞,控制板噴灰,電源系統全部損壞"
+R相輸入端到Varistor的銅箔翹皮，整流子DD22擊穿，DR42炸，IGBT炸,"R相輸入端到Varistor的銅箔翹皮,整流子DD22擊穿,DR42炸,IGBT炸",電源板多個元件受到腐蝕,電源板多個元件受到腐蝕
+R相螺母磨損嚴重,R端子_螺絲損壞,電源指示燈不亮,電源指示燈不亮
+R相螺丝倾斜，无法锁到底，T相螺丝打滑,"R相螺絲傾斜,無法鎖到底,T相螺絲打滑",电压不稳定,電壓不穩定
+R相螺絲損壞,R端子_螺絲損壞,電壓偵測不准,電壓偵測不准
+R相螺絲滑牙,R端子_螺絲滑牙,电压侦测异常，IGBT U上桥触发角OPEN,"電壓偵測異常,IGBT U上橋觸發角OPEN"
+R相螺絲滑牙,R端子_螺絲滑牙,電壓偵測偵測異常，伺服報警AL085,"電壓偵測異常,伺服報警AL085"
+"R相螺丝滑牙,IGBT焊锡碳化","R端子_螺絲滑牙,IGBT焊錫碳化",漏測T1和T2,漏測T1和T2
+R相螺絲滑牙，螺母正常,"R端子_螺絲滑牙,螺母正常",漏測T2,漏測T2
+R相螺丝滑牙無法鎖到底,R端子_螺絲滑牙,漏電,漏電
+R通道銅箔熔斷，整流子DD23擊穿，IGBT炸裂,"R通道銅箔熔斷,整流子DD23擊穿,IGBT炸裂",疑似焊錫不良導致輸出异常,疑似焊錫不良導致輸出異常
+R通道螺絲滑牙,R端子_螺絲滑牙,端子DJ1粘膠,端子DJ黏膠
+R端子螺丝滑牙,R端子_螺絲滑牙,端子牙紋損壞,端子牙紋損壞
+R滑丝,R端子_螺絲滑牙,端子空焊,端子空焊
+"R對P短路,ST對N短路","R對P SHORT,ST對N SHORT",端子粘膠,端子黏膠
+"R對一段短路,通電跳閘","R對一段SHORT,通電跳閘",端子粘膠，DR1燒壞，DC3底部trace燒壞,"端子黏膠,DR1燒毀,DC3底部trace燒毀"
+R端子滑牙,R端子_螺絲滑牙,端子被污染,端子被污染
+R端子螺母滑絲,R端子_螺絲滑牙,端子鈑金座與NUT偏心,端子鈑金座與NUT偏位
+R端子螺絲損壞,R端子_螺絲損壞,端子鈑金座與NUT偏位,端子鈑金座與NUT偏位
+R端子螺絲滑牙,R端子_螺絲滑牙,端子螺絲損壞,端子螺絲損壞
+R端子螺絲滑牙,R端子_螺絲滑牙,與CNC通訊不上,與CNC通訊不上
+R端螺絲滑牙,R端子_螺絲滑牙,銅箔炸，DD22之間PIN腳打火,"銅箔炸,DD22之間PIN腳打火"
+R铜箔炸，整流子DD22打火,"R銅箔炸,整流子DD22打火",銘板使用錯誤,銘板使用錯誤
+R螺丝口坏,R端子_螺絲損壞,銘板脫落不見，mode按鍵損壞,"銘板脫落不見,MODE按鍵損壞"
+R螺丝滑牙,R端子_螺絲滑牙,震動實驗室測試4G震動報警AL083,震動實驗室測試4G震動報警AL083
+R螺絲滑牙,R端子_螺絲滑牙,整流子 pin腳打火，有鐵片進去,"整流子 PIN腳打火,有鐵片進去"
+R螺丝滑牙，上电报警,R端子_螺絲滑牙,整流子 pin腳打火熔斷,整流子 PIN腳打火熔斷
+R點螺絲擰不出來,R端子_螺絲滑牙,整流子DD22 RS對P擊穿，IGBT U上橋擊穿,"整流子DD22,RS對P擊穿,IGBT U上橋擊穿"
+servo on無效,SERVO ON無效,整流子DD22 R對N短路,"整流子DD22,R對N短路"
+SERVO ON隨機报警AL083,SERVO ON隨機報警AL083,整流子DD22、DD23擊穿,"整流子DD22,DD23擊穿"
+SET和SHIFT键功能一样，无法确认,"SET和SHIFT鍵功能一樣,無法確認",整流子DD22和DD23炸機,"整流子DD22,DD23炸機"
+SET按鍵失靈,SET按鍵失靈,整流子DD22和DD23击穿,"整流子DD22,DD23擊穿"
+SET按键失灵，BSW3按压无反应，有补焊痕迹,"SET按鍵失靈,BSW3按壓無反應,有補焊痕迹",整流子DD22擊穿,整流子DD22擊穿
+SET按键断,SET按鍵損壞,整流子DD22击穿，DVAR1PIN脚炸断,"整流子DD22擊穿,DVAR1PIN脚炸斷"
+"SET按鍵斷，MODE,UP,MOWN,SHIFT按鍵皆有損傷","SET按鍵損壞,MODE,UP,MOWN,SHIFT按鍵皆有損傷",整流子DD22击穿，IGBTP对UVW open，com对PIN 17open,"整流子DD22擊穿,IGBTP對UVW OPEN,com對PIN 17OPEN"
+set健坏,SET按鍵損壞,整流子DD22擊穿，IGBT炸,"整流子DD22擊穿,IGBT炸"
+SET鍵不靈，上下鍵偶爾不靈,"SET鍵不靈,上下鍵偶爾不靈",整流子DD22擊穿，軟起電阻DR28燒，DR42炸，IGBT炸,"整流子DD22擊穿,軟起電阻DR28燒,DR42炸,IGBT炸"
+SET鍵受外力撞斷,SET鍵受外力撞斷,整流子DD22擊穿、剎車晶體DQ2、軟起電阻DR28和P點有打火,"整流子DD22擊穿,剎車晶體DQ2,軟起電阻DR28和P點有打火"
+SET鍵和SHIFT键功能一样,SET鍵和SHIFT鍵聯動,整流子R/S/T对P全部短路,整流子R/S/T對P全部短路
+SET鍵與UP鍵聯動,SET鍵和UP鍵聯動,整流子液体污染,整流子液體污染
+set鍵斷,SET按鍵損壞,整流子被拆除，連接Varistor的銅箔斷，SPS電路DC9打火1損壞,"整流子被拆除,連接Varistor的銅箔斷,SPS電路DC9打火1損壞"
+shift 键失灵，BSW2按压无反应，有补焊痕迹,"SHIFT鍵失靈,BSW2按壓無反應,有補焊痕迹",整流子與IGBT損壞,整流子與IGBT損壞
+SHIFT、SET、UP、DOWN按鍵損壞,"SHIFT按鍵損壞,SET按鍵損壞,UP按鍵損壞,DOWN按鍵損壞",整流子击穿,整流子擊穿
+shift和set按鍵外力損壞,"SHIFT按鍵損壞,SET按鍵損壞",整流子击穿，DD1击穿，DR1open，DU1烧坏,"整流子擊穿,DD1擊穿,DR1 OPEN,DU1燒壞"
+Shift按鍵缺失,SHIFT按鍵缺失,整流子擊穿，IGBT炸,"整流子擊穿,IGBT炸裂"
+Shift按键損壞,SHIFT按鍵損壞,整流子擊穿，剎車晶體擊穿,"整流子擊穿,剎車晶體擊穿"
+shift按鍵損壞，確認為對策前產品,"SHIFT按鍵損壞,確認為對策前產品",整流子击穿，铜箔翘皮,"整流子擊穿,銅箔翹皮"
+Shift按鍵斷,SHIFT按鍵損壞,整流炸、DC82铝壳击穿,"整流子炸裂,DC82鋁殼擊穿"
+shift按鍵斷裂損壞,SHIFT按鍵損壞,機種代碼被改成200W,機種代碼被改成200W
+SHIFT鍵、上鍵損壞,"SHIFT按鍵損壞,UP按鍵損壞",燒機,燒機
+shift鍵斷,SHIFT按鍵損壞,燒錄失敗,燒錄失敗
+SHIIFT键与UP键不灵敏,SHIIFT鍵和UP鍵不靈敏,燒壞,燒壞
+SPS/DCBUS电容鼓包，整流子击穿,"SPS,DCBUS電容鼓包,整流子擊穿",輸入過壓,輸入過壓
+SPS電容DC3鼓包,SPS電容DC3鼓包,"輸入過壓DC52,DC53鼓包","輸入過壓DC52,DC53鼓包"
+SPS電容DC3鼓包，BUS電容DC81鼓包,"SPS電容DC3鼓包,BUS電容DC81鼓包",輸入過壓DC52鼓包,輸入過壓DC52鼓包
+SPS电容损坏,SPS電容損壞,輸入過壓導致DQ2擊穿,輸入過壓導致DQ2擊穿
+SPS电容鼓包,SPS電容鼓包,輸入過壓導致報警AL085,輸入過壓導致報警AL085
+SS400876504,SS400876504,輸入電壓過高,輸入電壓過高
+S和L1相端子螺絲損壞,"S,L1端子螺絲損壞","輸出綫破皮與散熱片打火,IGBT V上橋擊穿","輸出綫破皮與散熱片打火,IGBT V上橋擊穿"
+S相端子螺丝进退困难,"S端子_螺絲滑牙,無法進退",錫珠導致間歇性斷電,錫珠導致間歇性斷電
+S相端子螺絲損壞,S端子_螺絲損壞,錫渣短路,錫渣短路
+S相端子螺絲滑牙，無法進退,"S端子_螺絲滑牙,無法進退",錫短,錫渣短路
+S相端子螺絲锁附时有阻力,"S端子_螺絲滑牙,無法進退",隨機出現AL083/AL006/AL003報警,隨機出現AL083/AL006/AL003報警
+S相螺紋滑牙,S端子_螺絲滑牙,壓敏電阻燒壞,壓敏電阻燒壞
+S相螺絲無法旋入旋出,"S端子_螺絲滑牙,無法進退",檢測正常，帶動馬達轉動正常,"檢測正常,帶動馬達轉動正常"
+S相螺絲損壞,S端子_螺絲損壞,檢測和運行正常,檢測和運行正常
+s项螺丝滑牙,S端子_螺絲滑牙,螺紋損壞,螺紋損壞
+S滑丝,S端子_螺絲滑牙,螺丝滑牙,螺絲滑牙
+S端子螺絲損壞,S端子_螺絲損壞,螺丝头滑牙,螺絲滑牙
+S端子螺絲滑牙,S端子_螺絲滑牙,螺絲斷,螺絲斷裂
+s端滑丝,S端子_螺絲滑牙,斷電前後絕對值馬達回授位置一致,斷電前後絕對值馬達回授位置一致
+S銅箔熔斷，DD22整流子R-P之間跳火，S引腳處有熱熔痕跡,"S銅箔熔斷,DD22整流子R-P之間跳火,S引腳處有熱熔痕跡",變壓器DT1打火、IGBT PIN脚鐵屑污染,"變壓器DT1打火,IGBT PIN脚鐵屑污染"
+S螺絲外力損壞,S端子_螺絲損壞,顯示异常跑馬燈,顯示異常跑馬燈
+Txx62569批次客退，非品質問題,"Txx62569批次客退,非品質問題",顯示和運轉正常,顯示運轉正常
+Txx62569批次問題,Txx62569批次問題,顯示缺筆畫，DO1異常,"顯示缺筆畫,DO1異常"
+Txx62569風險週期內的產品,Txx62569風險週期內的產品,,
+Txx62569问题,Txx62569問題,,
+Txx62569問題批次退回,Txx62569問題批次退回,,
+Txx62569集中損壞問題,Txx62569集中損壞問題,,
+T相端子螺絲損壞,T端子_螺絲損壞,,
+T相螺丝打滑，螺母隨著螺絲轉動,"T端子_螺絲打滑,螺母隨著螺絲轉動",,
+T螺絲外力損壞,T端子_螺絲損壞,,
+"U,V上下橋擊穿，IPM背面炸裂開","U,V上下橋擊穿,IPM背面炸裂開",,
+U、W阻值异常,"U,W阻值异常",,
+U12 pin9~pin11之間阻抗為10kohm異常,"U12,PIN9~PIN11之間阻抗為10kohm異常",,
+U14 Pin10、Pin12擊穿,"U1,PIN10,PIN12擊穿",,
+U1偶發報警AL001,U1偶發報警AL001,,
+U1软击穿,U1軟擊穿,,
+U21 DP/DM对GND短路,"U21 DP,DM對GND SHORT",,
+U21 燒壞,U21燒毀,,
+U21損壞,U21損壞,,
+U21燒壞，3.3V和1.2V短路,"U21燒毀,3.3V和1.2V SHORT",,
+U21燒壞，5V、3.3V和1.2V短路,"U21燒毀,5V、3.3V和1.2V SHORT",,
+U25 Pin13、14開路,U25 PIN13、14開路,,
+U25損壞,U25損壞,,
+U25烧坏,U25燒毀,,
+U28锡短,U28錫短,,
+U2烧坏,U2燒毀,,
+U33 output端3.3V输出端只有1.2左右输出,U33 OUTPUT端3.3V輸出端只有1.2左右輸出,,
+U42Txx 5V/1.2V對GND短路,"U42,Txx 5V,1.2V對GND SHORT",,
+U42擊穿,U42擊穿,,
+U43輸出異常,U43輸出異常,,
+U44無輸出,U44無輸出,,
+U44燒壞，ZD16擊穿，USB退PIN,"U44燒毀,ZD16擊穿,USB退PIN",,
+U44輸出只有0.918VD,U44輸出只有0.918VD,,
+U616 pin7与pin8锡短,U616 PIN7與PIN8錫短,,
+U6材料不良,U6材料不良,,
+U9擊穿，5Vdc_ISO對DGND_ISO短路，5VDPWR對GND短路/ZD10燒,"U9擊穿,5Vdc_ISO對DGND_ISO SHORT,5VDPWR對GND SHORT,ZD10燒",,
+U-BUS电压显示异常,U-BUS電壓顯示异常,,
+up set鍵斷,UP按鍵損壞,,
+up 鍵斷,UP按鍵損壞,,
+UP按键損壞,UP按鍵損壞,,
+UP键失灵无反应,UP按鍵失靈,,
+up键缺失，case有外力撞击痕迹,"UP按鍵缺失,CASE有外力撞擊痕迹",,
+UP键无效,UP按鍵失靈,,
+UP键损坏,UP按鍵損壞,,
+up鍵斷,UP按鍵損壞,,
+UP键断裂,UP按鍵損壞,,
+USB上电面板无显示,USB上電無顯示,,
+USB上電無顯示，X1除膠后讀數正常,"USB上電無顯示,X1除膠後讀數正常",,
+USB上電顯示Read only,USB上電顯示READ ONLY,,
+USB口连不上，ZD11击穿,"USB口連不上,ZD11擊穿",,
+USB剛上電顯示，一會又無顯示,USB上電無顯示,,
+USB通讯不良,USB通訊異常,,
+USB通讯无法找到COM口 ，.D-对DGND短路，3.3V对DGND低阻抗,"USB通訊無法找到COM口,D-對DGND SHORT,3.3V對DGND低阻抗",,
+usb連不上電腦、通訊不了,USB通訊異常,,
+USB无法启动,USB無法啓動,,
+USB无法通讯,USB通訊異常,,
+USB无法识别,USB無法識別,,
+USB电路ZD16烧坏，ZD11 open，DSP 3.3V对GND短路,"USB電路ZD16燒壞,ZD11 OPEN,DSP 3.3V對GND SHORT",,
+USB端+A1129:A1134口退PIN,USB端+A1129:A1134口退PIN,,
+USB端口退pin,USB端口退PIN,,
+USB端子PIN1無線尾,USB端子PIN1無綫尾,,
+USB端子粘胶,USB端子粘膠,,
+UVW下橋short，軟起電阻燒,"UVW下橋SHORT,軟起電阻燒",,
+UVW下橋擊穿，W上橋開路,"UVW下橋擊穿,W上橋開路",,
+UVW异常,UVW異常,,
+UVW相間short，對P/N open,"UVW相間SHORT,對P,N OPEN",,
+UVW相間短路，對P短路,"UVW相間SHORT,對P SHORT",,
+UVW无输出,UVW無輸出,,
+UVW间断性不良 ,UVW間斷性不良,,
+UVW對N擊穿，IGBT炸裂，DR58燒壞,"UVW對N擊穿,IGBT炸裂,DR58燒壞",,
+UVW對PN擊穿,UVW對PN擊穿,,
+UV下橋short，軟起電阻DR28 open，DR58燒損,"UV下橋SHORT,軟起電阻DR28 OPEN,DR58燒損",,
+UV对PN击穿，PR击穿，DR58炸,"UV對PN擊穿,PR擊穿,DR58炸",,
+UV對P特徵正常，W對P/N open，UV之間阻抗異常,"UV對P特徵正常,W對P,N OPEN,UV之間阻抗異常",,
+U上short,U上SHORT,,
+U上橋擊穿,U上橋擊穿,,
+U相上桥短路,U相上橋SHORT,,
+U相對P短路,U相對P SHORT,,
+U相端子螺丝受外力損壞,U端子_螺絲損壞,,
+U相端子螺絲損壞,U端子_螺絲損壞,,
+U相螺丝针部損壞,U端子_螺絲損壞,,
+U相螺絲無法旋入旋出,U端子_螺絲滑牙,,
+U相螺丝滑牙,U端子_螺絲滑牙,,
+U相螺丝拧不开,U端子_螺絲滑牙,,
+u项缺项,U項缺項,,
+u项短路,U項 SHORT,,
+U對P短路,U對P SHORT,,
+U对P击穿,U對P擊穿,,
+U螺丝端子拧不出来也拧不紧,U端子_螺絲滑牙,,
+varistor打火，整流子擊穿，IGBT損壞,"VARISTOR打火,整流子擊穿,IGBT損壞",,
+VARISTOR炸,VARISTOR炸,,
+VARISTOR炸，DR28燒壞，DC52鼓包，DC3鼓包,"VARISTOR炸,DR28燒壞,DC52鼓包,DC3鼓包",,
+VBUS電壓偏高,VBUS電壓偏高,,
+V-BUS電壓異常為12V,V-BUS電壓異常為12V,,
+V上橋擊穿,V上橋擊穿,,
+V下橋無輸出,V下橋無輸出,,
+V相上桥短路,V相上橋SHORT,,
+V相输出缺相,V相輸出缺相,,
+"V對PN斷開，PW,UN擊穿，DR58炸，軟起坏","V對PN斷開,PW,UN擊穿,DR58炸,軟起壞",,
+V對P特性short,V對P SHORT,,
+V對P短路,V對P SHORT,,
+V對P擊穿,V對P擊穿,,
+V對P擊穿，UVW對N擊穿,"V對P擊穿,UVW對N擊穿",,
+V端子滑牙,V端子_螺絲滑牙,,
+W上桥高温输出缺相,W上橋高溫輸出缺相,,
+W上橋擊穿,W上橋擊穿,,
+W相上桥短路,W相上橋SHORT,,
+W相端子滑牙，UW相端子附近塑胶外力损坏,"W端子_螺絲滑牙,UW端子附近塑膠外力損壞",,
+W相端子螺絲損壞,W端子_螺絲損壞,,
+W相螺絲卡死,W端子_螺絲損壞,,
+W相螺絲斷,W端子_螺絲損壞,,
+W對P/N開路,"W對P,N開路",,
+W對P擊穿,W對P擊穿,,
+W螺丝滑牙,W端子_螺絲滑牙,,
+X1電路DSP_CLK測點對DGND只有1.8kohm,X1電路DSP_CLK測點對DGND只有1.8kohm,,
+X轴传感器I/O接触不良,I/O異常,,
+Y轴方向不能动,Y軸方向不能動,,
+Y軸報警AL085,Y軸AL085,,
+Y轴驱动器输出短路,Y軸驅動器輸出SHORT,,
+ZD16的5VD_USB与DGND低阻抗249.5Ω,ZD16的5VD_USB與DGND低阻抗249.5Ω,,
+ZD16击穿,ZD16擊穿,,
+ZD19、ZD20損壞,"ZD1,ZD20損壞",,
+ZD20燒,ZD20燒毀,,
+ZD614擊穿,ZD614擊穿,,
+Z轴009报警,Z軸AL009,,
+Z轴负载大,Z軸負載大,,
+Z轴高度变化,Z軸高度變化,,
+Z轴坏,Z軸壞,,
+一上电就跳闸,上電後異常,,
+"一上電就跳閘									",上電後異常,,
+一直報AL011,AL011,,
+一直报电容充电异常,電容充電異常,,
+一直报警,報警,,
+一直报警al521需要检修,AL521,,
+一直断电重启,一直斷電重啓,,
+一通电就报警,一通電就報警,,
+二次返修，开集极脉冲方式运行异常，反转无响应,"二次返修,開集極脉衝方式運行异常,反轉無響應",,
+二次返修，显示屏不亮，要求换新,"二次返修,顯示屏不亮,要求換新",,
+二极管未去除,二極管未去除,,
+刀纹,刀紋,,
+刀纹象限点不行,刀紋象限點不行,,
+力矩控制模式有问题,力矩控制模式有問題,,
+三相输出故障,三相輸出故障,,
+上不了电 断电,上電後異常,,
+上电 无显示,上電後異常,,
+上电01报警,AL001,,
+上电1分钟左右呈现死机状态,上電1分鐘左右呈現死機狀態,,
+上電3小時後死機,上電3小時後死機,,
+上电5分钟左右呈现死机状态,上電5分鐘左右呈現死機狀態,,
+上电5分钟报警AL011 需要检测报告,AL011,,
+上电AL06;VUS读值15V；5V短路，上桥驱动光耦二次侧5V均短路，U-P open,"上電AL06,VUS讀值15V,5V短路,上橋驅動光耦二次側5V均短路,U-P open",,
+上电DSP有嘶嘶的声音,上電DSP有異音,,
+上电一段时间后死机，无显示,上電無顯示,,
+上电一段时间后面板卡住，再次上电无显示,上電無顯示,,
+上電一段時間後無反應,上電無顯示,,
+上電一段時間無顯示,上電無顯示,,
+上电十几分钟后跳闸冒烟 ,上電後異常,,
+上电不亮,上電後異常,,
+上电不显示,上電後異常,,
+"上電不顯示,3.3V電路輸出异常","上電無顯示,3.3V電路輸出异常",,
+"上電不顯示,內部進水腐蝕","上電無顯示,內部進水腐蝕",,
+上电半小时左右呈现死机状态,上電半小時左右呈現死機狀態,,
+上電可以顯示,上電正常顯示,,
+上電正常顯示,上電正常顯示,,
+"上電正常顯示,無异常,油污污染明顯","上電正常顯示,無异常,油污污染明顯",,
+上电有异响,上電後異常,,
+上電伺服打火,上電伺服打火,,
+上电我显示,上電後異常,,
+上電沒反應,上電後異常,,
+上電沒反應要分析報告,上電後異常,,
+上電沒有反應,上電後異常,,
+上電沒顯示,上電後異常,,
+上電使能AL001,上電後報AL001,,
+上電使能後報AL022,上電後報AL022,,
+上電使能電機振動异響,上電使能電機振動异響,,
+上电两分鈡左右呈现死机状态,上電死機狀態,,
+上電冒烟,上電冒烟,,
+上電屏幕黑屏無顯示,上電無顯示,,
+上电后，无启动,上電無顯示,,
+上电后就烧了,上電後就燒了,,
+上電重啓,上電重啓,,
+上電面板不亮,上電無顯示,,
+上電面板卡住,上電無顯示,,
+"上電面板有顯示,但機器一直重啓","上電面板有顯示,但機器一直重啓",,
+上電偶發無顯示,上電偶發無顯示,,
+上電帶馬達報11,上電後報AL011,,
+上电带马达运行一段时间死机,上電死機狀態,,
+上电报：ALC31,上電後報ALC31,,
+上電報006，后報警085,"上電後報006,後報警AL085",,
+上電報011，一小段時間后報警085,"上電後報011,後報警AL085",,
+上电报AL001,上電後報AL001,,
+上電報AL001,上電報警AL001,,
+上电报AL006,上電後報AL006,,
+上電報ALC31,上電報警ALC31,,
+上电报错RL001,上電後報AL001,,
+上电报警，RL016，IGBT过热,"上電後報AL016,IGBT过热",,
+上電報警06,上電報警AL006,,
+上電報警06 緊接著報85,"AL006,AL085",,
+上电报警09F,上電後報AL09F,,
+上電報警09F,上電後報AL09F,,
+上電報警22,上電報警AL022,,
+上電報警al001,上電後報AL001,,
+上電報警AL001,上電報警AL001,,
+"上電報警AL003,BUS電壓偵測異常，潤焊DPH16後回復正常","上電報警AL003,BUS電壓偵測异常,潤焊DPH16後回復正常",,
+上電報警AL006,上電後報AL006,,
+上電報警AL006,上電報警AL006,,
+上電報警AL006，電源板DR78偏移漏焊,"上電報警AL006,電源板DR78偏移漏焊",,
+上電報警AL011,上電報警AL011,,
+上電報警AL016,上電報警AL016,,
+上電報警AL031 需要檢測報告,上電後報AL031,,
+上電報警AL085,上電後報AL085,,
+上電報警AL085,上電報警AL085,,
+上電報警AL09C,上電報警AL09C,,
+上電報警AL09F,上電後報AL09F,,
+上電報警CDB,上電後報警CDB,,
+上電報警過電流AL006,上電後報AL006,,
+上電就冒烟了,上電後異常,,
+上電就報001,上電後報AL001,,
+上電無反應,上電無顯示,,
+上電無顯示,上電無顯示,,
+上電無顯示,上電無顯示,,
+"上電無顯示,3.3V對GND短路,控制板U2燒","上電無顯示,3.3V對GND短路,控制板U2燒",,
+"上電無顯示,DSP3.3V月1.2V短路","上電無顯示,DSP3.3V月1.2V短路",,
+上電無顯示，U37受到腐蚀,"上電無顯示,U37受到腐蝕",,
+上電無顯示，重新燒錄韌體後顯示正常,"上電無顯示,重新燒錄韌體後顯示正常",,
+上電無顯示、DR1开裂损坏,"上電無顯示,DR1開裂損壞",,
+上電黑屏,上電無顯示,,
+上電跳閘,上電跳閘,,
+上電跳閘 需要檢測報告,上電跳閘 需要檢測報告,,
+上電過載,上電過載,,
+"上電過壓,應該是燒壞了,顯示屏不亮","上電過壓,上電無顯示",,
+"上電漏電開關跳閘,換新機沒有問題","上電漏電開關跳閘,換新機沒有問題",,
+上電數字顯示屏無顯示,上電無顯示,,
+"上電檢查報警記錄,存在AL085報警",上電後報AL085,,
+"上電顯示AL011,一段時間後ALCDB","上電後報AL011,ALCDB",,
+"上電顯示ASP B3按鍵無反應,再次上電後指示燈亮,屏無顯示","上電顯示ASP B3按鍵無反應,再次上電後指示燈亮,屏無顯示",,
+上電顯示DFU,上電顯示DFU,,
+上電顯示正常,上電顯示正常,,
+上電顯示正常，帶動馬達轉動正常,"上電顯示正常,帶動馬達轉動正常",,
+上電顯示正常，帶動馬達轉動正常，報警AL3CF為參數設置問題,"上電顯示正常,帶動馬達轉動正常,報警AL3CF為參數設置問題",,
+上電顯示正常、IPM下方存在金屬絲,上電顯示正常、IPM下方存在金屬絲,,
+上電顯示死機，重新上電無顯示,"上電顯示死機,重新上電無顯示",,
+上電顯示屏不亮,上電無顯示,,
+上蓋L1L2輸入線有跳火痕跡，DR1 open，DD1擊穿,"上蓋L1L2輸入線有跳火痕跡,DR1 open,DD1擊穿",,
+上蓋脫離,上蓋脫離,,
+上機後冒烟,上機後冒烟,,
+上鍵損壞,UP按鍵損壞,,
+下针轴报警AL016,下針軸報警AL016,,
+下载程序会黑屏,下載程序會黑屏,,
+下键失效其他按键不灵,"DOWN按鍵失效,其他按鍵不靈",,
+大量金屬粉污染,大量金屬絲,,
+大量金属丝,大量金屬絲,,
+大電容DC82鼓包,大電容DC82鼓包,,
+工作中有时报警RL003,AL003,,
+不上电,不上電,,
+不工作,無法正常作業,,
+不良,無法正常作業,,
+不使能,無法正常作業,,
+不定时报 AL001,AL001,,
+不定时报警AL011,AL011,,
+不亮,無法正常作業,,
+不亮灯,無法正常作業,,
+不能正常工作，螺丝滑牙无法锁定,"無法正常作業,螺絲滑牙",,
+不能正常使用,無法正常作業,,
+不能输程序进去,不能輸程序進去,,
+不能翻轉,不能翻轉,,
+不通讯,不通訊,,
+不通电,不通電,,
+不通電,不通電,,
+不通电 无显示,不通電,,
+不通電/AL006,"不通電,AL006",,
+不通电，屏幕不显示,不通電,,
+不通电，报警代码9F,AL09F,,
+不通电，插电没反应,不通電,,
+不通电，无动作,不通電,,
+不通电，显屏不亮,不通電,,
+不通电不显示,"不通電,無顯示",,
+不报警导致伺服抖动换驱动器就没问题,"不報警導致伺服抖動,換驅動器可解決",,
+不显示,無顯示,,
+不显示? Y轴、上电伺服启动异常、烧坏无显示、通电不亮屏、通电跳闸、有输入，无输出、找不到站点," Y軸,上電伺服啓動異常,燒壞無顯示,通電不亮屏,通電跳閘,有輸無輸出,找不到站點",,
+仍然报警AL001,AL001,,
+"内建回生电阻open,过压533V,回生电阻参数设定异常P1-52=750,P1-53=15000","內建回生電阻open,過壓533V,回生電阻參數設定异常P1-52=750,P1-53=15000",,
+內部不明液體腐蝕嚴重，R銅箔打火,"內部不明液體腐蝕嚴重,R銅箔打火",,
+"内部有金属丝掉落,变压器底部打火，DR28烧","內部有金屬絲掉落,變壓器底部打火,DR28燒",,
+内部有粉尘，软起电阻烧坏，relay融损刹车晶体CE击穿,"內部有粉塵,軟起電阻燒壞,relay融損刹車晶體CE擊穿",,
+内部有液体从安装面上方进入伺服内部，DR58/DR42/DR57/DC64损坏，3.3V低阻抗,"內部有液體從安裝面上方進入伺服內部,DR58,DR42,DR57,DC64損壞,3.3V低阻抗",,
+"內部污染,IGBT炸毀嚴重","內部污染,IGBT炸毀嚴重",,
+内部灰塵很多；DR28損坏,"內部污染,DR28損壞",,
+"內部油污,IGBT PIN12對COM短路","內部油污腐蝕,IGBT PIN12對COM短路",,
+"內部油污腐蝕,SPS電路DR1open,DD1擊穿,DU1損壞","內部油污腐蝕,SPS電路DR1open,DD1擊穿,DU1損壞",,
+內部金屬屑,內部金屬粉塵污染,,
+內部金屬粉塵污染，DQ2燒,"內部金屬粉塵污染,DQ2燒",,
+"內部金屬粉塵污染+A1361:A1380,上電顯示正常但連接馬達時常報警AL011","內部金屬粉塵污染+A1361:A1380,上電顯示正常但連接馬達時常報警AL011",,
+内部粉塵污染嚴重，上電顯示正常但連接馬達時常報警AL011,"內部金屬粉塵污染,上電顯示正常但連接馬達時常報警AL011",,
+内部参数参数检查P1-01=1，未使用通讯模式,"內部參數參數檢查P1-01=1,未使用通訊模式",,
+内部短路,內部SHORT,,
+內部進水,內部進水,,
+內部進水，DD22、DD23打火,"內部進水,DD22,DD23打火",,
+內部進水，IGBT、DD23打火,"內部進水,IGBT,DD23打火",,
+內部進水腐蝕，剎車晶體DQ2擊穿，回生電阻燒,"內部進水腐蝕,剎車晶體DQ2擊穿,回生電阻燒",,
+内部损坏,內部損壞,,
+内部电子元件DR58烧毁,內部電子元件DR58燒毀,,
+内部电容烧掉,內部電容燒掉,,
+内部电源不行,內部電源異常,,
+内部电源有问题,內部電源異常,,
+内部端子松,內部端子鬆,,
+"内部端子粘膠,持續上電死機","內部端子粘膠,持續上電死機",,
+"內部銅箔短路,+12VA與-12VA短路","內部銅箔短路,+12VA與-12VA短路",,
+內部銅箔熔斷,內部銅箔熔斷,,
+"内部编码器21，22,23,25没有输出","內部編碼器21,22,23,25沒有輸出",,
+内部烧坏,內部燒壞,,
+內部嚴重損壞,內部損壞,,
+"内部铁屑污染导致IGBT击穿，DD22,DD23击穿，DQ2损坏，回生电阻OPEN，DR300,DC6,DR57烧","內部金屬粉塵污染導致IGBT擊穿,DD22,DD23擊穿,DQ2損壞,回生電阻OPEN,DR300,DC6,DR57燒",,
+内部鐵粉污染嚴重，DZD8被客戶自行拆除，DQ2擊穿，回聲電阻阻值變大,"內部金屬粉塵污染嚴重,DZD8被客戶自行拆除,DQ2擊穿,回聲電阻阻值變大",,
+少一个按键,少按鍵,,
+少按钮,少按鍵,,
+少按键，按钮松动,少按鍵,,
+方向点坏,方向點壞,,
+主回路电容损坏,主回路電容損壞,,
+主板坏,主板壞,,
+主轴伺服报警,主軸伺服報警,,
+主滤波电容鼓包,主濾波電容鼓包,,
+以工程师检测为准,以工程師檢測爲准,,
+功能不良  检测维修,"功能不良,檢測維修",,
+功能正常,功能正常,,
+功能正常，AL3CF為參數設置問題,"功能正常,AL3CF為參數設置問題",,
+功能测试OA/OB/OZ fail，U25損壞,"功能測試OA,OB,OZ fail,U25損壞",,
+功能測試正常,功能測試正常,,
+加料机捅料杆总往下掉，应该是驱动机有问题，换了个驱动就好了,"加料機捅料杆總往下掉,應該是驅動機有問題,換驅動可解決",,
+卡顿,卡頓,,
+去除二极管,去除二極管,,
+只上电L1C和L2C情况，驱动器出现AL006报警,只上電L1C和L2C情况報警AL006,,
+"只接电源线,P/C有310V电压输出","只接電源綫,P,C有310V電壓輸出",,
+右側數碼管不亮,右側數碼管不亮,,
+外包装无损伤，这外壳有损，一个按键断,"外包裝無損傷,這外殼有損,一個按鍵斷",,
+外包装箱变形，内部检查外观良好,"外包裝箱變形,內部檢查外觀良好",,
+外部有腐蚀痕迹，端子&case烧融,"外部有腐蝕痕迹,端子&case燒融",,
+外部端子R 螺丝滑牙,外部端子R螺絲滑牙,,
+外部端子T 螺丝滑牙,外部端子T螺絲滑牙,,
+外部鎖線端子R螺絲滑牙,外部鎖綫端子R螺絲滑牙,,
+外殼混料,外殼混料,,
+外壳烧熔,外殼燒熔,,
+"外殼燒熔，DC3,DC83,DC84鼓包","外殼燒熔,DC3,DC83,DC84鼓包",,
+"外殼燒壞，DC83,DC84炸裂","外殼燒壞,DC83,DC84炸裂",,
+外觀髒污-靜電液高溫高濕滲出,外觀髒污-靜電液高溫高濕滲出,,
+未反饋,未反饋,,
+未使能,未使能,,
+"未使能,6號報警",未使能AL006,,
+"未接馬達報001,要求換新機",未接馬達報警AL001,,
+正反向故障,正反向故障,,
+正常,正常,,
+正常使用中，突然就坏了,正常使用過程中壞,,
+"正常使用中,输入点R.S点烧坏","正常使用中,輸入點R.S點燒壞",,
+正常使用的情况下，按键坏，品质问题,"正常使用的情况下,按鍵壞,品質問題",,
+正常使用过程中坏,正常使用過程中壞,,
+正常环境，AX-316带15台伺服，同一个柜内6台驱动器（400+750）第一次上电，烧一台，其它5台正常，设备目前还在调试阶段，伺服都没还没有动起来,"正常環境,AX-316帶15台伺服,同一個櫃內6台驅動器（400+750）第一次上電,燒一台,其它5台正常,設備目前還在調試階段,伺服都沒還沒有動起來",,
+正常顯示,"正常顯示,功能正常使用",,
+正常顯示，功能正常使用,"正常顯示,功能正常使用",,
+正常顯示，無異常,"正常顯示,功能正常使用",,
+"丢步,检测维修，需要维修报告","丟步,檢測維修,需要維修報告",,
+全新机品质问题,全新機品質問題,,
+回升电阻报警,回升電阻報警,,
+回生能量释放缓慢,回生能量釋放緩慢,,
+回生設定異常,回生設定異常,,
+回生设定异常，电容充电异常,"回生設定異常,電容充電異常",,
+回生電阻open,回生電阻OPEN,,
+回生電阻OPEN，剎車晶體GCE之間擊穿,"回生電阻OPEN,剎車晶體GCE之間擊穿",,
+回生电阻烧,回生電阻燒毀,,
+"在設備運行一個月左右,報警AL001,AL006,電機停轉","在設備運行一個月左右報警AL001,AL006",,
+地綫螺絲擰不緊,地線螺絲滑牙,,
+地綫螺絲擰不緊,地線螺絲滑牙,,
+异物污染,異物汙染,,
+异常振动,異常振動,,
+异常停机，无显示,異常停機,,
+异常报警AL006,AL006,,
+异响,異響,,
+收不到上位机发送的脉冲指令,收不到脉衝,,
+收不到脉冲,收不到脉衝,,
+收不到脉冲 位置走不准,收不到脉衝,,
+收到新机按钮就坏了,收到新機按鈕就壞了,,
+有一个按钮缺失,按鍵缺失,,
+有一个按键是坏的,按鍵損壞,,
+有異物粘在IGBTpin脚上,有異物粘在IGBTPIN脚上,,
+有个线路不通,有個綫路不通,,
+有个螺丝滑牙了,螺絲滑牙,,
+有时上电不显示,上電後異常,,
+有时有显示，有时无显示,有時無顯示,,
+有时无显示,有時無顯示,,
+有时黑屏,有時無顯示,,
+有問題,有問題,,
+有报警,有報警,,
+有輸入無輸出,有輸入無輸出,,
+有铁屑污染导致DQ2刹车晶体损坏，回生电阻OPEN,"有鐵屑污染導致DQ2刹車晶體損壞,回生電阻OPEN",,
+死機,死機,,
+"死機,按按鈕無反應",死機,,
+伺服上電報警AL003,伺服上電報警AL003,,
+伺服上电报警AL006,伺服上電報警AL006,,
+伺服上电报警AL3CF,伺服上電報警AL3CF,,
+伺服上蓋損壞，外殼有油漬，且有黑色粉塵,"伺服上蓋損壞,外殼有油漬,且有黑色粉塵",,
+伺服不工作或者报警,伺服未使能,,
+伺服不使能,伺服未使能,,
+伺服内部存在液體污染，刹车晶体擊穿，回聲電阻Open，DPH15污染,"伺服內部存在液體污染,刹車晶體擊穿,回聲電阻Open,DPH15污染",,
+伺服内部有铁屑,伺服內部有鐵屑,,
+伺服出現自動重啟，隨後無顯示。,"伺服出現自動重啓,隨後無顯示。",,
+伺服功能正常,伺服功能正常,,
+伺服功能正常，但是有过压记录,"伺服功能正常,但是有過壓記錄",,
+伺服打火,伺服打火,,
+伺服未使能,伺服未使能,,
+伺服未使能，无显示,伺服未使能,,
+伺服异响,伺服報警,,
+伺服死機,伺服死機,,
+伺服故障,伺服報警,,
+伺服脉冲功能正常,伺服脉衝功能正常,,
+伺服帶馬達正常,伺服帶馬達正常,,
+伺服带马达运转正常,伺服帶馬達正常,,
+伺服報錯,伺服報警,,
+伺服報警,伺服報警,,
+伺服報警 需要檢測報告,伺服報警,,
+伺服無Encoder信號，接收與發送數據異常,"伺服無Encoder信號,接收與發送數據異常",,
+伺服會斷電重啟,伺服會斷電重啟,,
+伺服运行波动大2000转运行会超过设定位置，参数重置无效，更换一台正常,"伺服運行波動大2000轉運行會超過設定位置,參數重置無效,更換一台正常",,
+"伺服電機往復運動電機位置會跑偏掉,換台驅動器就好了","伺服電機往復運動電機位置會跑偏掉,換台驅動器就好了",,
+伺服電機當編碼器使用是時 轉速低于8圈每分鐘平均20分鐘會出現一次從軸反方向動作一下 然後正常運行 換了編碼器就沒有這種現象之前用伺服電機也沒有這種現象,伺服電機當編碼器使用是時 轉速低于8圈每分鐘平均20分鐘會出現一次從軸反方向動作一下 然後正常運行 換了編碼器就沒有這種現象之前用伺服電機也沒有這種現象,,
+伺服检测正常,伺服檢測正常,,
+伺服壞,伺服報警,,
+伺服驅動器功能正常,伺服驅動器功能正常,,
+位置檢測异常,位置檢測异常,,
+低電壓,低電壓報警,,
+低電壓准位設置錯誤,低電壓報警,,
+低電壓報警,低電壓報警,,
+告警無輸出,告警無輸出,,
+扭力維持不住,扭力維持不住,,
+批次問題,批次問題,,
+"批次問題,黑屏","批次問題,黑屏",,
+批次問題要求換新機,批次問題要求換新機,,
+批次問題換新,批次問題換新,,
+找不到站號,找不到站號,,
+"找不到站點,通電報AL09C","找不到站點,通電報AL09C",,
+"找不到站點,通電顯示屏不亮,報AL61","找不到站點,通電顯示屏不亮,報AL061",,
+找到站號,找到站號,,
+"把穩壓IC U6 PIN上防潮膠移除,上電電壓偵測就恢復正常","把穩壓IC U6 PIN上防潮膠移除,上電電壓偵測就恢復正常",,
+"更換交流接觸器後,工作一段時間報警056","更換交流接觸器後,工作一段時間報警AL056",,
+没反应,沒反應,,
+"没有MODE键,新机刚拆封","沒有MODE鍵,新機剛拆封",,
+没有方向信号,沒有方向信號,,
+沒有找到站號,沒有找到站號,,
+没有脉冲输出,沒有脉衝輸出,,
+没有发送脉冲,沒有發送脉衝,,
+没有发现不良元器件,沒有發現不良元器件,,
+没有数显，启动电机，回转发烫,"沒有數顯,啓動電機,回轉發燙",,
+没有显示 需要检测报告,"沒有顯示,需要檢測報告",,
+没按键,沒按鍵,,
+没接电机，一上电就报AL001,"沒接電機,一上電就報AL001",,
+没显示,沒顯示,,
+系列A-0421-L,系列A-0421-L,,
+系列A-1021-L,系列A-1021-L,,
+使用ASDA TEST測試治具進行模擬量試驗，試驗通過,"使用ASDA TEST測試治具進行模擬量試驗,試驗通過",,
+使用ASDA_soft軟件連接驅動器速度模式和扭矩模式正常運行，但是在運行一段時間後會突然面板不顯示，ASDA_soft也連接不上,"使用ASDA_soft軟件連接驅動器速度模式和扭矩模式正常運行,但是在運行一段時間後會突然面板不顯示,ASDA_soft也連接不上",,
+使用一段时间后会有断电、异响情况出现,使用一段時間後會有斷電、异響情况出現,,
+使用几分钟后会出现气味,使用幾分鐘後會出現氣味,,
+使用軸卡測試Ethercat功能，按shift不會導致報警AL3E3，使用測試機測試pass,"使用軸卡測試Ethercat功能,按shift不會導致報警AL3E3,使用測試機測試pass",,
+使能之后出现22号报警,AL022,,
+使能报警,使能報警,,
+使能報警AL031,使能報警AL031,,
+來料CN2接口歪,CN2異常,,
+來料不良,來料不良,,
+來料少按鍵,來料少按鍵,,
+其他,其他,,
+其他( AL001报警),AL001,,
+其他( R和S螺丝滑丝 ),"R端子_螺絲滑牙,S端子_螺絲滑牙",,
+其他( 通电不亮 )&,其他( 通電不亮 ),,
+"其他(""T""螺丝滑丝)&",T端子_螺絲滑牙,,
+其他(001报警)&,AL001,,
+其他(003报警),AL003,,
+其他(11号报警)&,AL011,,
+其他(11报警),AL011,,
+其他(16号报警)&,AL016,,
+其他(1号报警)&,AL001,,
+其他(3号报警)&,AL003,,
+其他(85号报警)&,AL085,,
+其他(AL001)&,AL001,,
+其他(AL003),AL003,,
+其他(AL003)&,AL003,,
+其他(AL006)&,AL006,,
+其他(AL006无法消除),AL006,,
+其他(AL085报警)&,AL085,,
+其他(AX8连接ETHERCAT通讯异常，报警EEPROM ERROR 16#51 错误代码)&,"其他(AX8連接ETHERCAT通訊异常,報警EEPROM ERROR 16#51 錯誤代碼)",,
+其他(B3-E批量故障 归还),其他(B3-E批量故障 歸還),,
+其他(CN1口坏),CN1異常,,
+其他(CN1端口没有输出),CN1異常,,
+其他(CN2接口有问题，插不紧 ),CN2異常,,
+其他(DSP黑屏问题),其他(DSP黑屏問題),,
+其他(ECAT通讯口灯不亮)&,其他(ECAT通訊口燈不亮),,
+其他(MODE键无反应,其他(MODE鍵無反應,,
+其他(QIA220401 case材料厂商将 V3 case混入B3 case 料号 ，case错料影響产品散热)&,"其他(QIA220401 case材料廠商將 V3 case混入B3 case 料號 ,case錯料影響産品散熱)",,
+其他(R相损坏),其他(R相損壞),,
+其他(R相螺丝滑牙),R端子_螺絲滑牙,,
+其他(S项螺丝滑牙)&,S端子_螺絲滑牙,,
+其他(Z轴会自动下降，更换驱动器后，正常。 )&,"其他(Z軸會自動下降,更換驅動器後,正常。 )",,
+其他(上电不显示),上電後異常,,
+其他(上电不显示)&,上電後異常,,
+其他(上电没反应),上電後異常,,
+其他(上电没反应)&,上電後異常,,
+其他(上电没显示)&,上電後異常,,
+其他(上电面板不亮),上電後異常,,
+其他(上电报AL086)&,AL086,,
+其他(上电报过电流),上電後異常,,
+其他(上电无反应 )&,上電後異常,,
+其他(上电无响应),上電後異常,,
+其他(上电无显示 )&,上電後異常,,
+其他(上电无显示(還回條碼和申請條碼不一致）)&,上電後異常,,
+其他(上电无显示),上電後異常,,
+其他(上电无显示)&,上電後異常,,
+其他(上电运行过程报AL003，换一台驱动器就好了),AL003,,
+其他(上电显示ASD-3),上電後異常,,
+其他(内部烧坏)&,其他(內部燒壞),,
+其他(丢步和偏位（经常不在焊接的位置上）)&,其他(丟步和偏位（經常不在焊接的位置上）),,
+其他(全新，来料不良（少纽扣帽）),"其他(全新,來料不良（少紐扣帽）)",,
+其他(有个按键不起作用),其他(有個按鍵不起作用),,
+其他(有颗螺丝拧不进去)&,螺絲滑牙,,
+其他(伺服黑屏),其他(伺服黑屏),,
+其他(伺服电机往复运动电机位置会跑偏掉),其他(伺服電機往復運動電機位置會跑偏掉),,
+其他(伺服电机往复运动电机位置会跑偏掉，换台驱动器就好了)&,"其他(伺服電機往復運動電機位置會跑偏掉,換台驅動器就好了)",,
+其他(低电压报警)&,其他(低電壓報警),,
+其他(告警06，无输出),AL006,,
+其他(批次问题。),其他(批次問題),,
+其他(周转机还回),其他(周轉機還回),,
+其他(周转机还回)&,其他(周轉機還回),,
+其他(抵消原故障机返回)&,其他(抵消原故障機返回),,
+其他(拆了UVW還報AL006)&,AL006,,
+其他(服务机未使用),其他(服務機未使用),,
+其他(服务还机),其他(服務還機),,
+其他(欣巴反退（炸機）),其他(欣巴返退炸機),,
+其他(欣巴批次退回-炸。),其他(欣巴返退炸機),,
+其他(欣巴物流炸機),其他(欣巴返退炸機),,
+其他(欣巴物流炸機)&,其他(欣巴返退炸機),,
+其他(欣巴返退炸機),其他(欣巴返退炸機),,
+其他(欣巴返退炸機)&,其他(欣巴返退炸機),,
+其他(欣巴炸机),其他(欣巴返退炸機),,
+其他(欣巴炸机)&,其他(欣巴返退炸機),,
+其他(客户反映螺丝拧不紧 )&,螺絲滑牙,,
+其他(客户现场批量出现报警 )&,其他(客戶現場批量出現報警),,
+其他(按钮掉了，品质问题),"其他(按鈕掉了,品質問題)",,
+其他(按键无效。)&,其他(按鍵無效),,
+其他(按键坏)&,其他(按鍵無效),,
+其他(故障 )&,其他(故障),,
+其他(故障现象：  新机上电报555),上電後異常,,
+其他(故障现象：黑屏),其他(故障現象:黑屏),,
+其他(炸機（欣巴）,其他(欣巴返退炸機),,
+其他(炸機（欣巴批量返回）),其他(欣巴返退炸機),,
+其他(脉冲点坏了)&,其他(脉衝點壞了),,
+其他(面板上的按键有1个坏了),其他(面板上的按鍵有1個壞了),,
+其他(面板不显示),其他(面板顯示故障),,
+其他(面板没有显示)&,其他(面板顯示故障),,
+其他(面板显示不全),其他(面板顯示故障),,
+其他(面板显示故障)&,其他(面板顯示故障),,
+其他(停机时，设备在慢慢转),"其他(停機時,設備在慢慢轉)",,
+其他(接口接触不良),其他(接口接觸不良),,
+其他(通讯不上),其他(通訊不良),,
+其他(通讯不良),其他(通訊不良),,
+其他(通讯不良)&,其他(通訊不良),,
+其他(通讯异常(按SHIFT 3E3)),其他(通訊異常(按SHIFT 3E3)),,
+其他(通讯异常),其他(通訊不良),,
+其他(短路 )&,上電後異常,,
+其他(備機原機還回)&,其他(備機原機還回),,
+其他(報001)&,AL001,,
+"其他(報011（我司刷韌體時發現,一上電就報011）,品質問題)&",AL011,,
+其他(報022),AL022,,
+其他(報09F),AL09F,,
+其他(報AL001)&,AL001,,
+其他(報警)&,其他(報警),,
+其他(報警001 )&,AL001,,
+其他(報警006 )&,AL006,,
+其他(報警086),AL086,,
+其他(無法使用 )&,其他(無法使用),,
+其他(無法連接),其他(通訊異常),,
+其他(無通訊),其他(通訊異常),,
+其他(無顯示),其他(面板顯示故障),,
+其他(發脉衝無法反轉)&,其他(發脉衝無法反轉,,
+其他(短路 )&,其他(SHORT),,
+其他(短路),其他(SHORT),,
+其他(黑屏),其他(面板顯示故障),,
+其他(黑屏)&,其他(面板顯示故障),,
+其他(新柍拆开后发现少了一个按纽),其他(新柍拆開後發現少了一個按紐),,
+其他(新机，客户打开包装后自机器本体内掉出螺丝),"其他(新機,客戶打開包裝後自機器本體內掉出螺絲)",,
+其他(新机驱动器丅的位置螺丝滑牙申请发服务机)&,其他(新機驅動器T的位置螺絲滑牙申請發服務機),,
+其他(滑丝),螺絲滑牙,,
+其他(過載al009),AL009,,
+其他(電容鼓包)&,其他(電容鼓包),,
+其他(網口异常),其他(網口異常),,
+其他(数码管偶尔不亮，不亮时无法连线和控制 )&,"其他(數碼管偶爾不亮,不亮時無法連綫和控制)",,
+其他(数显屏无显示),其他(面板顯示故障),,
+其他(模塊壞,其他(模塊壞),,
+其他(模塊壞),其他(模塊壞),,
+其他(模塊壞)&,其他(模塊壞),,
+其他(機子不能複位),其他(機子不能複位),,
+其他(輸出壞),其他(輸出壞),,
+其他(聯得黑屏賠償周轉機有劃痕)&,其他(聯得黑屏賠償周轉機有劃痕),,
+其他(螺絲滑牙)&,螺絲滑牙,,
+其他(還回條碼不一致)&,其他(還回條碼不一致),,
+其他(驅動器上電使能報警AL022),其他(驅動器上電使能報警AL022),,
+其他(驅動器不能設置原點),其他(驅動器不能設置原點),,
+其他(驅動器無方向),其他(驅動器無方向),,
+其他(驅動器顯示屏不穩定),其他(驅動器顯示屏不穩定),,
+其他(顯示面板亂跳),其他(顯示面板亂跳),,
+其他(顯示缺碼),其他(顯示缺碼),,
+其它,其它,,
+初上電面板就呈現死機狀態,初上電面板就呈現死機狀態,,
+制動晶體壞,制動晶體壞,,
+制動電阻有問題,制動電阻異常,,
+制動電阻壞,制動電阻異常,,
+制動燒壞,制動電阻異常,,
+刷A測B,刷A測B,,
+刹车打不开,刹車打不開,,
+刹车有问题,刹車異常,,
+刹车问题,刹車異常,,
+刹車晶體DQ2擊穿，回生電阻損壞，DD15炸，DC96炸,"刹車晶體DQ2擊穿,回生電阻損壞,DD15炸,DC96炸",,
+"刹车晶体打火烧坏,内部有少量金属粉","刹車晶體打火燒壞,內部有少量金屬粉",,
+刹车晶体折脚方式异常,刹車晶體折脚方式异常,,
+刹车晶体炸裂，PIN脚打火，整流子DD21击穿,"刹車晶體炸裂,PIN脚打火,整流子DD21擊穿",,
+刹車晶體擊穿，回生電阻open,"刹車晶體擊穿,回生電阻open",,
+刹车坏,刹車異常,,
+周轉機外觀瑕疵,周轉機外觀瑕疵,,
+周轉機沒換還回,周轉機原機還回,,
+周轉機原機還回,周轉機原機還回,,
+周轉機控制板被維修非元件燒壞,周轉機控制板被維修非元件燒壞,,
+底角壞的,底角壞的,,
+所有按鍵斷,所有按鍵斷,,
+抵消原故障機,抵消原故障機,,
+"拆機檢查DC BUS CAP DC82,DC83,DC84電容微鼓包 ,DC3電容鼓包","拆機檢查DC BUS CAP DC82,DC83,DC84電容微鼓包 ,DC3電容鼓包",,
+服務用機未使用退回,服務用機未使用退回,,
+服務機未使用歸還,服務機未使用歸還,,
+"油污,IGBT及DR58損壞","油污污染,IGBT及DR58損壞",,
+油污污染,油污污染,,
+"直接給控制板上電,面板無顯示,無法連接ASDA_soft","直接給控制板上電,面板無顯示,無法連接ASDA_soft",,
+金屬污染,金屬屑污染,,
+金屬屑污染,金屬屑污染,,
+"金屬屑污染,DR28燒,IGBT上橋U相CE擊穿","金屬屑污染,DR28燒,IGBT上橋U相CE擊穿",,
+"金屬屑進入,IGBT擊穿","金屬屑污染,IGBT擊穿",,
+"金屬屑進入,整流子擊穿","金屬屑污染,整流子擊穿",,
+金屬絲,金屬屑污染,,
+长时间通讯可重现客户故障,長時間通訊可重現客戶故障,,
+非品質問題,非品質問題,,
+信號不亮,信號不亮,,
+"冒水,檢測維修","冒水,檢測維修",,
+"冒火花,燒了","冒火花,燒毀",,
+冒烟,冒烟,,
+"冒烟,報警,檢測維修","冒烟,報警,檢測維修",,
+"冒烟,短路,跳閘","冒烟,短路,跳閘",,
+"剎車DQ2損壞,剎車電阻開路","剎車晶體DQ2擊穿,剎車電阻OPEN",,
+"剎車信號問題,電機發熱,過載","剎車信號問題,電機發熱,過載",,
+剎車參數設定异常、DQ2擊穿、內置回生電阻燒,剎車參數設定异常、DQ2擊穿、內置回生電阻燒,,
+"剎車晶體DQ2擊穿,回生電阻open","剎車晶體DQ2擊穿,回生電阻OPEN",,
+刹車晶體擊穿，回生電阻open,"剎車晶體DQ2擊穿,回生電阻OPEN",,
+剎車電阻出現發熱現象,剎車電阻出現發熱現象,,
+剎車電阻開路,剎車電阻OPEN,,
+剎車電阻壞,剎車電阻壞,,
+"客戶反映現場使用异常報警06,同樣參數換一台就不報",AL006,,
+客戶反映報警06,AL006,,
+客戶反映燒了,客戶反映燒毀,,
+客戶反映驅動器反饋問題,客戶反映驅動器反饋問題,,
+"客戶反映顯示故障,幫檢測,謝謝！",客戶反映顯示故障,,
+"客戶反應UVW端有問題,煩請幫全面檢測,謝謝！",客戶反應UVW端有問題,,
+客戶反應輸出扭力不够,客戶反應輸出扭力不够,,
+客戶自行維修更換過元件,客戶自行維修拆除元件,,
+客戶自行維修拆除元件,客戶自行維修拆除元件,,
+"客戶更新軔體未做P2-08=30,28","客戶更新軔體未做P2-08=30,28",,
+客戶參數設定異常,客戶參數設定異常,,
+"客戶參數設定異常P1-44=1536000,P1-45=92","客戶參數設定異常P1-44=1536000,P1-45=92",,
+"客戶參數設定異常P1-44=26214400,P1-45=908","客戶參數設定異常P1-44=26214400,P1-45=908",,
+客戶提供故障不明確,客戶提供故障不明確,,
+客戶等不急自己購買新機未用上周轉,客戶自行購買新機未用上周轉,,
+客戶端高速運行報03,客戶端高速運行報AL003,,
+"客戶誤報修,服務用機未使用退回","客戶誤報修,服務用機未使用退回",,
+"客戶誤報修,非DSP黑屏範圍內産品","客戶誤報修,非DSP黑屏範圍內産品",,
+客責-R螺絲應力痕跡明顯,客戶責任-R螺絲應力痕跡明顯,,
+客報故障,客訴故障,,
+客訴cn1异常,客訴CN1異常,,
+"客訴故障：短路   檢查結果：上電無顯示,內部發紅燒毀,未跳閘","客訴故障：短路   檢查結果：上電無顯示,內部發紅燒毀,未跳閘",,
+"客訴故障：短路   檢查結果：上電無顯示,內部繼電器未跳動","客訴故障：短路   檢查結果：上電無顯示,內部繼電器未跳動",,
+屏幕不亮,屏幕無顯示,,
+屏幕不顯示,屏幕無顯示,,
+屏幕時亮時不亮,屏幕顯示不全,,
+屏幕無顯示,屏幕無顯示,,
+屏幕顯示不全,屏幕顯示不全,,
+待檢測,待檢測,,
+急停,急停,,
+恢復不了出廠參數,恢復不了出廠參數,,
+"持續上電約1H死機,後無顯示","持續上電約1H死機,後無顯示",,
+指示燈不亮,指示燈不亮,,
+"指示燈亮,面板不顯示","指示燈亮,面板不顯示",,
+"按shift,伺服報警AL03E3","按SHIFT,伺服報警AL03E3",,
+按shift會導致3E3,"按SHIFT,伺服報警AL03E3",,
+按shift鍵報警通訊斷綫,按SHIFT鍵報警通訊斷綫,,
+按shift鍵報警通訊斷綫-有硬件與韌體匹配問題,按SHIFT鍵報警通訊斷綫-有硬件與韌體匹配問題,,
+"按正轉,反轉都往一個方向轉","按正轉,反轉都往一個方向轉",,
+按鈕mode shift down壞了,"按鍵MODE,SHIFT,DOWN異常",,
+按鈕mode shift壞了,"按鍵MODE,SHIFT異常",,
+按鈕mode up shift壞了,"按鍵MODE,UP,SHIFT異常",,
+按鈕mode壞了,按鍵MODE異常,,
+"按鈕mode壞了,外殼損傷","按鍵MODE異常,外殼損傷",,
+按鈕up shift壞了,"按鍵UP,SHIFT異常",,
+按鈕up壞了,按鍵UP異常,,
+按鈕失靈,按鍵不靈敏,,
+按鈕全部壞了,按鍵全異常,,
+按鈕沒蓋子,按鍵缺失,,
+按鈕掉了,按鍵缺失,,
+按鈕無反應,按鍵不靈敏,,
+按鈕無效,按鍵不靈敏,,
+按鈕損壞,按鍵缺失,,
+按鈕壞,按鍵異常,,
+按鈕壞,按鍵異常,,
+按鈕壞了,按鍵異常,,
+按壓L11 IN口通訊正常,按壓L11 IN口通訊正常,,
+按鍵不良,按鍵不靈敏,,
+按鍵不靈,按鍵不靈敏,,
+按鍵不靈敏,按鍵不靈敏,,
+"按鍵內部斷掉,品質問題","按鍵內部斷掉,品質問題",,
+按鍵失靈,按鍵異常,,
+按鍵正常,按鍵正常,,
+按鍵异常,按鍵異常,,
+"按鍵按不動,上電無顯示","按鍵按不動,上電無顯示",,
+按鍵粉塵污染,按鍵粉塵污染,,
+按鍵缺失,按鍵缺失,,
+按鍵掉落,按鍵缺失,,
+按鍵被嚴重腐蝕,按鍵被嚴重腐蝕,,
+按鍵損壞,按鍵損壞,,
+按鍵損壞,按鍵損壞,,
+"按鍵損壞,接綫端損壞","按鍵損壞,接綫端損壞",,
+按鍵蓋銘板用錯料,按鍵蓋銘板用錯料,,
+按鍵斷,按鍵損壞,,
+按鍵斷了,按鍵損壞,,
+"按鍵斷掉,客戶未使用,打開就斷了","按鍵斷掉,客戶未使用,打開就斷了",,
+按鍵壞,按鍵損壞,,
+按鍵壞,按鍵損壞,,
+按鍵壞了,按鍵損壞,,
+按鍵壞了,按鍵損壞,,
+"按鍵壞了,螺絲滑牙","按鍵損壞,螺絲滑牙",,
+"故障,報al001",AL001,,
+"故障現象:新機,初次上電 面板顯示不全",上電無顯示,,
+查看CN6 口發現內部有金屬屑,查看CN6 口發現內部有金屬屑,,
+炸機,炸機,,
+炸機,炸機,,
+炸機 整流,"炸機,整流",,
+"炸機,整流子擊穿,銅箔燒壞,按鍵失效","炸機,整流子擊穿,銅箔燒壞,按鍵失效",,
+炸機.,炸機,,
+炸機嚴重,炸機,,
+約5分鐘左右死機,死機,,
+脉衝口故障,脉衝口異常,,
+脉衝口壞,脉衝口異常,,
+脉衝口壞了,脉衝口異常,,
+脉衝方向無,脉衝方向無,,
+脉衝的輸入量和電機實際轉速不匹配,脉衝的輸入量和電機實際轉速不匹配,,
+脉衝接口壞,脉衝口異常,,
+脉衝輸入口有問題,脉衝口異常,,
+脉衝輸出無反應,脉衝輸出無反應,,
+脉衝頻率輸出錯誤,脉衝頻率輸出錯誤,,
+負載,負載,,
+"負載超100,無法下調,報錯ER006",AL006,,
+重上電後參數不保存,重上電後參數不保存,,
+重工U43 PIN2虛焊,重工U43 PIN2虛焊,,
+重新刷一下參數,重新刷一下參數,,
+"重新潤焊DD1後,顯示正常","重新潤焊DD1後,顯示正常",,
+"重新潤焊DPH16,DR49,DR50,DR53後,電壓偵測功能恢復正常","重新潤焊DPH16,DR49,DR50,DR53後,電壓偵測功能恢復正常",,
+"限位不了,回不到中心點","限位不了,回不到中心點",,
+面板一直閃,面板異常,,
+"面板上的五個按鍵均損壞,且損壞方向一致","面板上的五個按鍵均損壞,且損壞方向一致",,
+面板不亮,面板異常,,
+面板不亮,面板異常,,
+面板不顯示,面板異常,,
+面板不顯示,面板異常,,
+面板不顯示可以複現,面板不顯示可以複現,,
+"面板五個按鍵翹起,刹車電阻開路,帶馬達運轉正常","面板五個按鍵翹起,刹車電阻開路,帶馬達運轉正常",,
+"面板死機,C20,C21低阻抗","面板死機,C20,C21低阻抗",,
+"面板蓋缺失,5VD短路（DPH9 PIN4-5-6短路）","面板蓋缺失,5VD短路（DPH9 PIN4-5-6短路）",,
+面板數字不規則跳動,面板異常,,
+面板燈不亮,面板異常,,
+面板壓壞,面板壓壞,,
+面板壞,面板異常,,
+面板顯示异常,面板異常,,
+面板顯示缺字,面板異常,,
+面板顯示亂碼,面板異常,,
+面板顯示亂碼,面板異常,,
+风扇异响,風扇異響,,
+刚开机可以运行，久了就不动，给脉冲也不动，没有故障码,"剛開機可以運行,久了就不動,給脉衝也不動,沒有故障碼",,
+原機未使用,原機未使用,,
+原機還回,原機還回,,
+"原點丟失,正反轉不行","原點丟失,正反轉不行",,
+庫存機拿出測試發現螺絲滑牙,庫存機拿出測試發現螺絲滑牙,,
+站點找不到D01一直有輸出運行時報警通訊不良,站點找不到D01一直有輸出運行時報警通訊不良,,
+"粉塵污染導致DQ2炸,DD23擊穿,DD15炸,DJ4跳火,回生電阻OPEN","粉塵污染導致DQ2炸,DD23擊穿,DD15炸,DJ4跳火,回生電阻OPEN",,
+缺少按鈕,缺按鍵,,
+缺少配件,缺按鍵,,
+缺按鍵,缺按鍵,,
+缺按鍵 SHIFT SET,缺按鍵 SHIFT SET,,
+缺相,缺相,,
+缺筆畫,缺筆畫,,
+"缺筆畫,刷A測B","缺筆畫,刷A測B",,
+"能通電,顯示位置不亮","能通電,顯示位置不亮",,
+脈衝有問題,脈衝異常,,
+脈衝異常,脈衝異常,,
+逆變短路,逆變短路,,
+"逆變模塊U,W對P短路","逆變模塊U,W對P短路",,
+針扣不能用,針扣不能用,,
+"針脚無歪斜,通訊正常","針脚無歪斜,通訊正常",,
+針脚壞,針脚壞,,
+"闪屏,AL011","閃屏,AL011",,
+馬達抖動,馬達抖動,,
+馬達輸出缺相,馬達輸出缺相,,
+高速短距離運行時丟位置,高速短距離運行時丟位置,,
+高溫無顯示,高溫無顯示,,
+側蓋外力損壞,側蓋外力損壞,,
+偶發001報警,AL001,,
+偶發VBUS電壓跌落,偶發VBUS電壓跌落,,
+偶發上電無顯示,偶發上電無顯示,,
+"偶發性報AL022,缺相","偶發性報AL022,缺相",,
+偶發性無顯示,偶爾性無顯示,,
+偶發報警AL001,偶發報警AL001,,
+"偶發報警AL001,換新的驅動就沒問題","偶發報警AL001,換新的驅動就沒問題",,
+偶發無顯示,偶發無顯示,,
+偶爾185、180,偶爾185、180,,
+偶爾死機,偶爾死機,,
+偶爾性無顯示,偶爾性無顯示,,
+"偶爾報故障,需要檢測報告","偶爾報故障,需要檢測報告",,
+偶爾黑屏,偶爾性無顯示,,
+"偶爾電機不轉,手動一下又恢復正常","偶爾電機不轉,手動一下又恢復正常",,
+动力线断线报警,動力綫斷綫報警,,
+动力输出不稳定,動力輸出不穩定,,
+參數丟失,參數報錯,,
+"參數全部導入,屏幕操作沒反應,編碼器綫拔了也戶顯示AL011","參數全部導入,屏幕操作沒反應,編碼器綫拔了也戶顯示AL011",,
+參數異常,參數異常,,
+"參數異常,報警AL011","參數異常,報警AL011",,
+"參數設置异常,P1-01=106。","參數設置异常,P1-01=106。",,
+"參數設置後,再斷電無法保存",參數報錯,,
+參數報錯,參數報錯,,
+啓動電阻燒壞,啓動電阻燒壞,,
+啓動電阻壞,啓動電阻燒壞,,
+"啓動慢,編碼器報警","啓動慢,編碼器報警",,
+"執行P2-08=30,28未完成中途斷電,伺服會跳AL09C,內部參數會清空","執行P2-08=30,28未完成中途斷電,伺服會跳AL09C,內部參數會清空",,
+帶長線馬達報警AL011,帶長線馬達報警AL011,,
+帶馬達加載運轉可以正常運行,帶馬達加載運轉可以正常運行,,
+帶馬達高低速運轉正常，平臺測試PASS,"帶馬達高低速運轉正常,平臺測試PASS",,
+帶馬達報警AL011,帶馬達報警AL011,,
+帶馬達報警AL031,帶馬達報警AL031,,
+帶馬達報警ALC31,帶馬達報警ALC31,,
+帶馬達運行報警ALC31,帶馬達報警ALC31,,
+帶馬達運轉正常,帶馬達運轉正常,,
+帶馬達運轉正常，EtherCAT通訊正常,"帶馬達運轉正常,EtherCAT通訊正常",,
+帶馬達運轉正常，RS485通訊正常,"帶馬達運轉正常,RS485通訊正常",,
+帶馬達運轉正常，未發現損壞痕跡。,"帶馬達運轉正常,未發現損壞痕跡。",,
+帶馬達運轉正常，按鍵丟失,"帶馬達運轉正常,按鍵丟失",,
+帶馬達運轉正常，測試機測試PASS,"帶馬達運轉正常,測試機測試PASS",,
+帶馬達運轉約2H死機無顯示,帶馬達運轉約2H死機無顯示,,
+帶載測試運行正常,帶電測試運行正常,,
+帶載測試運行正常,帶電測試運行正常,,
+帶電機工作通訊异常,帶電機工作通訊异常,,
+帶電機异響,帶電機異響,,
+帶電機抖動,帶電機抖動 需要檢測報告,,
+帶電機抖動 需要檢測報告,帶電機抖動 需要檢測報告,,
+帶電機運行正常,帶電測試運行正常,,
+帶機運轉報AL01,帶電運轉報AL001,,
+掉了一個按鈕,缺按鍵,,
+接上BCC2B3JBW20502058此序列號電機後直接燒壞,接上BCC2B3JBW20502058此序列號電機後直接燒壞,,
+接口不良,接口不良,,
+接口有問題,接口不良,,
+接口壞,接口不良,,
+接地螺絲又擰不緊,接地螺絲滑牙,,
+接地螺絲滑牙,接地螺絲滑牙,,
+接地螺絲擰不緊,接地螺絲滑牙,,
+接收不了脉衝,接收不了脉衝,,
+接收脉衝無反應,接收脉衝無反應,,
+接受脉衝控制不了方向,接受脉衝控制不了方向,,
+接綫 1-3滑絲,接綫 1-3滑絲,,
+接綫的牙壞了,接線螺孔滑牙,,
+接綫端子DTB1包焊,接線端子DTB1包焊,,
+接綫端子L1、U相包焊,"接線端子L1,U相包焊",,
+接綫端子L1c漏焊,接線端子L1C漏焊,,
+接綫端子P、R、T相漏焊,"接線端子P,R,T相漏焊",,
+接綫端子S螺絲滑牙,接線端子S螺絲滑牙,,
+接綫端子螺絲扣滑牙,螺絲滑牙,,
+接綫端螺絲打滑,螺絲滑牙,,
+接綫螺孔滑牙,接線螺孔滑牙,,
+接觸不良,接觸不良,,
+接觸不良顯示亂碼,接觸不良,,
+控制卡和伺服總綫通訊不上,控制卡和伺服總綫通訊不上,,
+"控制板1.2V短路,R222燒,DR58損壞,IGBT底部燒穿一個洞","控制板1.2V短路,R222燒,DR58損壞,IGBT底部燒穿一個洞",,
+控制板J5端子粘膠,控制板J5端子粘膠,,
+"控制板上電可以讀取參數,面板不顯示","控制板上電可以讀取參數,面板不顯示",,
+"控制板多處炸機,U1、U5、U6、U7、U8、U15、U18、U33、L1、D13等損壞","控制板多處炸機,U1、U5、U6、U7、U8、U15、U18、U33、L1、D13等損壞",,
+控制板有時有顯示有時無顯示,控制板有時有顯示有時無顯示,,
+"控制板有維修痕迹,IGBTPIN脚彎,焊錫异常,AB機","控制板有維修痕迹,IGBTPIN脚彎,焊錫异常,AB機",,
+"控制面板顯示AL085,300VDC上電,檢查VBUS電壓爲552VDC","控制面板顯示AL085,300VDC上電,檢查VBUS電壓爲552VDC",,
+"控制電上電,讀取不到ID","控制電上電,讀取不到ID",,
+推力反向,推力反向,,
+條碼不一致,條碼不一致,,
+現場未使用取回,現場未使用取回,,
+現場報86,AL086,,
+"產品帶馬達使能,伺服並無的異響,距離產品10cm以內,能聽相對微弱電磁聲音","產品帶馬達使能,伺服並無的異響,距離產品10cm以內,能聽相對微弱電磁聲音",,
+产品带马达运转正常,帶馬達運轉正常,,
+"產品帶馬達運轉正常,測試測試PASS,CND","帶馬達運轉正常,測試測試PASS,CND",,
+"產品帶馬達運轉正常,檢查剎車放電正常,CND","帶馬達運轉正常,檢查剎車放電正常,CND",,
+產品測試機測試正常,帶馬達運轉正常,,
+産品只有軟啓電阻和relay損壞,産品只有軟啓電阻和relay損壞,,
+産品帶馬達運轉正常,帶馬達運轉正常,,
+異常,異常報警,,
+異常報警,異常報警,,
+異響內部有火花,異響內部有火花,,
+"移除DPH16光耦PIN1~PIN4防潮膠時,發現PIN膠高蹺","移除DPH16光耦PIN1~PIN4防潮膠時,發現PIN膠高蹺",,
+"移除了Q11,R260電阻,爲對策後的産品","移除了Q11,R260電阻,爲對策後的産品",,
+第2位（D1)A管子缺筆畫,第2位（D1)A管子缺筆畫,,
+"第一次L1L2上電顯示正常,控制板單獨上電5V,3.3V,1.2V均正常,C20 3.4Mohm,C21 2.8Mohm,第二次L1L2上電伺服伺服無顯示,內部冒烟,U42擊穿","第一次L1L2上電顯示正常,控制板單獨上電5V,3.3V,1.2V均正常,C20 3.4Mohm,C21 2.8Mohm,第二次L1L2上電伺服伺服無顯示,內部冒烟,U42擊穿",,
+"第一次上電顯示正常,第二次上電無顯示,産品返回吳江反饋上電幾十次顯示都是正常,不良現象無法重現","第一次上電顯示正常,第二次上電無顯示,産品返回吳江反饋上電幾十次顯示都是正常,不良現象無法重現",,
+第一個螺母位置擰不下去,第一個螺母位置擰不下去,,
+第一個螺絲位置擰不下去,第一個螺絲滑牙,,
+第二個螺絲孔滑牙,第二個螺絲滑牙,,
+"第二個螺絲滑牙,擰不出",第二個螺絲滑牙,,
+第二顆螺絲滑牙了,第二個螺絲滑牙,,
+設置的參數斷電後無法保存,設置的參數斷電後無法保存,,
+"軟起電阻DR28燒,DR42炸,IGBT炸,整流子DD22、DD23擊穿","軟起電阻DR28燒,DR42炸,IGBT炸,整流子DD22、DD23擊穿",,
+"軟起電阻DR28燒,剎車晶體CE擊穿,剎車晶體底部有導電金屬絲","軟起電阻DR28燒,剎車晶體CE擊穿,剎車晶體底部有導電金屬絲",,
+"軟起電阻DR28燒壞,IGBT炸","軟起電阻DR28燒壞,IGBT炸",,
+"軟起電阻open,液體污染","軟起電阻OPEN,液體污染",,
+"軟起電阻燒,IGBT炸","軟起電阻燒毀,IGBT炸",,
+"軟起電阻燒,relay融損,DR58炸,IGBT單體量測：邊緣鎖裂,P對UV短路對W0.139VDC,N對W短路,對V特性异常0.152VDC","軟起電阻燒毀,relay融損,DR58炸,IGBT單體量測：邊緣鎖裂,P對UV短路對W0.139VDC,N對W短路,對V特性异常0.152VDC",,
+"軟起電阻燒,回生電阻過熱","軟起電阻燒毀,回生電阻過熱",,
+軟起電路污染,軟起電路污染,,
+"軟起燒,Relay PIN脚燒熔,內部油漬污染嚴重","軟起電阻燒毀,Relay PIN脚燒熔,內部油漬污染嚴重",,
+軟啟電阻燒壞,軟起電阻燒毀,,
+"軟啟電阻燒壞,IGBT U對P擊穿","軟起電阻燒毀,IGBT U對P擊穿",,
+通信不上,通訊異常,,
+通信不良,通訊異常,,
+通信功能正常,通信功能正常,,
+通信故障,通訊異常,,
+通讯不上,通訊異常,,
+通讯不上总线，换上其他的是好的,通訊異常,,
+通讯不良,通訊異常,,
+通讯不良/无法解除刹车/无显示/报警/电机自行下降,通訊異常,,
+"通訊不良,無顯示,報警",通訊異常,,
+"通訊不良,無顯示,報警",通訊異常,,
+通訊不良、無顯示、報警,通訊異常,,
+通讯不畅,通訊異常,,
+通讯不稳定,通訊異常,,
+通讯半小时报AL185,通訊半小時報AL185,,
+通讯正常,通訊正常,,
+通讯正常、运转正常,通訊正常,,
+通讯异常,通訊異常,,
+通讯异常 AL1200,"通訊異常,AL1200",,
+通讯后会影响其他伺服通讯,通訊後會影響其他伺服通訊,,
+通讯时好时坏,通訊異常,,
+通訊異常,通訊異常,,
+通讯连不上,通訊異常,,
+通讯断,通訊異常,,
+"通道銅箔熔斷,但與之對應的整流子並未損壞,IGBT炸裂,DR58量測正常","通道銅箔熔斷,但與之對應的整流子並未損壞,IGBT炸裂,DR58量測正常",,
+通電一段時間後不顯示,通電一段時間後重啟不顯示,,
+通電一段時間後死機,通電一段時間後重啟不顯示,,
+"通電一段時間後死機,重啓後不顯示",通電一段時間後重啟不顯示,,
+"通電一段時間後死機,重啟不顯示",通電一段時間後重啟不顯示,,
+通電一段時間後重啟不顯示,通電一段時間後重啟不顯示,,
+通電一會就不顯示了,通電一段時間後重啟不顯示,,
+通电不亮,通電不顯示,,
+通电不显示,通電不顯示,,
+"通電不顯示,DU1 EN對GND186.7Ω,BP對GND74.5Ω","通電不顯示,DU1 EN對GND186.7Ω,BP對GND74.5Ω",,
+"通電不顯示,U42擊穿","通電不顯示,U42擊穿",,
+通电未显示，/烧了，或通讯不良/掉线/报A2.02F，或W轴伺服通电无显示,"通電未顯示,,燒了,或通訊不良,掉綫,報A2.02F,或W軸伺服通電無顯示",,
+通电异常,通電異常,,
+通电有时候会黑屏，但电源指示灯是亮的,"通電有時候會黑屏,但電源指示燈是亮的",,
+通电但是不显示,通電不顯示,,
+通电没反应,通電不顯示,,
+通电没有反应,通電不顯示,,
+通电和信号没反映,通電不顯示,,
+通電延時顯示,通電延時顯示,,
+通电冒火花,通電冒火花,,
+通电冒烟,通電冒火花,,
+通电屏幕不显示,通電不顯示,,
+"通電後死機,再通電無顯示",通電一段時間後重啟不顯示,,
+通电后无显示,通電後無顯示,,
+通电后乱跳,通電後亂跳,,
+通电移框时在抖动，换新一台又正常,"通電移框時在抖動,換新一台又正常",,
+通电报AL09C,通電報警AL09C,,
+通电报警,通電報警,,
+通電報警AL001,通電報警AL001,,
+通電報警AL006,通電報警AL006,,
+通電報警AL006和AL085,通電報警AL006和AL085,,
+通电报警AL011,通電報警AL011,,
+通電報警AL011,通電報警AL011,,
+通電報警AL016,通電報警AL016,,
+通電報警AL085,通電報警AL085,,
+通電報警AL09C,通電報警AL09C,,
+"通電報警AL09C,讀取內部參數全部為空","通電報警AL09C,讀取內部參數全部為空",,
+通电报警AL09F,通電報警AL09F,,
+通電報警AL521,通電報警AL521,,
+通电就烧了,通電冒火花,,
+通電無反應,通電無反應,,
+通電無顯示,通電無顯示,,
+通電無顯示,通電顯示AL001,,
+通电发热，疑是内部短路,"通電發熱,疑是內部短路",,
+通电短路,通電短路,,
+通电跳闸,通電跳閘,,
+通電運行一段時間黑屏,通電運行一段時間黑屏,,
+通电漏电 跳闸,通電漏電 跳閘,,
+通电烧220V供电保险,通電燒220V供電保險,,
+通电烧了,通電燒了,,
+通電顯示AL001,通電顯示AL006,,
+通電顯示AL006,通電顯示AL006,,
+通電顯示不亮,通電顯示不亮,,
+通電顯示多筆畫D4與D5聯動,通電顯示多筆畫D4與D5聯動,,
+通電顯示後死機,通電顯示後死機,,
+通電顯示缺筆劃,通電顯示缺筆劃,,
+速度模式下没有输出,速度模式下沒有輸出,,
+速度模式正常，通讯连不上,"速度模式正常,通訊連不上",,
+連接不上電腦,連接異常,,
+連接有問題,連接異常,,
+連接電機异常,連接異常,,
+部分不顯示,部分不顯示,,
+部速度命令馬達運轉速度不穩定,部速度命令馬達運轉速度不穩定,,
+備用樣機返回,備用樣機返回,,
+报：AL031,AL031,,
+报001,AL001,,
+报001，009,"AL001,AL009",,
+报001.009,"AL001,AL009",,
+报003,AL003,,
+报0031,AL031,,
+报006,AL006,,
+报006和009，有时候识别不到，不会走，有时候瞬间返回的时候它不动，反转的时候不会动，导致报警,"AL006,AL009,有時候識別不到,不會走,有時候瞬間返回的時候它不動,反轉的時候不會動,導致報警",,
+報006過載,AL006,,
+报009,AL009,,
+报01,AL001,,
+报01，过电流,"AL001,過電流",,
+报011,AL011,,
+报011，第3次报修,"AL011,第3次報修",,
+报03,AL003,,
+报033,AL033,,
+报06,AL006,,
+报06.09待检测,"AL006,AL009,待檢測",,
+报083,AL083,,
+报085,AL085,,
+报086,AL086,,
+报09，可能烧了,AL009,,
+报09F,AL09F,,
+報09F,AL09F,,
+报0X31,AL0X31,,
+报180,AL180,,
+报20,AL020,,
+报22,AL022,,
+報3C3,AL3C3,,
+报AL001,AL001,,
+报AL001 低电压,"AL001,低電壓",,
+报AL001 过电流，不是上电就报，间接性报故障,"AL001,過電流,不是上電就報,間接性報故障",,
+报AL001需要检测报告,"AL001,需要檢測報告",,
+报AL003,AL003,,
+报AL004,AL004,,
+报AL006,AL006,,
+报AL006 /  AL085,"AL006,AL085",,
+"报AL006,AL086","AL006,AL086",,
+报AL011,AL011,,
+报AL011代码,AL011,,
+报AL06过载,AL006,,
+报AL072,AL072,,
+报AL083,AL083,,
+报AL085,AL085,,
+报AL091,AL091,,
+报AL09C,AL09C,,
+报AL09F,AL09F,,
+报AL09F，需要技术检测,AL09F,,
+报AL3E1,AL3E1,,
+报ALL298,AL298,,
+报e23,ALE23,,
+报L09F,AL09F,,
+报OX03E3,ALOX03E3,,
+报RD-3,ALRD3,,
+报RL.086,AL086,,
+报RL003,AL003,,
+报RL011,AL011,,
+报低电压,報警,,
+报故障码 L085 AL01,"AL001,AL085",,
+报过流AL83,AL083,,
+报过电流,報警,,
+报错,報警,,
+报错001,AL001,,
+报警,報警,,
+报警  丢原点,報警,,
+报警 RL003,AL003,,
+报警 没反应,報警,,
+报警，需检测报告,報警,,
+报警、烧坏、短路、无显示或无输出,報警,,
+报警001,AL001,,
+报警001.需要检测报告,AL001,,
+报警006,AL006,,
+报警01,AL001,,
+报警022.需要检测报告,AL022,,
+报警02f,AL02F,,
+报警03,AL003,,
+报警06,AL006,,
+报警083,AL083,,
+报警085,AL085,,
+报警086，怀疑内置电阻不良,"AL086,懷疑內置電阻不良",,
+报警09,AL009,,
+报警09F,AL09F,,
+报警11,AL011,,
+报警15,AL015,,
+报警22,AL022,,
+报警3E3,AL3E3,,
+报警85,AL085,,
+报警86,AL086,,
+报警90F,AL90F,,
+报警A1C31,ALC31,,
+报警Al 001/偶发通讯异常,"AL001,偶發通訊異常",,
+报警AL001,AL001,,
+報警AL001,AL001,,
+报警AL001，,AL001,,
+报警AL001/通电无显示 烧了,AL001,,
+报警AL001/通电无显示 烧了 /刹车输出点一直有输出,AL001,,
+报警AL001.需检测报告,AL001,,
+报警AL003,AL003,,
+"报警AL003/AL005,换台就正常","AL003,AL005",,
+报警AL003，故障上电无显示,AL003,,
+报警AL003.需检测报告,AL003,,
+报警AL003低电压,AL003,,
+报警AL006,AL006,,
+报警AL006，需要检测报告,AL006,,
+报警AL009,AL009,,
+报警AL01,AL001,,
+报警AL011,AL011,,
+報警AL011,AL011,,
+报警AL011 ，报警AL068，，内部送电导致跳闸,"AL011,AL068",,
+报警AL011 无法通讯,AL011,,
+报警AL013 AL025,"AL013,AL025",,
+报警AL016,AL016,,
+報警AL016，DJ1 pin22對pin24短路,"AL016,DJ1 PIN22對PIN24短路",,
+报警AL016.不显示,AL016,,
+报警AL019,AL019,,
+报警AL022,AL022,,
+报警AL022，需要检测报告,AL022,,
+报警AL025,AL025,,
+报警AL031,AL031,,
+报警AL035,AL035,,
+报警AL044,AL044,,
+报警AL048,AL048,,
+"报警AL06,开不了机",AL006,,
+报警AL068,AL068,,
+报警AL083,AL083,,
+報警AL083、AL006,"AL083,AL006",,
+报警AL085,AL085,,
+報警AL085,AL085,,
+"报警AL085,回生电阻异常",AL085,,
+报警AL086,AL086,,
+報警AL086,AL086,,
+报警AL088,AL088,,
+报警AL09,AL009,,
+报警AL09F,AL09F,,
+報警AL09F,AL09F,,
+报警AL09F 电容充电异常,AL09F,,
+报警AL100,AL100,,
+报警AL11,AL011,,
+报警AL16,AL016,,
+報警ALM011,AL011,,
+报警RL.09C,AL09C,,
+报警RL09C,AL09C,,
+報警异常,報警,,
+报警待检测,報警,,
+報警無法消除,報警,,
+报警过负荷 AL06 AL086,"AL006,AL086",,
+報警過電流,報警,,
+"插USB有顯示,L1,L2上電無顯示","插USB有顯示,L1,L2上電無顯示",,
+換回故障機,換回故障機,,
+"換的系列A-1021-E這台周轉機,前幾天拆開調試,發現主板上有燒了的痕迹","換的系列A-1021-E這台周轉機,前幾天拆開調試,發現主板上有燒了的痕迹",,
+"散熱片有泡水受潮痕迹,V相電流偵測芯片DPH2供電5VV爲0V,DD7二極管特性异常變大","散熱片有泡水受潮痕迹,V相電流偵測芯片DPH2供電5VV爲0V,DD7二極管特性异常變大",,
+"散熱片有泡水受潮痕迹,W相電流偵測芯片DPH5 5VW對PIN8(AGND)短路,軟起電路DQ3特性异常","散熱片有泡水受潮痕迹,W相電流偵測芯片DPH5 5VW對PIN8(AGND)短路,軟起電路DQ3特性异常",,
+"散熱片受潮,産品功能測試正常","散熱片受潮,産品功能測試正常",,
+"測試etherCAT功能正常,測試機測試正常,CND","測試etherCAT功能正常,測試機測試正常,CND",,
+測試功能正常,測試功能正常,,
+"測試參數均爲預設值,未寫入","測試參數均爲預設值,未寫入",,
+无,無法正常工作,,
+無反應,無法正常工作,,
+无反应或找不到站号,無法正常工作,,
+無反饋,無法正常工作,,
+无方向，短时间有方向,"無方向,短時間有方向",,
+無失效現象,無異常,,
+无同步信号,無同步信號,,
+无异常,無異常,,
+"無异常,只接L1L2會報警9F","無異常,只接L1L2會報警9F",,
+無法下載參數,無法下載參數,,
+无法升级,無法升級,,
+无法反转,無法反轉,,
+无法正常工作,無法正常工作,,
+无法正常使用，待检测,無法正常工作,,
+无法正常运行,無法正常工作,,
+无法使用,無法正常工作,,
+无法定位电机位置,無法定位電機位置,,
+無法重現不良現象,無法重現不良現象,,
+无法通讯,無法通訊,,
+无法通讯，需要检测报告,無法通訊,,
+無法連接,無法通訊,,
+无法开机,無法開機,,
+无法开机烧保险,無法開機燒保險,,
+无法运行,無法正常工作,,
+无法写入参数,無法導入參數,,
+无法导入参数,無法導入參數,,
+無法顯示,顯示異常,,
+"無法顯示,",顯示異常,,
+無法顯示;,顯示異常,,
+無法顯示;上電無顯示,顯示異常,,
+無法顯示;上電無顯示;,顯示異常,,
+無法顯示;整機炸機;,"顯示異常,炸機",,
+無法顯示上電無顯示,上電無顯示,,
+无信号,無法通訊,,
+无故障,無故障,,
+无脉冲输出,無脉衝輸出,,
+无动作,無動作,,
+無異常,通信功能正常,,
+"无规律的报警AL048, AL007","無規律的報警AL048, AL007",,
+无通讯,無法通訊,,
+无电源,無電源,,
+无数字显示,顯示異常,,
+无输出,運行無輸出,,
+"無輸出,報警AL022","無輸出,報警AL022",,
+无输出动力,運行無輸出,,
+无显示,顯示異常,,
+無顯示,顯示異常,,
+无显示，但是过段时间又有显示了,顯示異常,,
+無顯示，低阻抗,"顯示異常,低阻抗",,
+"无显示,更新韧体后正常","顯示異常,更新韌體後正常",,
+无显示，炸机,"顯示異常,炸機",,
+無顯示，機内粉塵多，刹車晶體坏,"顯示異常,機內粉塵多,刹車晶體壞",,
+無顯示面板保護蓋,顯示異常,,
+无显示无输出,顯示異常,,
+发出运动命令，电机不走,"發出運動命令,電機不走",,
+发脉冲不执行,發脉衝無反應,,
+发脉冲只有一个方向,發脉衝只有一個方向,,
+发脉冲没反应,發脉衝無反應,,
+发脉冲无反应,發脉衝無反應,,
+短路,SHORT,,
+短路引起跳閘,SHORT,,
+"硬件問題,某個模塊有問題收不到PLC發送的脉衝信號","硬件問題,某個模塊有問題收不到PLC發送的脉衝信號",,
+"給信號數字自己跳動,電機不動","給信號數字自己跳動,電機不動",,
+跑马灯,跑馬燈,,
+跑馬燈，AL011,"跑馬燈,AL011",,
+"軸异響,象限點調不動,全新待更換","軸异響,象限點調不動,全新待更換",,
+進水,進水,,
+進相電源短路,進相電源短路,,
+"進退信號反,伺服馬達不動","進退信號反,伺服馬達不動",,
+"量取U21 pin3與pin5阻抗異常為0.7Mohm,正常的阻抗在1.6Mohm","量取U21 PIN3與PIN5阻抗異常為0.7Mohm,正常的阻抗在1.6Mohm",,
+量測C21低阻抗2.1kΩ。正常為MΩ級別,量測C21低阻抗2.1kΩ。正常為MΩ級別,,
+开不了机,開不了機,,
+开始报AL011，检查后不报警了,"開始報AL011,檢查後不報警了",,
+开机一会就报警,開機報警,,
+开机送料机无动作，驱动器无代码显示,"開機送料機無動作,驅動器無代碼顯示",,
+开机报警,開機報警,,
+开机报警085,"開機報警,AL085",,
+开机报警AL085或AL09F,"開機報警AL085,AL09F",,
+开机无显示,開機無顯示,,
+開機無顯示,開機無顯示,,
+开机跳闸,開機跳閘,,
+开机显示黑屏,開機無顯示,,
+韌體版本問題,韌體版本問題,,
+黑屏,顯示異常,,
+黑屏，不显示,顯示異常,,
+黑屏，内部线路板打火,"顯示異常,內部綫路板打火",,
+黑屏，出测试报告,"顯示異常,出測試報告",,
+黑屏，批次问题，请换新,"顯示異常,批次問題,請換新",,
+黑屏/炸机,"顯示異常,炸機",,
+"黑屏,炸機","顯示異常,炸機",,
+黑屏，通讯不上,"顯示異常,通訊不上",,
+黑屏。不显示,顯示異常,,
+黑屏无显示,顯示異常無顯示,,
+亂報故障,亂碼異常,,
+亂碼,亂碼異常,,
+"亂碼,間歇性無顯示",亂碼異常,,
+亂碼异常,亂碼異常,,
+亂髮脉衝,亂髮脉衝,,
+幹擾其他伺服,干擾其他伺服,,
+新机 通讯不良，H1的值不对,"新機 通訊不良,H1的值不對",,
+"新机,R点坏","新機,R點壞",,
+新机，外观刮花，客户以为是旧机，要求退货。,"新機,外觀刮花,客戶以爲是舊機,要求退貨",,
+新机，按键有问题,"新機,按鍵異常",,
+新机，按键脱落,"新機,按鍵脫落",,
+新机，报警10，要求更换新机,"新機,報AL010,要求更換新機",,
+新机，显示笔画不全,"新機,顯示筆劃不全",,
+新機上電就炸，故障報警AL09F,"新機上電就炸,報AL09F",,
+新机不良,新機不良,,
+新机刷韧体报001,"新機刷韌體,報AL001",,
+新机按键坏,"新機,按鍵異常",,
+新机通电报警AL011,"新機通電,報AL011",,
+新机归还,新機歸還,,
+新机翻盖坏,新機翻蓋壞,,
+会死机，二次报修，要求换机,"會死機,二次報修,要求換機",,
+会跳数值，传动停顿,"會跳數值,傳動停頓",,
+"極偶爾出現過無顯示的狀况,後續無法重現","極偶爾出現過無顯示的狀况,後續無法重現",,
+溫度過高,溫度過高,,
+滑牙,螺絲滑牙,,
+滑牙（R),螺絲滑牙,,
+滑絲,螺絲滑牙,,
+"當驅動器不運行時,CN4通訊正常,當驅動器運行時,CN4通訊造成FX-5U PLC的485端口燒壞。電腦USB接口也燒壞,造成整機漏保電源開關跳脫。","當驅動器不運行時,CN4通訊正常,當驅動器運行時,CN4通訊造成FX-5U PLC的485端口燒壞。電腦USB接口也燒壞,造成整機漏保電源開關跳脫。",,
+裏面有螺絲,螺絲斷裂,,
+裝STO端子後帶馬達運轉正常,裝STO端子後帶馬達運轉正常,,
+跳閘,跳閘,,
+運行2小時死機,運行約2小時死機,,
+"運行一段時間,A2367:A2375報AL015","運行一段時間,A02367:A2375報AL015",,
+運行一段時間死機,運行一段時間死機,,
+運行一會報警15,"運行一段時間,報AL015",,
+運行了2個小時就 黑屏,運行一段時間黑屏,,
+運行不了,運行不了,,
+運行中低電壓,運行中低電壓,,
+"運行中重啟,U42接觸性不良","運行中重啟,U42接觸性不良",,
+運行中报警01，时间不固定,"運行中報AL001,時間不固定",,
+運行中報警85,運行中報AL085,,
+"運行中燒起來,滅火後造成生銹","運行中燒起來,滅火後造成生銹",,
+運行約10分鐘左右死機,運行約10分鐘左右死機,,
+運行約1分鐘左右報警AL001，重複上電斷電約4次左右無顯示,"運行約1分鐘左右報警AL001,重複上電斷電約4次左右無顯示",,
+運行約3分鐘左右報警AL001，重複ON/OFF有時顯示，有時無顯示,"運行約3分鐘左右報警AL001,重複ON,OFF有時顯示,有時無顯示",,
+運行約5分鐘左右死機,運行約5分鐘左右死機,,
+運行約5秒死機,運行約5秒死機,,
+運行約半小時左右死機,運行約30分鐘左右死機,,
+運行原點回歸，設定遇到限位反轉找尋原點，功能可以正常實現,"運行原點回歸,設定遇到限位反轉找尋原點,功能可以正常實現",,
+運行報警AL001,運行報警AL001,,
+運行無輸出,運行無輸出,,
+運行會報警AL083,AL083,,
+運行過程中出現黑屏,顯示異常,,
+"運轉中報警AL003,無法運轉",AL003,,
+过流,過流報警,,
+过流报警,過流報警,,
+过载,過電報警,,
+过电流,過電報警,,
+过电流报警AL001,AL001,,
+过电报警,過電報警,,
+过电压,過電報警,,
+過壓,過壓,,
+零漂無法消除,零漂無法消除,,
+"電阻R260應爲10KΩ,錯建爲0Ω（使其輸出電壓準位由3.3V被拉到GND）,該脚位與shift鍵控制Boot訊號,拉到GND造成以下問題","電阻R260應爲10KΩ,錯建爲0Ω（使其輸出電壓準位由3.3V被拉到GND）,該脚位與shift鍵控制Boot訊號,拉到GND造成以下問題",,
+电流过大，无法使用,過流報警,,
+电容DC3鼓包,電容鼓包,,
+电容异常,電容異常,,
+电容炸,電容炸,,
+电容鼓包,電容鼓包,,
+电源220V短路,電源220V短路,,
+"電源板：DT1打火,PIN1和PIN2 Open,DU1擊穿,整流子DD22擊穿,IGBT擊穿,DR300燒壞,控制板噴灰,電源系統全部損壞","電源板：DT1打火,PIN1和PIN2 Open,DU1擊穿,整流子DD22擊穿,IGBT擊穿,DR300燒壞,控制板噴灰,電源系統全部損壞",,
+"电源板DR58炸，DD22击穿，IGBT 单体量测，P对U短路，对W特性异常0.281vdc,N对U短路，com对5/7/9/10/11/12/16/17/2短路","電源板DR58炸,DD22擊穿,IGBT 單體量測,P對U短路,對W特性异常0.281vdc,N對U短路,com對5,7,9,10,11,12,16,17,2短路",,
+電源板多個元件受到腐蝕,電源板壞,,
+电源板坏,電源板壞,,
+电源指示灯亮，8字管不亮,"電源指示燈亮,8字管不亮",,
+电源短路,電源短路,,
+电源模块不显示,電源模塊不顯示,,
+电源模块偶发性失灵,電源模塊偶發性失靈,,
+电源输入端R端螺丝锁不紧,R端子_螺絲滑牙,,
+电源输入坏,電源壞,,
+电源螺丝打滑,電源_螺絲滑牙,,
+电源螺丝滑牙,電源_螺絲滑牙,,
+电源坏,電源壞,,
+电路板冒烟烧板或上电后显示AL09F故障代码,AL09F,,
+电路板冒烟烧坏,電路板冒烟燒壞,,
+电机不转,電機不轉,,
+电机异响,電機異響,,
+电机自激震荡,電機自激震蕩,,
+电机抖动,電機抖動,,
+电机精准度不够.需检验报告,電機精准度不够.需檢驗報告,,
+电压正常时一直报电压过低,電壓正常時一直報電壓過低,,
+电压侦测异常,電壓偵測異常,,
+電壓偵測異常,電壓偵測異常,,
+"實際電壓正常,但顯示報警086或R處鎖不緊,地綫螺絲擰不緊,屏幕顯示不全","AL086,螺絲滑牙,顯示異常",,
+"滿載連續運行6H無异常,同時量測三相輸出電流波形正常","滿載連續運行6H無异常,同時量測三相輸出電流波形正常",,
+滿載對托功能正常,滿載對托功能正常,,
+漏電,漏電跳閘,,
+"漏電,上電聲音大",上電後異常,,
+"漏電,報001","漏電跳閘,AL001",,
+漏電跳閘,漏電跳閘,,
+疑似配綫時綫芯掉落至伺服內部,疑似配綫時綫芯掉落至伺服內部,,
+端子DJ1粘膠,端子DJ1粘膠,,
+端子T螺丝坏,T端子_螺絲滑牙,,
+端子外力损坏,端子外力損壞,,
+端子打火,端子打火,,
+端子排R螺丝滑牙,R端子_螺絲滑牙,,
+端子粘膠,端子粘膠,,
+端子粘膠，DR1燒壞，DC3底部trace燒壞,"端子粘膠,DR1燒壞,DC3底部trace燒壞",,
+端子报警,端子報警,,
+端子插不进,端子異常,,
+端子坏了,端子異常,,
+綫圈燒,線圈燒,,
+"網口ERR變紅,不斷反復","網口異常,ERR變紅,不斷反復",,
+"網口不通訊,指示燈不亮","網口異常,不通訊,指示燈不亮",,
+網口故障,網口異常,,
+"網口針脚歪斜,接觸不良","網口異常,針脚歪斜,接觸不良",,
+網口接觸不良,"網口異常,接觸不良",,
+網口通訊不上,"網口異常,通訊不良",,
+網口通訊正常,網口通訊正常,,
+網口通訊接觸不好,"網口異常,通訊接觸不好",,
+網絡通訊异常,"網口異常,通訊不良",,
+"網綫端口,通訊連不上","網口異常,通訊不良",,
+與CNC通訊失敗,與CNC通訊失敗,,
+與CNC通訊正常,與CNC通訊正常,,
+與其他伺服通訊不上,與其他伺服通訊不上,,
+"銅箔炸,DD22之間PIN腳打火","銅箔損壞,DD22之間PIN腳打火",,
+"銅箔損壞,IGBT open,DR58炸","銅箔損壞,IGBT open,DR58炸",,
+铭板使用錯誤,銘板使用錯誤,,
+铭板板盖缺失，外观无磕痕，使用时间为0小时,"銘板蓋缺失,外觀無磕痕,使用時間爲0小時",,
+"铭板盖缺失，UP,Shift按鍵缺失","銘板蓋缺失,UP,Shift按鍵缺失",,
+铭牌和实际功率不一样，需要检测报告,"銘板蓋和實際功率不一樣,需要檢測報告",,
+"需要研發分析報告,報告故障現象:1.控制器使用50MC、正常運行過程中,控制器檢測到何服報警 。 驅動器上顯示正常,監控50MC軟件診斷顯示這台驅動 報警AL、FFFF(運動控制器顯示),連接之後的驅","需要研發分析報告,報告故障現象:1.控制器使用50MC、正常運行過程中,控制器檢測到何服報警 。 驅動器上顯示正常,監控50MC軟件診斷顯示這台驅動 報警AL、FFFF(運動控制器顯示),連接之後的驅",,
+写进参数重上电后参数不保存,寫進參數重上電後參數不保存,,
+撞機走位不準,撞機後走位異常,,
+撞機後走位异常,撞機後走位異常,,
+数字图像显示失败,數字顯示不全,,
+数字显示不全,數字顯示不全,,
+数码管坏,數碼管顯示異常,,
+數碼管顯示多筆畫,數碼管顯示多筆畫,,
+数码管显示异常,數碼管顯示異常,,
+数据报错.加急,數據報錯.加急,,
+数据导不进,數據導不進,,
+数显不准,數顯不准,,
+数显不显示，总线中断,"數顯不顯示,總綫中斷",,
+模塊壞,模塊壞,,
+模擬量接受有問題,模擬量接受有問題,,
+確認鍵失靈异常,確認鍵失靈异常,,
+编码接口坏,編碼器異常,,
+编码器异常,編碼器異常,,
+编码器故障,編碼器異常,,
+编码器接口接触不良,編碼器異常,,
+编码器报警AL011,AL011,,
+编码器无反馈,"編碼器異常,無反饋",,
+编码器电源短路.加急,"編碼器異常,電源短路.加急",,
+编码器线驱动器端的金属壳导致驱动器报AL006,AL006,,
+编码器输出没反馈，有问题/新机,編碼器異常,,
+"調試有异響,現無法開機","調試有異響,現無法開機",,
+請幫忙全面檢測,檢查維修,,
+"質量問題,缺相","質量問題,缺相",,
+"輪流報AL006,AL003","AL003,AL006",,
+導電金屬絲,導電金屬絲,,
+操作面板無顯示,顯示異常,,
+整流子 pin腳打火熔斷,整流子PIN腳打火熔斷,,
+整流子DD22 RS對P擊穿，IGBT U上橋擊穿,"整流子DD22,RS對P擊穿,IGBT U上橋擊穿",,
+整流子DD22、DD23擊穿,"整流子DD22,DD23擊穿",,
+整流子DD22和DD23炸機,"整流子DD22,DD23炸機",,
+整流子DD22和DD23击穿,"整流子DD22,DD23擊穿",,
+整流子DD22擊穿,整流子DD22擊穿,,
+整流子DD22擊穿，IGBT炸,"整流子DD22擊穿,IGBT炸",,
+整流子DD22擊穿，軟起電阻DR28燒，DR42炸，IGBT炸,"整流子DD22擊穿,軟起電阻DR28燒,DR42炸,IGBT炸",,
+整流子DD22擊穿、剎車晶體DQ2、軟起電阻DR28和P點有打火,"整流子DD22擊穿,剎車晶體DQ2,軟起電阻DR28和P點有打火",,
+整流子DD23，T對P擊穿；整流子DD22 RS對P擊穿；IGBT UW對P擊穿，DR58炸裂,"整流子DD23,T對P擊穿,整流子DD22 RS對P擊穿,IGBT UW對P擊穿,DR58炸裂",,
+整流子R/S/T对P全部短路,"整流子R,S,T對P全部短路",,
+整流子R對P short，R通道銅箔熔斷,"整流子R對P SHORT,R通道銅箔熔斷",,
+整流子R對P擊穿，R通道銅箔熔斷，IGBT炸裂，IGBT散熱底板與HSK有跳火痕跡,"整流子R對P擊穿,R通道銅箔熔斷,IGBT炸裂,IGBT散熱底板與HSK有跳火痕迹",,
+整流子打火,整流子打火,,
+整流子炸,整流子炸,,
+整流子液体污染,整流子液體污染,,
+整流子被拆除，連接Varistor的銅箔斷，SPS電路DC91打火損壞,"整流子被拆除,連接Varistor的銅箔斷,SPS電路DC91打火損壞",,
+整流子与Varistor相连铜箔熔断，DR58及IGBT损坏,"整流子與Varistor相連銅箔熔斷,DR58及IGBT損壞",,
+整流子燒錄,整流子燒錄,,
+整流子击穿,整流子擊穿,,
+整流子击穿，內部燒燬嚴重,"整流子擊穿,內部燒毀嚴重",,
+整流子擊穿，剎車晶體擊穿,"整流子擊穿,剎車晶體擊穿",,
+整流子擊穿，銅箔燒壞，DC53鼓包，DJ1粘膠,"整流子擊穿,銅箔燒壞,DC53鼓包,DJ1粘膠",,
+整流子击穿，铜箔翘皮,"整流子擊穿,銅箔翹皮",,
+整流子锁裂/IGBT锁伤,"整流子鎖裂,IGBT鎖傷",,
+整流炸、DC82铝壳击穿,"整流炸,DC82鋁殼擊穿",,
+整流坏,整流壞,,
+整機上電，面板顯示正常，讀取參數正常,"整機上電,面板顯示正常,讀取參數正常",,
+整機上電L1L2，面板顯示異常，讀取參數正常；連接CN4使用ASDA_soft軟件連接驅動器速度模式和扭矩模式正常運行；連接CN3使用RS485連接成功，可以正常讀取參數,"整機上電L1L2,面板顯示異常,讀取參數正常,連接CN4使用ASDA_soft軟件連接驅動器速度模式和扭矩模式正常運行,連接CN3使用RS485連接成功,可以正常讀取參數",,
+整機上電帶電機存動模式可以正常運行,整機上電帶電機存動模式可以正常運行,,
+整機上電報AL09F故障,整機上電報AL09F故障,,
+整機上電無故障報出，可以正常讀取參數，帶馬達運行100%負載正常,"整機上電無故障報出,可以正常讀取參數,帶馬達運行100%負載正常",,
+整機上電讀取參數正常，初次上電報AL011故障，重新插拔后故障消除,"整機上電讀取參數正常,初次上電報AL011故障,重新插拔後故障消除",,
+整機上電讀取參數正常，報AL015,"整機上電讀取參數正常,報AL015",,
+整機上電讀取參數正常，無故障顯示，帶馬達空載3000rpm運行正常，連續帶滿載4小時正常運行,"整機上電讀取參數正常,無故障顯示,帶馬達空載3000rpm運行正常,連續帶滿載4小時正常運行",,
+整机进油污染、IGBT腐蚀，15V击穿,"整機進油污染、IGBT腐蝕,15V擊穿",,
+"機器被摔,DR27外力損壞","機器被摔,DR27外力損壞",,
+機器損毀嚴重,機器損毀嚴重,,
+燈不亮,燈不顯示,,
+燈不顯示,燈不顯示,,
+燒了,燒壞,,
+"燒了,電容炸了",燒壞,,
+燒火,燒壞,,
+燒掉,燒壞,,
+"燒毀,不顯示",燒壞,,
+燒毀了 不工作,燒壞,,
+燒機,燒壞,,
+燒錄不了,燒壞,,
+燒壞,燒壞,,
+"燒壞,上電炸一下火花,報警AL001",AL001,,
+"燒壞,上電無顯示,刹車點位有問題,警告無法消除,報警001,不通電,報AL006,DOH一直有輸出",AL006,,
+"燒壞,風扇不轉,報警P10",ALP10,,
+燒壞無顯示,燒壞,,
+燒壞漏電,燒壞,,
+输入，输出坏,"輸入異常,輸出異常",,
+输入炸坏,輸入異常,,
+输入短路,輸入端口短路,,
+"輸入開路,整流子熔","輸入開路,整流子熔",,
+输入损坏,輸入異常,,
+輸入過壓,輸入過壓,,
+輸入電源壞,輸入電源壞,,
+輸入電壓過高,輸入電壓過高,,
+输入端口短路,輸入端口短路,,
+输入坏,輸入異常,,
+输不了参数,輸入參數異常,,
+输出TO点有问题,輸出TO異常,,
+输出UW短路,輸出UW短路,,
+输出异常,輸出異常,,
+输出故障,輸出異常,,
+输出短路,輸出短路,,
+输出电压不稳定,輸出電壓不穩定,,
+输出端U烧坏，面板接触不良,"輸出端U燒壞,面板接觸不良",,
+输出坏,輸出異常,,
+錫珠導致間歇性斷電,錫渣導致間歇性斷電,,
+錫渣使的剎車晶體GC短路,錫渣使的剎車晶體GC短路,,
+隨機不顯示,隨機不顯示,,
+"靜置偶發報警AL001,重複ON,OFF有時顯示,有時無顯示","靜置偶發報警AL001,重複ON,OFF有時顯示,有時無顯示",,
+"靜置偶發報警AL001,重複ON,OFF有無顯示現象","靜置偶發報警AL001,重複ON,OFF有無顯示現象",,
+压线螺丝滑丝,壓線_螺絲滑牙,,
+幫忙全面檢測,檢查維修,,
+幫忙檢測,檢查維修,,
+應該是CN2接頭有問題  報警AL011 綫檢查過沒有問題,應該是CN2接頭有問題  報警AL011 綫檢查過沒有問題,,
+檢出器輸出脉波數設定錯誤,檢出器輸出脉波數設定錯誤,,
+"檢查PO_Z信號無信號,說明U2無信號產生,U2異常","檢查PO_Z信號無信號,說明U2無信號產生,U2異常",,
+檢查正常,檢測正常,,
+"檢查正常,偵測元件無過熱,帶載測試正常","檢查正常,偵測元件無過熱,帶載測試正常",,
+"檢查刹車放電正常,測試機測試pass,測試EtherCat功能正常,帶馬達高低速運轉正常,CND","檢查刹車放電正常,測試機測試pass,測試EtherCat功能正常,帶馬達高低速運轉正常,CND",,
+檢查維修,檢查維修,,
+檢測,檢查維修,,
+檢測正常,檢測正常,,
+檢測正常,檢測正常,,
+"檢測正常,滿載測試正常","檢測正常,滿載測試正常",,
+檢測正常檢測正常,檢測正常,,
+檢測維修,檢查維修,,
+"檢測維修,無法正常使用","檢測維修,無法正常使用",,
+總綫連不上,總線連不上,,
+"聲音端口异常,脉衝不良","聲音端口異常,脉衝不良",,
+螺孔損壞,螺孔損壞,,
+螺帽有損壞痕跡,螺帽損壞,,
+螺絲打滑,螺絲滑牙,,
+"螺絲正常,端子保護蓋缺失","螺絲正常,端子保護蓋缺失",,
+"螺絲來料就有問題,需要申請換新機的",螺絲滑牙,,
+"螺絲缺失,螺紋損壞","螺絲缺失,螺紋損壞",,
+"螺絲缺失,螺紋滑牙","螺絲缺失,螺紋滑牙",,
+螺絲鈕不了,螺絲滑牙,,
+螺絲滑牙,螺絲滑牙,,
+螺絲滑牙,螺絲滑牙,,
+螺絲滑牙了,螺絲滑牙,,
+螺絲滑平,螺絲滑牙,,
+螺絲滑絲,螺絲滑牙,,
+螺絲滑開,螺絲滑牙,,
+螺絲擰不緊,螺絲滑牙,,
+螺絲斷,螺絲斷裂,,
+還回周轉機,還回周轉機,,
+還回條碼不一致,還回條碼不一致,,
+"還回條碼不一致,al006","還回條碼不一致,AL006",,
+"還回條碼不一致,上電沒反應","還回條碼不一致,上電後異常",,
+點不亮,點不亮,,
+點位燒壞,點位燒壞,,
+"點動C軸機構伺服報006 009,綫路電機沒問題","點動C軸機構伺服報AL006 009,線路電機正常",,
+斷電自動複位退料,斷電自動複位退料,,
+斷電無刹車,斷電無刹車,,
+锁不紧,螺絲滑牙,,
+壞,異常,,
+壞了,異常,,
+識別不到編碼器,識別不到編碼器,,
+繼電器不吸合,繼電器不吸合,,
+鐵屑污染,鐵屑污染,,
+"鐵屑進入,IGBT擊穿","鐵屑污染,IGBT擊穿",,
+驱动不亮,驅動器異常,,
+驱动不带负载上电报06过载,驅動器不帶負載上電報06過載,,
+驱动不显示,驅動器異常,,
+驅動不顯示,驅動器異常,,
+驱动不显示，输出不正常,"驅動器異常,輸出異常",,
+驱动异常 ,驅動器異常,,
+驱动异常撞机,驅動器異常,,
+驱动接触不良，有时候有信号有时候没信号 换1台驱动器就没有问题,"驅動器接觸不良,有時候有信號有時候沒信號 換1台驅動器就沒有問題",,
+驱动无显示,驅動器上電無顯示,,
+驱动发脉冲电机不转,驅動發脉衝電機不轉,,
+驱动器5号针脚没0V输出,驅動器5號針脚沒0V輸出,,
+驱动器上使不了使能,驅動器異常,,
+驱动器上电没显示/有电源,驅動器上電無顯示,,
+驱动器不亮,驅動器異常,,
+驱动器不显示,驅動器無顯示,,
+驱动器内部有东西被击穿了,驅動器內部擊穿,,
+"驱动器只能往一个方向走,驱动器我们也检测了是脉冲方向问题","驅動器只能往一個方向走,驅動器檢測為脉衝方向問題",,
+驱动器自带了CN10，报警AL500,"驅動器自帶CN10,報警AL500",,
+驱动器没有输出,"驅動器異常,輸出異常",,
+驱动器使能，电脑调试软件断线,驅動器異常,,
+驱动器使能不上,驅動器異常,,
+驱动器带马达运转几分钟报警AL001,驅動器帶馬達運轉幾分鐘報警AL001,,
+驱动器带电机有声音,驅動器異響,,
+驅動器異響,驅動器異響,,
+驱动器通电显示屏无显示,驅動器上電無顯示,,
+驱动器报F09,驅動器異常,,
+驱动器发脉冲出来，电机会卡顿，换一台驱动器就好了,驅動器異常,,
+驱动器短路,驅動器SHORT,,
+驱动器进水了,驅動器進水,,
+驱动器损坏，报警AL001,"驅動器損壞,報警AL001",,
+驱动器运作的时 候偶尔会报警AL001,"驅動器損壞,報警AL001",,
+驱动器过负载,驅動器過負載,,
+驱动器螺丝滑牙,驅動器_螺絲滑牙,,
+讀不出條碼,讀取異常,,
+"讀取不出,C2接頭無反應",讀取異常,,
+讀取不到ID,讀取異常,,
+"變壓器底部打火,內部有金屬屑,DU1損壞","變壓器底部打火,內部有金屬屑,DU1損壞",,
+"變壓器底部打火,周邊有少量金屬屑,DU1損壞","變壓器底部打火,內部有金屬屑,DU1損壞",,
+變壓器損壞,變壓器損壞,,
+"顯示不正常,自動跳",顯示異常,,
+顯示不全,顯示異常,,
+顯示不穩定,顯示異常,,
+顯示正常,顯示正常,,
+"顯示正常,馬達不轉","顯示正常,馬達不轉",,
+"顯示正常,帶馬達運轉正常",顯示正常,,
+顯示正常、功能正常,顯示正常,,
+顯示多筆畫,顯示多筆畫,,
+顯示异常,顯示異常,,
+顯示异常,顯示異常,,
+"顯示异常,輸出DO1不受控","顯示異常,DO1異常",,
+顯示有問題,顯示異常,,
+顯示和運轉正常,"顯示正常,運轉正常",,
+顯示屏不定時閃,顯示異常,,
+顯示屏不亮,顯示異常,,
+"顯示屏不亮,有焦味",顯示異常,,
+顯示屏不顯示,顯示異常,,
+顯示屏有時正常有時顯示一半,顯示異常,,
+顯示屏有問題,顯示異常,,
+顯示屏無顯示,顯示異常,,
+顯示屏壞了,顯示異常,,
+顯示屏顯示不正常,顯示異常,,
+"顯示故障,幫檢測",顯示異常,,
+顯示缺陷,顯示異常,,
+顯示缺筆畫,顯示缺筆劃,,
+"顯示缺筆畫,J10斷綫","顯示缺筆劃,J10斷線",,
+顯示缺筆劃,顯示缺筆劃,,
+顯示異常,顯示異常,,
+"顯示異常,",顯示異常,,
+"顯示異常,W螺絲滑牙","顯示異常,W端子_螺絲滑牙",,
+顯示報錯AL013警告停止輸出,"顯示異常,AL013",,
+顯示亂碼,顯示異常,,
+顯示器有數字不顯示,顯示異常,,
