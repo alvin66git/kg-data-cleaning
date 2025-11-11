@@ -5,6 +5,8 @@
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+.venv/
+Scripts/
 
 # Temp / lock / artifacts
 ~$*.xlsx
