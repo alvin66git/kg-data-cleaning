@@ -1,19 +1,22 @@
-# Jupyter / Python
-.ipynb_checkpoints/
+# macOS
+.DS_Store
+
+# Python / Jupyter
 __pycache__/
 *.pyc
+.ipynb_checkpoints/
 
-# Excel lock/temp
+# Temp / lock / artifacts
 ~$*.xlsx
-~$*.xls
 *.numbers
 
-# Generated cleaning outputs (保留需要者再移除對應行)
-data/cleaned/ASD_9-1_test_cleaned_*.csv
-data/cleaned/ASD_9-1_test_cleaned_*.xlsx
+# 不忽略 raw（完整納入）
+# data/raw/  ← 刻意不排除
+
+# 忽略大量可重建的衍生輸出
+data/cleaned/*_changes_log.csv
 data/cleaned/normalization_changes_log.csv
 data/cleaned/normalized_column_changes_log.csv
 data/cleaned/dictionary_analysis_report.json
-
-# Raw lock files
+data/cleaned/~$*.xlsx
 data/raw/~$*.xlsx
