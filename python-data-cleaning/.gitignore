@@ -1,16 +1,19 @@
-# Python virtual environments
-.venv/
-env/
-venv/
-
-# Python cache files
+# Jupyter / Python
+.ipynb_checkpoints/
 __pycache__/
 *.pyc
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
+# Excel lock/temp
+~$*.xlsx
+~$*.xls
+*.numbers
 
-# Local data files (ignore everything in data/ except raw/ and cleaned/)
-data/*
-!data/raw/
-!data/cleaned/
+# Generated cleaning outputs (保留需要者再移除對應行)
+data/cleaned/ASD_9-1_test_cleaned_*.csv
+data/cleaned/ASD_9-1_test_cleaned_*.xlsx
+data/cleaned/normalization_changes_log.csv
+data/cleaned/normalized_column_changes_log.csv
+data/cleaned/dictionary_analysis_report.json
+
+# Raw lock files
+data/raw/~$*.xlsx
